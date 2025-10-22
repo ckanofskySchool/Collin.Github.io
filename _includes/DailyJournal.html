@@ -11,7 +11,7 @@
     <div class="row">
 	{% for project in site.DailyJournal %}
       <div class="col-md-4 col-sm-6 DailyJournal-item">
-        <a class="DailyJournal-link" data-toggle="DailyJournal_modals" href="#p{{ forloop.index }}">
+        <a class="DailyJournal-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="DailyJournal-hover">
             <div class="DailyJournal-hover-content">
               <i class="{{ site.data.style.DailyJournal-icon | default: "fas fa-plus fa-3x" }}"></i>
@@ -40,7 +40,7 @@
     <div class="row">
 	{% for project in site.DailyJournal %}
       <div class="col-md-4 col-sm-6 DailyJournal-item">
-        <a class="DailyJournal-link" data-toggle="DailyJournal_modals" href="#p{{ forloop.index }}">
+        <a class="DailyJournal-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="DailyJournal-hover">
             <div class="DailyJournal-hover-content">
               <i class="{{ site.data.style.DailyJournal-icon | default: "fas fa-plus fa-3x" }}"></i>
