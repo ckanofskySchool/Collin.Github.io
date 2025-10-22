@@ -21,7 +21,9 @@ title      : Collin Kanofsky Senior Engineering
 email      : Collin.kanofsky@gmail.com #this is also the email contact forms will go to
 description: "This is my senior engineering capstone portfolio showcasing my growth as an engineer through the class!"
 author     : Collin Kanofsky
-logo       : assets\img\clients\CK-Gear-Logo_APPROVED-125x125.png
+logo       : 
+    path   : assets\img\logo\CK-Gear-Logo_APPROVED-125x125.png
+    height : 60
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
