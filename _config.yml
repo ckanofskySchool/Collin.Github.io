@@ -35,6 +35,7 @@ analytics:
 
 collections:
   portfolio:
+  DailyJournal:
 
 markdown: kramdown
 
