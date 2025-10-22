@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Collin Kanofsky
     text: Senior Engineering
     button: Capstone Project
-    buttonlink: "#Capstone Porject"
+    buttonlink: "#Goals"
 
   Goals:
     title: "Project Goals"
