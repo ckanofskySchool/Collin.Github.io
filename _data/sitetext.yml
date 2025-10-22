@@ -92,10 +92,10 @@ en: &DEFAULT_EN
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
-  Daily Journal:
+  DailyJournal:
     title: "Daily Journal"
     text: "Every day, I documented what I did and this is a document showcasing the full extent of my growth and progress."
-    section: Daily Journal
+    section: DailyJournal
     closebutton: "Close Project"
     
 
