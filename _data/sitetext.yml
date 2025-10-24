@@ -69,9 +69,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Me"
+    text: "My Story"
+    body: "My name is Collin Kanofsky and I am a senior engineering student at Charlotte Latin School. Throughout my life, I have always loved robots and ended up leading two robotics competition teams where I learned tons of CAD, Leadership, Software, and so many more amazing skills that continute to help me to this day. With this project, the Robopack, I wanted to continue my love for robotics through an impactful and practical means. While I will admit my passion for innovation is what pushes me the most, the possibilities for this project to help others is another big motivator of this project. I hope you enjoy watching my journey and fun as I build this robot!"
     section: about
 
   logo:
