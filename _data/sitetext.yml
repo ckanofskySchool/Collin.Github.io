@@ -44,19 +44,19 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "How it started"
+        year: "2024 - Junior Year"
+        desc: "Super exited about my upcoming senior project, I decided to plan and design the project ahead of time, giving myself a massive head start for the following year."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Electronics Test Succsesful"
+        year: "10/9/2025"
+        desc: "After buying the base electronics for moving a CIM motor, the first Succsesful test of controlling the motor happened using a RC controller to ouput the PWM signal, standing in for the future RP2040 Seeed control board."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "The Dawn of Documentation"
+        year: "10/14/2025"
+        desc: "This website first pushed through github pages, while there was a preceding older documentation website, the new website exibts a more stylish presentation of my work."
         image: assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Title"
