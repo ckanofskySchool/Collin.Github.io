@@ -5,7 +5,6 @@ image: assets/img/portfolio/04-full.jpg
 alt: 
 ---
 
-
 ## 9/16/2025
 Today, we learned about Git, Github, Github desktop, and the browser github as well. Specifically, we focused on how changes are stored in Git and the ability to create branches of the repo for development without affecting the original branch.
 
