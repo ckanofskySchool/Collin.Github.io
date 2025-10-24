@@ -35,7 +35,10 @@ analytics:
 
 collections:
   portfolio:
+    output: true
   DailyJournal:
+    output: true
+
 
 markdown: kramdown
 

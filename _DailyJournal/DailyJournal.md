@@ -1,8 +1,8 @@
 ---
-title: "Wiring the Motors"
-subtitle: "Connecting and testing drive motors"
-image: assets/img/journal/motors.jpg
-description: "I finished connecting the motors today and verified encoder feedback using the control hub"
+title: Daily Journal
+subtitle: Everyday documentation of robot creation
+image: assets/img/portfolio/04-full.jpg
+alt: 
 ---
 
 
