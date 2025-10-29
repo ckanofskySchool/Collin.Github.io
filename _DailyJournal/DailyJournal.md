@@ -3,6 +3,11 @@ title: Daily Journal
 subtitle: Everyday documentation of robot creation
 image: assets/img/portfolio/04-full.jpg
 alt: 
+
+caption:
+  title: Daily Journal
+  subtitle: Everyday documentation of robot creation
+  thumbnail: 
 ---
 
 ## 9/16/2025
