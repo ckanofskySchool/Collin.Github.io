@@ -2,6 +2,8 @@
 title: Daily Journal
 subtitle: Everyday documentation of robot creation
 image: assets/img/portfolio/04-full.jpg
+alt: 
+
 ---
 
 ## 9/16/2025
@@ -94,3 +96,88 @@ Today, I made some orders to make sure my final product would be safer. This ord
 Over the course of this week, I have moved my website from my boring markdown base template to a Jekyll agency template which is more stylish, cleaner, and has interactive buttons and such to make navigation simpler. 
 
 I also ordered some gears from Vex so I can test my gearbox next, now that I can control the motors. Not sure when they will get here but I plan to 3D print the gearbox panels for now and eventually make them out of aluminium with a CNC machine.
+
+## 10/28/2025
+
+Today, we learned how to use MakeraCAM, a CAM software to take PCB designs and mill them out on Carvera milling machine in our lab. Luckly, I had already designed myself a PCB board for the robopack where the Seeed RP2040 would be, so I decided to take a risk and make my first project my final one. 
+
+The main challenge I had to consider with creating my final project board was that the board itself was a two sided board, meaning I would need to do two seperate cut files, but align them perfectly for the PCB to work. I overcame this challenge through making the back a mirror at the same position as the front. What this means is that when I cut, I will cut the front parts first, then flip the board and the back cuts will align with the front hopefully, due to the "mirror line" which is set at the boards width(127mm) divided by 2, which means the two mirrored paths should align.
+
+## 10/29/2025
+
+Today, I finished up my CAM files and cut the board for the robopack. Sadly, I encountered a few issues with cutting double sided boards that I didn't anticipate:
+
+- The biggest issue I ran into was the challenge of getting the board to be in the same position when flipped. If the board is even .1mm off, the holes might not align and the board needs to be remade. This was a challenge I ecountered on my first try, but was able to conquer through focusing the placement and pressure on only the bottom face, which actually revealed that the PCB material was not cut at an exact perpindicular angle.
+
+- Another issue I ran into on my first try was that after the front side had cut, when the back side file was auto-leveling, it applied enough force where the material bent and caused a section of the depth on the board to be incorrect. This resulted in a portion of the board missing cut areas due to incorrect height. To fix this, I increased only the back side trace file depth by .05 which in theory, should account for the false reading in leveling, and during my second board attempt, guess what?! it still failed(I was sad). Out of time as well so I shall continue the struggle tommorow. FIGHT ON!!!
+
+## 10/30-31/2025
+
+### New User Workflow - By: Collin Kanofsky
+
+
+### Experienced User Workflow - By: [Angelina Yang](https://fabacademy.org/2024/labs/charlotte/students/angelina-yang/about/)
+
+#### Key notes:
+- .8mm Corn flat-end bit is used to remove the bulk of the material
+- The .2mm*30ºEngraving(Metal) engraving bit will be used to cut out the copper traces
+- The Makera Milling machine affixes the FR4 using clamps, rather than adhesive, so tabs are necessary to keep the PCB in place.
+- 2D contour is used for edge cuts 
+- 2D pocket is used for copper traces
+- 2D drilling is used for drill holes  
+
+#### PCB Toolpath Workflow on MakeraCAM
+- Open MakeraCAM on your desktop.
+- Select the “3-AXIS” option on the welcome screen.
+- Edit the “Stock” settings in the top right corner
+- For Material, select “PCB”
+- For Length(X), adjust the value to 127mm
+- For Width(Y), adjust the value to 101mm
+- For Height(Z), adjust the value to 1.7mm (thickness of FR4)
+- In the top toolbar, click the icon titled “import PCB” and individually insert all Gerber files into the workspace.
+- The imported gerbers will likely populate outside of the workspace, so select all 2D layers, hover over the “Adjust object” and “Transform” drop-down menu and select the  “Move” tool
+- When layers are dotted, that indicates that they are selected; when layers are solid, that indicates that they are unselected
+- Select the bottom left corner as the anchor point
+- Set both the X and Y location values to 6 mm, which positions the file in the bottom right corner of the workspace
+- Keeping all layers selected, hold the shift key and deselect the outer edge of the Edge_cuts
+- Toggle the visibility such that only the “F_Cu” and the “Edge_cuts” layer are visible 
+- In the top toolbar, hover over the “2D Path” drop-down menu and select the “2D Pocket” option
+- In the dialogue box, adjust the “End Depth” value to .05mm
+- Under “Tools,” click the “Add Tool” button, select “.8mm Corn tool” and click “Choose”
+- Click “Add Tool” again, select the “.2mm*30ºEngraving(Metal),“ and click “Choose”
+- Ensure that the material selected is “PCB”
+- Click “Calculate”; you should see a “2D Pocket” toolpath fall under the Path dropdown in the hierarchy
+- If you have drill files, untoggle the visibility for all “F_Cu” and “Edge_cuts” layers and toggle visibility for all drill files 
+- In the top toolbar, hover over the “2D Path” drop-down menu and select the “2D Drilling” option
+- In the dialogue box, adjust the “Drill Tip End Depth” value to 1.7mm
+- Under “Tools,” click the “Add Tool” button, select “.8mm Corn tool” and click “Choose”
+- Click “Calculate”; you should see a “2D Drilling” toolpath fall under the Path dropdown in the hierarchy
+- To design a toolpath for the edge cuts, untoggle the visibility for all drill files and toggle visibility for solely the “Edge_cuts” layer
+- Select the inner outline of the “Edge_cuts” layer
+- In the top toolbar, hover over the “2D Path” drop-down menu and select the “2D Contour” option (synonymous with a “Pocket” cut)
+- In the dialogue box, adjust the “End Depth” value to 1.7mm
+- Under “Tools,” click the “Add Tool” button, select “.8mm Corn tool” and click “Choose”
+- Under “Strategy,” select “Outside”
+- Under “Tabs,” select “Custom,” and click “Add”
+- Add appropriate tabs around the selected “Edge_cuts” layer (typically, 3 will be sufficient)
+- Tip: Ensure that these tabs are staggered and not directly across from one another
+- Click “Calculate”; you should see a “2D Contour” toolpath fall under the Path dropdown in the hierarchy
+- In the top toolbar, click the icon “Preview Toolpaths,” and select all toolpaths in the pop-up dialogue box
+- Click “Preview” and press the play button to view a simulation of the toolpaths 
+- In the top toolbar, click the “Export” button, ensure all toolpaths are selected, and click “Export”
+- Rename the .nc file to your last name, your first initial, and your project name, followed by “gcode”
+
+
+#### PCB Milling on Carvera Controller
+- Open the Carvera Controller software on the desktop
+- In the top toolbar, click on the button with the status “N/A disconnected”
+- Select the appropriate COM port to connect the Carvera to the computer (if the COM port is already connected, leave it as is)
+- In the menu in the top right corner, click “Switch to display manual control interface” followed by the “Home” button 
+- Under “Tool Status and Control,” ensure that the probe is charged to at least 3.6V (this ensures the machine operates in the z-axis as intended)
+- In the bottom left corner, open the G-code from your files 
+- Before starting the mill, open the menu in the top right corner and click the “Switch to display file preview interface” to preview the toolpaths 
+- Click “Config and run,” and ensure that both the “auto vacuum” and “auto leveling” options are on.
+- Once all settings are verified, click “Run”
+
+
+
