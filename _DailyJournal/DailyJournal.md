@@ -112,7 +112,42 @@ Today, I finished up my CAM files and cut the board for the robopack. Sadly, I e
 
 ## 10/30-31/2025
 
-### New User Workflow - By: Collin Kanofsky
+### Created Workflow - By: Collin Kanofsky & Aaron Dunnigan
+
+File Setup:
+- Open the MakeraCAM
+- In the top left, under “File”, click “import PCB”
+- Select one of the files and click open
+- Open a many files as you need D=F
+- The file might appear outside the work area
+
+Toolpath Creation:
+- Select everything, then deselect the outer edgecut line by zooming in and holding shift while clicking
+- For 2D paths like edge cuts, create a 2D pocket
+- Use example tools, .8mm corn and .2 30Deg Engraver(metal) on pcb
+- Calculate at the bottom
+- For 2Dpaths create 2D drilling
+- Use example tools, 0.8mm corn 
+- Calculate at the bottom 
+- For 2D paths create 2D counter 
+- Select 0.8mm corn 
+- Go to tabs
+- Click custom 
+- Select where you want your tabs
+- Calculate at the bottom
+- Preview and Export:
+- Click the preview button 
+- Select all toolpaths 
+- Watch the preview
+- Alter the speed of the preview for what works best for you
+- Exit preview 
+- Click export 
+- Select all tool paths 
+- Export file 
+- Name the file "lastname first initial resistor.nc” 
+  - Ex: DoeJresitor.nc
+- Make sure it is an nc file or g-code
+
 
 
 ### Experienced User Workflow - By: [Angelina Yang](https://fabacademy.org/2024/labs/charlotte/students/angelina-yang/about/)
