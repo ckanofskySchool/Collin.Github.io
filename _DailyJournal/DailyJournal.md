@@ -73,7 +73,7 @@ This code worked amazing and had very simular functions to the example, but a fe
 ### Video of the Code Functioning
 
 <video width="320" height="240" controls>
-  <source src="/assets/img/portfolio/DailyJournal/ObjectDetectVideo.mp4" type="video/mp4">
+  <source src="../assets/img/portfolio/DailyJournal/ObjectDetectVideo.mp4" type="video/mp4">
 </video>
 
 ## 10/9/2025
@@ -83,7 +83,7 @@ Today, I continued working on the electrical testing setup I started on 10/7/202
 ### Video of motor moving
 
 <video width="320" height="240" controls>
-  <source src="/assets/img/portfolio/DailyJournal/Motor moving.mp4" type="video/mp4">
+  <source src="../assets/img/portfolio/DailyJournal/Motor moving.mp4" type="video/mp4">
 </video>
 
 ## 10/10/2025
@@ -213,5 +213,7 @@ Toolpath Creation:
 - Click “Config and run,” and ensure that both the “auto vacuum” and “auto leveling” options are on.
 - Once all settings are verified, click “Run”
 
+## 11/3/2025
 
+TODAY I FIXED MY WEBSITE!!! This exact page of daily journal documentation is finally visible and working, i have been struggling with getting it all working and with the help of AI and persistence, I finally fixed the formatting and got it all working. Lets goooooo!
 
