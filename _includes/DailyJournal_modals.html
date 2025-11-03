@@ -1,38 +1,27 @@
 {% for project in site.DailyJournal %}
-<div class="portfolio-modal modal fade" id="dj{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade portfolio-modal" id="dj{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
+        <div class="lr"><div class="rl"></div></div>
       </div>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="modal-body">
-              <!-- Daily Journal Entry -->
               <h2 class="text-uppercase">{{ project.title }}</h2>
-              {% if project.subtitle %}
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
-              {% endif %}
 
               {% if project.image %}
               <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.title }}">
               {% endif %}
 
-              <!-- Main content (markdown from .md file) -->
-              <div class="journal-content">
+              <div class="journal-body">
                 {{ project.content | markdownify }}
               </div>
 
-              {% if project.description %}
-              <p>{{ project.description }}</p>
-              {% endif %}
-
               <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                Close Entry
+                <i class="fas fa-times"></i> Close Entry
               </button>
             </div>
           </div>
