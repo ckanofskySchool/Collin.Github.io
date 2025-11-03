@@ -11,11 +11,25 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="modal-body">
-              <!-- Entry Details -->
+              <!-- Daily Journal Entry -->
               <h2 class="text-uppercase">{{ project.title }}</h2>
+              {% if project.subtitle %}
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
+              {% endif %}
+
+              {% if project.image %}
               <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.title }}">
+              {% endif %}
+
+              <!-- Main content (markdown from .md file) -->
+              <div class="journal-content">
+                {{ project.content | markdownify }}
+              </div>
+
+              {% if project.description %}
               <p>{{ project.description }}</p>
+              {% endif %}
+
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>
                 Close Entry
