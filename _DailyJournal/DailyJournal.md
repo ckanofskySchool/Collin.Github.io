@@ -217,3 +217,13 @@ Toolpath Creation:
 
 TODAY I FIXED MY WEBSITE!!! This exact page of daily journal documentation is finally visible and working, i have been struggling with getting it all working and with the help of AI and persistence, I finally fixed the formatting and got it all working. Lets goooooo!
 
+## 11/4/2025
+
+Today, I printed the doublesided PCB mount I had designed a bit ago and ordered the bearings for my senior project, I also reviewed what left I had to do before ordering the bulk of the cost, the structure. Below is the list I made:
+
+- Test Gearbox Design
+- Cut Custom 2Sided PCB
+- Integrate Seeed with Pi to communicate with eachother
+- Design fancy side plates/Decide material
+
+Pretty chill day for me
