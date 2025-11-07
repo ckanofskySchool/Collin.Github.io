@@ -227,3 +227,11 @@ Today, I printed the doublesided PCB mount I had designed a bit ago and ordered 
 - Design fancy side plates/Decide material
 
 Pretty chill day for me
+
+## 11/6/2025
+
+Yay! The board succsesfully cut using the 3D printed Jig I made. By securing both sides of the board, the cut was much more acurate. However, there was still some inacuracy and for some weird reason, a part of the board got hollowed out a bunch. Not sure why but it will still work!
+
+## 11/7/2025
+
+Uh oh... so I might have tried to attach the 2 sides of the board with solder alone... and might have somehow burned the traces off the face of the earth on one side... so today I'm re-milling the board and next time, I am going to use pins in the holes and then trim the ends to connect the sides.
