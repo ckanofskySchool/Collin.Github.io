@@ -235,3 +235,19 @@ Yay! The board succsesfully cut using the 3D printed Jig I made. By securing bot
 ## 11/7/2025
 
 Uh oh... so I might have tried to attach the 2 sides of the board with solder alone... and might have somehow burned the traces off the face of the earth on one side... so today I'm re-milling the board and next time, I am going to use pins in the holes and then trim the ends to connect the sides.
+
+## 11/8/2025
+
+I once again set out to remill my board, and this time, the holes lined up even closer than before. After milling, I used pin headers through the holes, which were a perfect friction fit to keep the pins held in place without holding them, and soldered on the open side where the pin and pad were available. Once soldered, I flipped the borad over and cut off the plastic and extra end parts of the pin header, then soldered those ends onto the board completing the connection. Whle this method had a slight flaw that the circular pads around the hold which weren't alligned with the holes would have the risk of tearing the hole, I got lucky and while some tracers almost disconnected, all of them remained relatively intact. Below is the board and the step I went through to make the soldering work:
+
+![Seeed with Headers Placed](/assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg)
+
+![Seeed top headers soldered](/assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg)
+
+![Seeed Top Final Soldering](/assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg)
+
+![Seeed Bottom Final Soldering](/assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg)
+
+## 11/12/2025 
+
+Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there. 
