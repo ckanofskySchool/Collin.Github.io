@@ -150,7 +150,7 @@ Toolpath Creation:
 
 
 
-### Experienced User Workflow - By: [Angelina Yang](https://fabacademy.org/2024/labs/charlotte/students/angelina-yang/about/)
+### Experienced User Workflow - Credit: [Angelina Yang](https://fabacademy.org/2024/labs/charlotte/students/angelina-yang/about/)
 
 #### Key notes:
 - .8mm Corn flat-end bit is used to remove the bulk of the material
@@ -228,6 +228,9 @@ Today, I printed the doublesided PCB mount I had designed a bit ago and ordered 
 
 Pretty chill day for me
 
+[PCB Board Design Files](/assets/Files/Electrical/SeeedControlBoard.zip)
+[PCB Board CAM files](/assets/Files/Electrical/SeeedControlBoard-F_Cu.zip)
+
 ## 11/6/2025
 
 Yay! The board succsesfully cut using the 3D printed Jig I made. By securing both sides of the board, the cut was much more acurate. However, there was still some inacuracy and for some weird reason, a part of the board got hollowed out a bunch. Not sure why but it will still work!
@@ -250,4 +253,25 @@ I once again set out to remill my board, and this time, the holes lined up even 
 
 ## 11/12/2025 
 
-Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there. 
+Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there.
+
+## 11/13/2025
+
+Today I tried to program the seeed board but I think I started to complicated because while the program itself seemed to run great, none of the LED indicators on the board were lighting up to show that power was succsesfully being outputed to the motors. 
+
+## 11/14/2025
+
+Today, I focused on obtaining the gears for the drive gearbox of my capstone project. I asked Mr. Dubick to order these through VEX and they came within 3 days of ordering. Once ordered, I then worked on 3D printing the sideplates of my gearbox for testing the gear ratio in the future.
+
+## 11/17/2025
+
+Today, I worked some more on my Topography Map of Cammleback Mountain, specifically, I learned using an example file how to create and export the toolpaths for this project using the CAM software "Aspire". At the end of the day, all I had time for was importing the stl and I will make the toolpaths soon.
+
+## 11/18/2025
+
+Today, I took the 3D printed side plates for the gearbox and installed 1/2" hex falnged bearings into them to be ready for assembly. Sadly even though the gears arrived, I was unable to assemble the gearbox due to not having the correct hardware and shafts, so I instead made a BOM for what I still needed to get this gearbox up and running.
+
+## 11/20/2025
+
+Today, I finished my Aspire topography toolpaths and updated my documentation to have more info on the CNC milling proccess and update some of the past days which were a bit behind on documentation.
+
