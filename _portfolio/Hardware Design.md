@@ -36,16 +36,16 @@ MakeraCAM is the software we use to take a PCB design file and make toolpaths th
 
 
 1. Open up Makera CAM and start a new 3-axis project.
-[Step Photo](../assets/img/portfolio/MakeraCAMworkflow/Step1.png)
+[Step Photo](assets/img/portfolio/MakeraCAMworkflow/Step1.png)
 
 2. Then we need to import the PCB files. These files are the .grb & .drl files.
-[Step Photo](/assets/img/portfolio/MakeraCAMworkflow/Step2.png)
+[Step Photo](../assets/img/portfolio/MakeraCAMworkflow/Step2.png)
 
 3. Files will then appear under WCS1
-[Step Photo](/assets/img/portfolio/MakeraCAMworkflow/Step3.png)
+[Step Photo](/img/portfolio/MakeraCAMworkflow/Step3.png)
 
 4. Once all our files are in the software, they will likely not be in the correct position, so we need to move them to have the bottom left of the files 6mm offset in both the x and y axes. 
-[Step Photo](/assets/img/portfolio/MakeraCAMworkflow/Step4.png)
+[Step Photo](img/portfolio/MakeraCAMworkflow/Step4.png)
 
 5. Click and drag over the entire file, which should turn into dotted lines when selected. Then go to the transform tool, or use the keybind “m” to open the move menu. Finally, make sure the bottom left dot in the menu is selected and set both the x and y to 6mm.
 [Step Photo](/assets/img/portfolio/MakeraCAMworkflow/Step5.png)
