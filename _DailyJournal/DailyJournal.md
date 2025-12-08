@@ -250,6 +250,7 @@ I once again set out to remill my board, and this time, the holes lined up even 
 ![Seeed Top Final Soldering](assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg)
 
 ![Seeed Bottom Final Soldering](assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg)
+<img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="500" height="600">
 
 ## 11/12/2025 
 
