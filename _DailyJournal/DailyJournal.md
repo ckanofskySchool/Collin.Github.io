@@ -271,7 +271,22 @@ Today, I worked some more on my Topography Map of Cammleback Mountain, specifica
 
 Today, I took the 3D printed side plates for the gearbox and installed 1/2" hex falnged bearings into them to be ready for assembly. Sadly even though the gears arrived, I was unable to assemble the gearbox due to not having the correct hardware and shafts, so I instead made a BOM for what I still needed to get this gearbox up and running.
 
+## 11/18/2025 Outside of School
+
+After my robotics, I used a chop saw to cut 1/2
+
 ## 11/20/2025
 
 Today, I finished my Aspire topography toolpaths and updated my documentation to have more info on the CNC milling proccess and update some of the past days which were a bit behind on documentation.
 
+## 11/25-12/4/2025
+
+I will admit that I have not been doing day to day documentation recently, but this is because I am trying to make the most of my class time working on my capstone project. 
+
+More specifically, I have been working on the gearbox for the Robopack. I bought the hardware I needed and put together my first gearbox test to see if the gearbox worked. Good news and bad news... The good news is that the gearbox works, and that the output looks like it will be the right. The bad news is that the gearbox was really loud, and at full speed it hurt my ears to be near it, so I definetly need to fix this.
+
+The first solution I tried was to lubricate  the gearbox, because lubricating the gearbox should  quiet the interaction of the gears and make everything run a bit more smoothly. This solution might have had an effect, but it was hard to tell because the gearbox was still really loud.
+
+When lubrication didn't have the effect I wanted, I started to suspect that maybe the gear spacing was too close, and the extra forced contact was creating the extra noise. After some fidgeting and experimentation where I pushed the CIM motor away from the gearto add a small bit of space between the drive gear and the 1st gear, I noticed a significant decrease in noise. I tested this a few times, and decided to add some slop in the gearbox to relieve the tension between the gears.
+
+This added space between the gears significantly reduced the noise of the gearbox, but sadly when I made the change in CAD, I made the rookie mistake of not double the spacing due to a diamater dimension, not a radius dimension. Therefore, after two reprints and designs, I had finally gotten the noise of my gearbox to a low and acceptable level.
