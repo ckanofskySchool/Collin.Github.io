@@ -279,7 +279,7 @@ After my robotics, I used a chop saw to cut 1/2
 
 Today, I finished my Aspire topography toolpaths and updated my documentation to have more info on the CNC milling proccess and update some of the past days which were a bit behind on documentation.
 
-## 11/25-12/4/2025
+## 11/25-12/9/2025
 
 I will admit that I have not been doing day to day documentation recently, but this is because I am trying to make the most of my class time working on my capstone project. 
 
