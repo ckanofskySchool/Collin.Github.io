@@ -244,13 +244,13 @@ Uh oh... so I might have tried to attach the 2 sides of the board with solder al
 I once again set out to remill my board, and this time, the holes lined up even closer than before. After milling, I used pin headers through the holes, which were a perfect friction fit to keep the pins held in place without holding them, and soldered on the open side where the pin and pad were available. Once soldered, I flipped the borad over and cut off the plastic and extra end parts of the pin header, then soldered those ends onto the board completing the connection. Whle this method had a slight flaw that the circular pads around the hold which weren't alligned with the holes would have the risk of tearing the hole, I got lucky and while some tracers almost disconnected, all of them remained relatively intact. Below is the board and the step I went through to make the soldering work:
 
 
-<img src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg" width="1080" height="600">
+<img src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg" width="320" height="240">
 
-<img src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg" width="1080" height="600">
+<img src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg" width="320" height="240">
 
-<img src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg" width="1080" height="600">
+<img src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg" width="320" height="240">
 
-<img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="1080" height="600">
+<img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="320" height="240">
 
 ## 11/12/2025 
 
@@ -291,3 +291,21 @@ The first solution I tried was to lubricate  the gearbox, because lubricating th
 When lubrication didn't have the effect I wanted, I started to suspect that maybe the gear spacing was too close, and the extra forced contact was creating the extra noise. After some fidgeting and experimentation where I pushed the CIM motor away from the gearto add a small bit of space between the drive gear and the 1st gear, I noticed a significant decrease in noise. I tested this a few times, and decided to add some slop in the gearbox to relieve the tension between the gears.
 
 This added space between the gears significantly reduced the noise of the gearbox, but sadly when I made the change in CAD, I made the rookie mistake of not double the spacing due to a diamater dimension, not a radius dimension. Therefore, after two reprints and designs, I had finally gotten the noise of my gearbox to a low and acceptable level.
+
+I have also been working on the electical crimping on the side when I have nothing to do but wait for my 3D print to finish. Sadly though, the crimps I bought wouldn't fit into the connector. I'm not sure if this is a result of buying cheap crimps off of amazon, or if it's because I didn't have the correct crimping tool and was just improvising with some pliers and a slightly too small crimper. Either way, I have ordered a new set of crimps that come with a crimping tool. oops though bc I sent it to my sister in georgia... she's coming home friday so I will get them from her then. 
+
+## 11/10/2025
+
+Today, we had a very sad loss...
+
+<img src="assets/img/portfolio/DailyJournal/MechnaicalPhotos/Order.png" width="320" height="240">
+
+The reason for which I have dropped 200$ on the harware for my project is because yesterday at robotics, I cut the 80-20 Material for the base of the Robopack, which was the 2 27" pieces and 2 17" pieces. I cut these using a Aluminium Chop Saw, and then used a grinder, debur tool, file, and some helpfull teamates to clean up the edges and make them smooth. Shout out to my robotics mentor Ray Kimble for overseeing the machining proccess and making sure I was cutting safely and correctly!
+
+<!-- Pictures from phone of machinery here. Also video of me cutting tonight-->
+
+At school today, I cleaned up the dust and residue from the 80-20 which sat in storage for probably like 10 years with my friend aaron, and then sent the order to 80-20 for the hardware shown at the start.
+
+Due to waiting on the 8020 order & the crimping materials to come in, I will be focusing on the power connection soldering, and the programming in the next coming days.
+
+##
