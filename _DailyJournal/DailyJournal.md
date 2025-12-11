@@ -308,4 +308,13 @@ At school today, I cleaned up the dust and residue from the 80-20 which sat in s
 
 Due to waiting on the 8020 order & the crimping materials to come in, I will be focusing on the power connection soldering, and the programming in the next coming days.
 
-##
+## 11/11/2025
+
+Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerened about the CNC breaking due to the depth of which my file went and the vaccumm shoe being in the way, but Dr. Taylor helped me lock the Vaccumm shoe higher up which made the cut a succsess. 
+
+<img src="assets/img/portfolio/DailyJournal/2x4topo.png" width="320" height="240">
+
+
+Today, as I wait for my crimps and the 80-20 materials to come in, I decided to fix the slight issue in the gearbox CAD which made only one of the 4 holes on the motor align, and then started printing a gearbox for both the left and right side so I am ready to attach when the 80-20 hardware arrives. My hope is that when the 80-20 stuff arives, I can quickly build the main aspects of the robot and have the spacing and layouts to do my eletrical wiring. Things are looking good so far!
+
+## 
