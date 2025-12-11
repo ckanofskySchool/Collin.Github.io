@@ -298,7 +298,7 @@ I have also been working on the electical crimping on the side when I have nothi
 
 Today, we had a very sad loss...
 
-<img src="assets/img/portfolio/DailyJournal/MechnaicalPhotos/Order.png" width="320" height="240">
+<img src="assets/img/portfolio/DailyJournal/MechnanicalPhotos/Order.png" width="320" height="240">
 
 The reason for which I have dropped 200$ on the harware for my project is because yesterday at robotics, I cut the 80-20 Material for the base of the Robopack, which was the 2 27" pieces and 2 17" pieces. I cut these using a Aluminium Chop Saw, and then used a grinder, debur tool, file, and some helpfull teamates to clean up the edges and make them smooth. Shout out to my robotics mentor Ray Kimble for overseeing the machining proccess and making sure I was cutting safely and correctly!
 
