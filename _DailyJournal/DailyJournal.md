@@ -317,4 +317,12 @@ Quick update from yesterday, I finally cut out my topography file as shown below
 
 Today, as I wait for my crimps and the 80-20 materials to come in, I decided to fix the slight issue in the gearbox CAD which made only one of the 4 holes on the motor align, and then started printing a gearbox for both the left and right side so I am ready to attach when the 80-20 hardware arrives. My hope is that when the 80-20 stuff arives, I can quickly build the main aspects of the robot and have the spacing and layouts to do my eletrical wiring. Things are looking good so far!
 
-## 
+## 11/15/2025
+
+PARTS ARE HERE!!! my 80-20 hardware arrived and I assembled the main frame of the robopack shown below. Sadly I have yet to cut the vertical supports which I plan to do tuesday night.
+
+I also ran into another tragedy, I ordered all the hardware needed for the brackets I bought, but I forgot to order hardware for the gearbox plates. The saving grace is that I releazed that I not only need gearbox hardware, but also hardware for electrical panels, side panels, ect. so I decided that my next mechanical step was to step up and finish the CAD model completely, ensuring I account for all needed hardware in my next order (rip the additional 20$ shipping fee bc I didn't order these in the 1st delivery).
+
+## 11/16/2025
+
+Today, I worked on organizing my documentation a little bit as well as documenting the topography project. I now show side projects in an appropriate portfolio page instead of being spread within my main daily journal.
