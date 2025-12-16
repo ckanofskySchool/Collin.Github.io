@@ -17,18 +17,18 @@ en: &DEFAULT_EN
     buttonlink: "#Goals"
 
   Goals:
-    title: "Project Goals"
+    title: "Project Goals for the RoboPack"
     text: "Lorem ipsum"
     section: Goals
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Purpose"
+        desc: "The goal of my project is to create a robot that can carry backpacks for those who cannot carry them themselves due to a medical condition or are parked very far away, and it would help them with their shoulders."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Main Engineering Goal"
+        desc: "Engineer a robot that can drive around with a storage area for a backpack, following a user to their destination."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Learning Goal"
+        desc: "I've built many robots and projects before, but none of which I am truly proud of their looks or robustness. I hope to create a robot that is extremely robust, consistant, and has an appearance I would be proud of."
         icon: fab fa-markdown
 
   portfolio:
@@ -49,7 +49,13 @@ en: &DEFAULT_EN
         desc: "Super exited about my upcoming senior project, I decided to plan and design the project ahead of time, giving myself a massive head start for the following year."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "Electronics Test Succsesful"
+      - title: "Raspberry Pi Electronics Test Succsesful"
+        year: "10/8/2025"
+        desc: "Raspberry Pi was Succsesful used to track a person and output their position relative to the center of the screen in the usb serial port."
+        image: assets/img/timeline/4.jpg
+        alt:
+        #align: right
+      - title: "Motor Electronics Test Succsesful"
         year: "10/9/2025"
         desc: "After buying the base electronics for moving a CIM motor, the first Succsesful test of controlling the motor happened using a RC controller to ouput the PWM signal, standing in for the future RP2040 Seeed control board."
         image: assets/img/timeline/2.jpg
@@ -59,14 +65,27 @@ en: &DEFAULT_EN
         desc: "This website first pushed through github pages, while there was a preceding older documentation website, the new website exibts a more stylish presentation of my work."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "Motor Gearbox Finished"
+        year: "12/9/2025"
+        desc: " After constantly itterating the gearbox from not working, to working but way too loud, to quitely working. The gearbox was finaly finished and ready for attachment."
         image: assets/img/timeline/4.jpg
         alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+      - title: "Mechanical Frame Fully Assembled"
+        year: ""
+        desc: " "
+        image: assets/img/timeline/4.jpg
+        alt:
+      - title: "Electronics and Gearboxes Attached"
+        year: ""
+        desc: " "
+        image: assets/img/timeline/4.jpg
+        alt:
+      - title: "First Working Test!"
+        year: ""
+        desc: " "
+        image: assets/img/timeline/4.jpg
+        alt:
+    end: "And thats how the RoboPack came to life!"
 
   about:
     title: "About Me"
