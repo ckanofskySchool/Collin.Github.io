@@ -23,23 +23,23 @@ The goal of this project was to take an area of the world, some geographical fea
 # Daily Step Progression
 
 
-## 11/12/2025 
+### 11/12/2025 
 
 Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there.
 
-## 11/17/2025
+### 11/17/2025
 
 Today, I worked some more on my Topography Map of Cammleback Mountain, specifically, I learned using an example file how to create and export the toolpaths for this project using the CAM software "Aspire". At the end of the day, all I had time for was importing the stl and I will make the toolpaths soon. To do the setup, I followed this super helpful [workflow](assets/Files/TopoMap/TopoMapWorkflow.pdf) by Dr. Taylor.
 
-## 11/20/2025
+### 11/20/2025
 
 Today, I finished my Aspire topography toolpaths and updated my documentation to have more info on the CNC milling proccess and update some of the past days which were a bit behind on documentation.
 
-## 11/11/2025
+### 11/11/2025
 
 Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerened about the CNC breaking due to the depth of which my file went and the vaccumm shoe being in the way, but Dr. Taylor helped me lock the Vaccumm shoe higher up which made the cut a succsess. 
 
-<img src="assets/img/portfolio/DailyJournal/2x4topo.png" width="320" height="240">
+<img src="assets/img/portfolio/DailyJournal/2x4topo.png" width="320" height="320">
 
 # Project Summary
 

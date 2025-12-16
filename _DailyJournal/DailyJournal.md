@@ -318,3 +318,7 @@ I also ran into another tragedy, I ordered all the hardware needed for the brack
 ## 11/16/2025
 
 Today, I worked on organizing my documentation a little bit as well as documenting the topography project. I now show side projects in an appropriate portfolio page instead of being spread within my main daily journal.
+
+I also started the fun task of taking the loads of info within this journal, and putting them in organized sections and formats of the portfolio.
+
+## 
