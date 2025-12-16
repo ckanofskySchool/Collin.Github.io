@@ -252,10 +252,6 @@ I once again set out to remill my board, and this time, the holes lined up even 
 
 <img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="320" height="240">
 
-## 11/12/2025 
-
-Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there.
-
 ## 11/13/2025
 
 Today I tried to program the seeed board but I think I started to complicated because while the program itself seemed to run great, none of the LED indicators on the board were lighting up to show that power was succsesfully being outputed to the motors. 
@@ -263,10 +259,6 @@ Today I tried to program the seeed board but I think I started to complicated be
 ## 11/14/2025
 
 Today, I focused on obtaining the gears for the drive gearbox of my capstone project. I asked Mr. Dubick to order these through VEX and they came within 3 days of ordering. Once ordered, I then worked on 3D printing the sideplates of my gearbox for testing the gear ratio in the future.
-
-## 11/17/2025
-
-Today, I worked some more on my Topography Map of Cammleback Mountain, specifically, I learned using an example file how to create and export the toolpaths for this project using the CAM software "Aspire". At the end of the day, all I had time for was importing the stl and I will make the toolpaths soon.
 
 ## 11/18/2025
 
