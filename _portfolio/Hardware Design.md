@@ -31,7 +31,7 @@ MakeraCAM is the software we use to take a PCB design file and make toolpaths th
 
 
 1. Open up Makera CAM and start a new 3-axis project.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step1.png" width="320" height="320">
+<img src="assets/img/portfolio/MakeraCAMworkflow/Step1.png" width="960" height="540">
 
 2. Then we need to import the PCB files. These files are the .grb & .drl files.
 <img src="assets/img/portfolio/MakeraCAMworkflow/Step2.png" width="320" height="320">
