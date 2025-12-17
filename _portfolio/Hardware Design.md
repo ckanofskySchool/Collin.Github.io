@@ -1,13 +1,13 @@
 ---
 title: Hardware
 subtitle: Electronics for the Robopack
-image: assets/img/portfolio/03-full.jpg
+image: assets/img/portfolio/DailyJournal/ElectronicsSetup.jpg
 alt: 
 
 caption:
   title: Hardware
   subtitle: Electronics for the Robopack
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/portfolio/DailyJournal/ElectronicsSetup.jpg
 ---
 
 ## Hardware Planning
