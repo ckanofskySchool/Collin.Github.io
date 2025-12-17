@@ -37,6 +37,9 @@ I have been working on the brainstorming and planning for this project for over 
 - Robot can detect obstacles and chose to avoid or simply stop and wait.
 - Robot can connect to a server where robot data on location, travel, speed, battery, etc. can be accesed and this could potentially lead to mutliple RoboPack units collaborating.
 
+## Constantly Updated Bill Of Materials:
+[RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
+
 ## Design Specification Considerations
 
 1. What do you want your project to do?
