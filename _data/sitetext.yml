@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   Goals:
     title: "Project Goals for the RoboPack"
-    text: "Lorem ipsum"
+    text: "A more indepth version is within the planning page"
     section: Goals
     list:
       - title: "Purpose"
