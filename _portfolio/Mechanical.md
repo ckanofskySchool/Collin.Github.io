@@ -1,13 +1,13 @@
 ---
-title: Mechanical Design
-subtitle: Planning and CAD for the project
-image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+title: Mechanical
+subtitle: Building the robots Frame and Parts
+image: assets/img/portfolio/Mechanical/8020FrameStart.png
+alt: 
 
 caption:
-  title: Mechanical Design
-  subtitle: Planning and CAD for the project
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  title: Mechanical
+  subtitle: Building the robots Frame and Parts
+  thumbnail: assets/img/portfolio/Mechanical/8020FrameStart.png
 ---
 
 ## Mechanical Planning
@@ -17,7 +17,8 @@ I started off my mechanical planning for the RoboPack by thinking about the fram
 
 | 1530 Tubing                           | 15Series Bracket                      |
 | ------------------------------------- | ------------------------------------- |
-|![1530 Tubing](Images/RobotPlanning/8020_1530.jpg) | ![80/20 15Series Bracket](Images/RobotPlanning/4350_90Bracket.png) |
+|![1530 Tubing](assets/img/portfolio/Mechanical/8020FrameStart.png) | ![80/20 15Series Bracket](assets/img/portfolio/Mechanical/8020_1530.jpg) |
 
 ### Style Planning
 After getting all the functionality down, I plan to use a nice wood to give a natural style to the robot. Another idea I have is to get plastic parts that can cover the machine as well, but that might be more complicated and expensive.
+
