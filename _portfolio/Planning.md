@@ -11,7 +11,7 @@ caption:
 ---
 ## Goals
 
-I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success.
+I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success. This project takes inspiration from the recent (Starship)[https://www.starship.xyz/] robots which deliver food around college campuses. The main difference between the two projects though is that the robopack with carry backpacks instead and have a very different control and system layout.
 
 ### Basic Build Goals
 
