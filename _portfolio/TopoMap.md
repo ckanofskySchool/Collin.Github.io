@@ -1,13 +1,13 @@
 ---
 title: Topographical Map Project
 subtitle: CNC Topo Map Project
-image: assets/img/portfolio/TopoMap/CutTopo.png
+image: assets/img/portfolio/TopoMap/CutTopo.jpg
 alt: 
 
 caption:
   title: Topographical Map Project
   subtitle: CNC Topo Map Project
-  thumbnail: assets/img/portfolio/TopoMap/CutTopo.png
+  thumbnail: assets/img/portfolio/TopoMap/TopoMap.png
 ---
 
 # Project Description
@@ -39,7 +39,7 @@ Today, I finished my Aspire topography toolpaths and updated my documentation to
 
 Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerened about the CNC breaking due to the depth of which my file went and the vaccumm shoe being in the way, but Dr. Taylor helped me lock the Vaccumm shoe higher up which made the cut a succsess. 
 
-<img src="assets/img/portfolio/DailyJournal/2x4topo.png" width="320" height="320">
+<img src="assets/img/portfolio/DailyJournal/TopoMap/CutTopo.jpg" width="320" height="320">
 
 # Project Summary
 
