@@ -1,13 +1,13 @@
 ---
 title: Topographical Map Project
 subtitle: CNC Topo Map Project
-image: assets/img/portfolio/TopoMap/TopoMap.png
+image: assets/img/portfolio/TopoMap/CutTopo.png
 alt: 
 
 caption:
   title: Topographical Map Project
   subtitle: CNC Topo Map Project
-  thumbnail: assets/img/portfolio/TopoMap/TopoMap.png
+  thumbnail: assets/img/portfolio/TopoMap/CutTopo.png
 ---
 
 # Project Description
