@@ -25,7 +25,9 @@ The goal of this project was to take an area of the world, some geographical fea
 
 ### 11/12/2025 
 
-Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there.
+Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there. I 3D printed the model when it was done and looked good.
+
+![3DprintedTopo](assets/Files/TopoMap/Topo3Dprinted.JPG)
 
 ### 11/17/2025
 
