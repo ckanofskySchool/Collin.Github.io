@@ -19,8 +19,8 @@ caption:
   <source src="assets/img/portfolio/DailyJournal/Motor moving.mp4" type="video/mp4">
 </video>
 
-![full setup](assets/img/portfolio/Electrical/dualMotorFullSetup)
+![full setup](assets/img/portfolio/Electrical/dualMotorFullSetup.jpg)
 
 <video width="320" height="240" controls>
-  <source src="assets/img/portfolio/Electrical/AllMotorSubsystemWorking.mp4" type="video/mp4">
+  <source src="assets/img/portfolio/Electrical/AllMotorSubsytemWorking.mp4" type="video/mp4">
 </video>
