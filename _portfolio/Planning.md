@@ -40,6 +40,23 @@ I have been working on the brainstorming and planning for this project for over 
 ## Constantly Updated Bill Of Materials:
 [RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
 
+## Project File Repo to store everything
+[Updated Robopack Github Files (links to GITHUB repo)](https://github.com/Ckanofsky/Robopack)
+[Current Robopack Files (.zip)](assets/Files/Robopack-main.zip)
+
+## Tools I Wish To Use in this Project
+
+- 3D Printing
+- Laser Cutting
+- CNC Machining
+- Metal Fabrication(Circular Saw, Grinder, Bandsaw, Drill press, Tap)
+- Metal CNC Machining
+- PCB Machining
+
+- Rachets
+- Wrenches
+- Impact Driver
+
 ## Design Specification Considerations
 
 1. What do you want your project to do?
