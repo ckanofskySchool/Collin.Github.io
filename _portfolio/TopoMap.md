@@ -27,7 +27,7 @@ The goal of this project was to take an area of the world, some geographical fea
 
 Today I used the software https://jthatch.com/Terrain2STL/ to create a 3D topography map for a quick detour porject teaching 3D depth CNC cutting. For my model, I chose to make the topography of a mountain called Cammleback in Pheonix, Arizona as a birthday gift to my grandma who would always take us hiking there. I 3D printed the model when it was done and looked good.
 
-![3DprintedTopo](assets/Files/TopoMap/Topo3Dprinted.JPG)
+<img src="/assets/img/portfolio/TopoMap/Topo3Dprinted.JPG" width="320" height="320">
 
 ### 11/17/2025
 
@@ -41,7 +41,7 @@ Today, I finished my Aspire topography toolpaths and updated my documentation to
 
 Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerened about the CNC breaking due to the depth of which my file went and the vaccumm shoe being in the way, but Dr. Taylor helped me lock the Vaccumm shoe higher up which made the cut a succsess. 
 
-<img src="assets/img/portfolio/DailyJournal/TopoMap/CutTopo.jpg" width="320" height="320">
+<img src="/assets/img/portfolio/TopoMap/CutTopo.jpg" width="320" height="320">
 
 # Project Summary
 
