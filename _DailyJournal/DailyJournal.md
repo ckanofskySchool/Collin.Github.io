@@ -321,4 +321,8 @@ Today, I worked on organizing my documentation a little bit as well as documenti
 
 I also started the fun task of taking the loads of info within this journal, and putting them in organized sections and formats of the portfolio. So far, I have updated the timeline, the goals, and the hardware section(images fixed in workflow too)
 
-## 
+## 1/6/2026
+
+So... I have no idea where the rest of my previous journals went, I might have deleted them by accident but I couldn't find them. As an update, I have assembled my 8020 frame(not including gearboxs sadly), ran a succssesful test of both motors using the seeed manual control, and tommorow I plan to order more 8020 hardware for the motor mounting, side panel mounting, and electrical mounting.
+
+Today, I mainly focused on building a [Task Manager spreadsheet](https://docs.google.com/spreadsheets/d/1YxHaPIC824Zfynl9WW5YS0Lov2N1IcNKjxM6ScYHs5I/edit?usp=sharing) which keeps track of my tasks, and also helps me manage my time wisely with the Gantt Chart section. One cool feature is that their is a simple tab that only has tasks and their state of completion, and then those states auto update onto the gantt chart in the second tab for more advanced tracking.
