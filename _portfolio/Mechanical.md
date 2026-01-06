@@ -17,7 +17,11 @@ I started off my mechanical planning for the RoboPack by thinking about the fram
 
 | 1530 Tubing                           | 15Series Bracket                      |
 | ------------------------------------- | ------------------------------------- |
-|![1530 Tubing](assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg) | ![80/20 15Series Bracket](assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png) |
+|
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg" width="320" height="240"> 
+| 
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png" width="320" height="240"> 
+|
 
 ### Style Planning
 After getting all the functionality down, I plan to use a nice wood to give a natural style to the robot. Another idea I have is to get plastic parts that can cover the machine as well, but that might be more complicated and expensive.
