@@ -26,5 +26,17 @@ I started off my mechanical planning for the RoboPack by thinking about the fram
 ### Style Planning
 After getting all the functionality down, I plan to use a nice wood to give a natural style to the robot. Another idea I have is to get plastic parts that can cover the machine as well, but that might be more complicated and expensive.
 
+## The Build Journey
+
+This is a journey through the build proccess describing how the Robopack's mechanical aspects came to be and the steps taken to get there, Enjoy!
+
+### Setting Off - Brainstorming and Drawing
+
+When I first set out to create the Robopack as a junior, I started by sketching out the ideal Robopack which I envisioned. With a stylist, my ipad, and noteability, I set out to draw how the robopack would look, roughly diagram out how the electronics would work, and get a general idea of the features I wanted.
+
+#### Robopack 
+
+
+
 ## Current Build State
 ![Current Build State](assets/img/portfolio/Mechanical/8020FrameStart.png)

@@ -326,3 +326,13 @@ I also started the fun task of taking the loads of info within this journal, and
 So... I have no idea where the rest of my previous journals went, I might have deleted them by accident but I couldn't find them. As an update, I have assembled my 8020 frame(not including gearboxs sadly), ran a succssesful test of both motors using the seeed manual control, and tommorow I plan to order more 8020 hardware for the motor mounting, side panel mounting, and electrical mounting.
 
 Today, I mainly focused on building a [Task Manager spreadsheet](https://docs.google.com/spreadsheets/d/1YxHaPIC824Zfynl9WW5YS0Lov2N1IcNKjxM6ScYHs5I/edit?usp=sharing) which keeps track of my tasks, and also helps me manage my time wisely with the Gantt Chart section. One cool feature is that their is a simple tab that only has tasks and their state of completion, and then those states auto update onto the gantt chart in the second tab for more advanced tracking.
+
+## 1/7/2026
+
+Today I finally laser cut my electrical panel. When I had tried in the past, I kept running into the issue of the logo being a bunch of lines that wouldn't allow me to fill the inside. To combat this issue, I instead used inkscape to take the dxf and fill the inside becuase I am more familiar with the inkscape software and then exported a png image of the filled in logo. This allowed me to bring it into correl draw and trace a logo bitmap of the image, which I then centered with the dxf file of the plate and sent it to the laser cutter.
+
+One slight bump that I hit after laser cutting was that I left the tape sheet on the acrylic to prevent burn marks on the final result. However, I should have only left the tape on the bottom of the acrylic because when the engraving happened, each pixel of the engrave became seperated from the main tape sheet, meaning when I pulled off the sheet, the letters were still filled with the tape. To fix this without damaging the acrylic, I used a chisel to scrape the tape out of the letters but it did take me an additional 10 minutes of work.
+
+After the panel was all good and correct, I applied 2 17 inches velcro strips across the top and bottom of the panel for electronics to mount, and added velcro onto all the other electronic components to attach them all together on the panel.
+
+The only components that still need attachment are the breaker because I want to make it stand straight up, and the seeed RP2040 board because it requires a special case to allow velcro attachment, which I have yet to CAD.
