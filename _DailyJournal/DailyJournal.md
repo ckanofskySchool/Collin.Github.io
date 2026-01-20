@@ -336,3 +336,39 @@ One slight bump that I hit after laser cutting was that I left the tape sheet on
 After the panel was all good and correct, I applied 2 17 inches velcro strips across the top and bottom of the panel for electronics to mount, and added velcro onto all the other electronic components to attach them all together on the panel.
 
 The only components that still need attachment are the breaker because I want to make it stand straight up, and the seeed RP2040 board because it requires a special case to allow velcro attachment, which I have yet to CAD.
+
+## 1/8/2026 - 1/12/2026
+
+During these days, I finished up the wiring on the velcro electronics board and made a special 90 degree 3D printed mount to attach my breaker to. I ended up just screwing the breaker into the 3D printed part which worked suprisingly well so I left it at that for now. Below is the fianal electronics setup minus the Seeed RP2040 board bc I wanted that on the side for programming the aiming algorithem.
+
+## 1/13/2026 - 1/15/2026
+
+During these days, I got the raspberry PI and Seeed RP2040 working together and had a decent(I hope) tracking algorythem that seemed to respond to my position in relation to the camera. It was kinda hard to tell how well the algorithem worked without the camera moving on the robot itself, so I decided my next priority would be to make the wheels for the robot.
+
+## 1/16/2026
+
+Today I molded the wheel, which was one heck of an experience. I started off with my 4 part 3D printed mold, which then has a center hex peg and a bottom cover/clamp to hold all 4 sections together and under pressure. Then, a 3D printed hex shaft hub was inserted which would eventually be the wheel. To start the molding proccess, I mixed 100 millileters of Reoplex 30A part A and 100 millileters of Reoplex 30A part B, and proceeded to started to pour slowly into the small crack of the wheel mold. I had to poor pretty dang slowly because my opening wasn't very big and if I poured too fast, the material would start to overflow out of the mold.
+
+As I was pouring in the material, a critical issue appeared. The material was leaking out of the bottom of the mold, at the small gap between the wheel hub and the bottom of the mold. Unsure of what to do, I tried to push down on the wheel hub and pour at the same time, which seemed to stop the leak, but my arm was starting to get tired. Suddenly, I had a genius idea, I asked a friend to grab me the 30lbs toolbox full of renches and wratches, a roll of ducktape to give space to pour and built myself a on the fly weight press to stop the leaking mold material. It worked too!
+
+With my issue fixed I proceeded to pour into the mold, with each minute the mold material got less fluid and harder to move, but I was able to fill the mold just in time and put a nice extra coat on top to ensure even if the level of mold went down a bit, the wheel would still have adequate material.
+
+<img src="assets/img/portfolio/Mechanical/WheelMolding/MoldingSetup.jpg" width="320" height="240">
+
+<img src="assets/img/portfolio/Mechanical/WheelMolding/AfterPourChaos.jpg" width="320" height="240">
+
+
+## 1/20/2026
+
+I spent today removing the molded wheel from the mold itself, which was a bit of a struggle, but not terrible. Once I got the wheel out, I used a wire snip and knife to clean up the edges and the wheel turned out great. Based on the result, I decided to use this molded wheel tecnique for all 4 wheels.
+
+<img src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg" width="320" height="240">
+
+<img src="assets/img/portfolio/Mechanical/WheelMolding/25Wheel.jpg" width="320" height="240">
+
+<img src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg" width="320" height="240">
+
+However, before I mold the rest of my wheels, I had a few improvements I wanted to make to the molding proccess. The first modification I plan to do is hotglue along the bottom of the wheel hub to help solve the leaking issues. Second, I 3D printed a top clamp wich also has a funnel so that I have a bigger area to pour into and any extra build up is contained and funneled back into the mold once the level has decreased.
+
+
+
