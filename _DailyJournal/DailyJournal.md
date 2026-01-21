@@ -302,18 +302,18 @@ Due to waiting on the 8020 order & the crimping materials to come in, I will be 
 
 ## 11/11/2025
 
-Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerened about the CNC breaking due to the depth of which my file went and the vaccumm shoe being in the way, but Dr. Taylor helped me lock the Vaccumm shoe higher up which made the cut a succsess. 
+Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerned about the CNC breaking due to the depth of which my file went and the vacuum shoe being in the way, but Dr. Taylor helped me lock the vacuum shoe higher up which made the cut a success. 
 
 <img src="assets/img/portfolio/DailyJournal/2x4topo.png" width="320" height="240">
 
 
-Today, as I wait for my crimps and the 80-20 materials to come in, I decided to fix the slight issue in the gearbox CAD which made only one of the 4 holes on the motor align, and then started printing a gearbox for both the left and right side so I am ready to attach when the 80-20 hardware arrives. My hope is that when the 80-20 stuff arives, I can quickly build the main aspects of the robot and have the spacing and layouts to do my eletrical wiring. Things are looking good so far!
+Today, as I wait for my crimps and the 80-20 materials to come in, I decided to fix the slight issue in the gearbox CAD which made only one of the 4 holes on the motor align, and then started printing a gearbox for both the left and right side so I am ready to attach when the 80-20 hardware arrives. My hope is that when the 80-20 stuff arrives, I can quickly build the main aspects of the robot and have the spacing and layouts to do my electrical wiring. Things are looking good so far!
 
 ## 11/15/2025
 
-PARTS ARE HERE!!! my 80-20 hardware arrived and I assembled the main frame of the robopack shown below. Sadly I have yet to cut the vertical supports which I plan to do tuesday night.
+PARTS ARE HERE!!! my 80-20 hardware arrived and I assembled the main frame of the Robopack shown below. Sadly I have yet to cut the vertical supports which I plan to do Tuesday night.
 
-I also ran into another tragedy, I ordered all the hardware needed for the brackets I bought, but I forgot to order hardware for the gearbox plates. The saving grace is that I releazed that I not only need gearbox hardware, but also hardware for electrical panels, side panels, ect. so I decided that my next mechanical step was to step up and finish the CAD model completely, ensuring I account for all needed hardware in my next order (rip the additional 20$ shipping fee bc I didn't order these in the 1st delivery).
+I also ran into another tragedy. I ordered all the hardware needed for the brackets I bought, but I forgot to order hardware for the gearbox plates. The saving grace is that I releazed that I not only need gearbox hardware, but also hardware for electrical panels, side panels, ect. so I decided that my next mechanical step was to step up and finish the CAD model completely, ensuring I account for all needed hardware in my next order (rip the additional 20$ shipping fee bc I didn't order these in the 1st delivery).
 
 ## 11/16/2025
 
@@ -323,33 +323,33 @@ I also started the fun task of taking the loads of info within this journal, and
 
 ## 1/6/2026
 
-So... I have no idea where the rest of my previous journals went, I might have deleted them by accident but I couldn't find them. As an update, I have assembled my 8020 frame(not including gearboxs sadly), ran a succssesful test of both motors using the seeed manual control, and tommorow I plan to order more 8020 hardware for the motor mounting, side panel mounting, and electrical mounting.
+So... I have no idea where the rest of my previous journals went, I might have deleted them by accident but I couldn't find them. As an update, I have assembled my 8020 frame(not including gearboxs sadly), ran a successful test of both motors using the seeed manual control, and tommorow I plan to order more 8020 hardware for the motor mounting, side panel mounting, and electrical mounting.
 
-Today, I mainly focused on building a [Task Manager spreadsheet](https://docs.google.com/spreadsheets/d/1YxHaPIC824Zfynl9WW5YS0Lov2N1IcNKjxM6ScYHs5I/edit?usp=sharing) which keeps track of my tasks, and also helps me manage my time wisely with the Gantt Chart section. One cool feature is that their is a simple tab that only has tasks and their state of completion, and then those states auto update onto the gantt chart in the second tab for more advanced tracking.
+Today, I mainly focused on building a [Task Manager spreadsheet](https://docs.google.com/spreadsheets/d/1YxHaPIC824Zfynl9WW5YS0Lov2N1IcNKjxM6ScYHs5I/edit?usp=sharing) which keeps track of my tasks, and also helps me manage my time wisely with the Gantt Chart section. One cool feature is that their is a simple tab that only has tasks and their state of completion, and then those states auto update onto the Gantt chart in the second tab for more advanced tracking.
 
 ## 1/7/2026
 
-Today I finally laser cut my electrical panel. When I had tried in the past, I kept running into the issue of the logo being a bunch of lines that wouldn't allow me to fill the inside. To combat this issue, I instead used inkscape to take the dxf and fill the inside becuase I am more familiar with the inkscape software and then exported a png image of the filled in logo. This allowed me to bring it into correl draw and trace a logo bitmap of the image, which I then centered with the dxf file of the plate and sent it to the laser cutter.
+Today I finally laser cut my electrical panel. When I had tried in the past, I kept running into the issue of the logo being a bunch of lines that wouldn't allow me to fill the inside. To combat this issue, I instead used inkscape to take the dxf and fill the inside because I am more familiar with the inkscape software and then exported a png image of the filled-in logo. This allowed me to bring it into correl draw and trace a logo bitmap of the image, which I then centered with the dxf file of the plate and sent it to the laser cutter.
 
-One slight bump that I hit after laser cutting was that I left the tape sheet on the acrylic to prevent burn marks on the final result. However, I should have only left the tape on the bottom of the acrylic because when the engraving happened, each pixel of the engrave became seperated from the main tape sheet, meaning when I pulled off the sheet, the letters were still filled with the tape. To fix this without damaging the acrylic, I used a chisel to scrape the tape out of the letters but it did take me an additional 10 minutes of work.
+One slight bump that I hit after laser cutting was that I left the tape sheet on the acrylic to prevent burn marks on the final result. However, I should have only left the tape on the bottom of the acrylic because when the engraving happened, each pixel of the engrave became separated from the main tape sheet, meaning when I pulled off the sheet, the letters were still filled with the tape. To fix this without damaging the acrylic, I used a chisel to scrape the tape out of the letters but it did take me an additional 10 minutes of work.
 
 After the panel was all good and correct, I applied 2 17 inches velcro strips across the top and bottom of the panel for electronics to mount, and added velcro onto all the other electronic components to attach them all together on the panel.
 
-The only components that still need attachment are the breaker because I want to make it stand straight up, and the seeed RP2040 board because it requires a special case to allow velcro attachment, which I have yet to CAD.
+The only components that still need attachment are the breaker, because I want to make it stand straight up, and the seeed RP2040 board because it requires a special case to allow velcro attachment, which I have yet to CAD.
 
 ## 1/8/2026 - 1/12/2026
 
-During these days, I finished up the wiring on the velcro electronics board and made a special 90 degree 3D printed mount to attach my breaker to. I ended up just screwing the breaker into the 3D printed part which worked suprisingly well so I left it at that for now. Below is the fianal electronics setup minus the Seeed RP2040 board bc I wanted that on the side for programming the aiming algorithem.
+During these days, I finished up the wiring on the Velcro electronics board and made a special 90-degree 3D printed mount to attach my breaker to. I ended up just screwing the breaker into the 3D printed part which worked surprisingly well so I left it at that for now. Below is the final electronics setup minus the Seeed RP2040 board bc I wanted that on the side for programming the aiming algorithm.
 
 ## 1/13/2026 - 1/15/2026
 
-During these days, I got the raspberry PI and Seeed RP2040 working together and had a decent(I hope) tracking algorythem that seemed to respond to my position in relation to the camera. It was kinda hard to tell how well the algorithem worked without the camera moving on the robot itself, so I decided my next priority would be to make the wheels for the robot.
+During these days, I got the Raspberry Pi and Seeed RP2040 working together and had a decent(I hope) tracking algorithm that seemed to respond to my position in relation to the camera. It was kinda hard to tell how well the algorithm worked without the camera moving on the robot itself, so I decided my next priority would be to make the wheels for the robot.
 
 ## 1/16/2026
 
-Today I molded the wheel, which was one heck of an experience. I started off with my 4 part 3D printed mold, which then has a center hex peg and a bottom cover/clamp to hold all 4 sections together and under pressure. Then, a 3D printed hex shaft hub was inserted which would eventually be the wheel. To start the molding proccess, I mixed 100 millileters of Reoplex 30A part A and 100 millileters of Reoplex 30A part B, and proceeded to started to pour slowly into the small crack of the wheel mold. I had to poor pretty dang slowly because my opening wasn't very big and if I poured too fast, the material would start to overflow out of the mold.
+Today I molded the wheel, which was one heck of an experience. I started off with my 4 part 3D printed mold, which then has a center hex peg and a bottom cover/clamp to hold all 4 sections together and under pressure. Then, a 3D printed hex shaft hub was inserted which would eventually be the wheel. To start the molding process, I mixed 100 milliliters of Reoplex 30A part A and 100 milliliters of Reoplex 30A part B, and proceeded to started to pour slowly into the small crack of the wheel mold. I had to poor pretty dang slowly because my opening wasn't very big and if I poured too fast, the material would start to overflow out of the mold.
 
-As I was pouring in the material, a critical issue appeared. The material was leaking out of the bottom of the mold, at the small gap between the wheel hub and the bottom of the mold. Unsure of what to do, I tried to push down on the wheel hub and pour at the same time, which seemed to stop the leak, but my arm was starting to get tired. Suddenly, I had a genius idea, I asked a friend to grab me the 30lbs toolbox full of renches and wratches, a roll of ducktape to give space to pour and built myself a on the fly weight press to stop the leaking mold material. It worked too!
+As I was pouring in the material, a critical issue appeared. The material was leaking out of the bottom of the mold, at the small gap between the wheel hub and the bottom of the mold. Unsure of what to do, I tried to push down on the wheel hub and pour at the same time, which seemed to stop the leak, but my arm was starting to get tired. Suddenly, I had a genius idea, I asked a friend to grab me the 30lbs toolbox full of wrenches and wratches, a roll of ducktape to give space to pour and built myself a on the fly weight press to stop the leaking mold material. It worked too!
 
 With my issue fixed I proceeded to pour into the mold, with each minute the mold material got less fluid and harder to move, but I was able to fill the mold just in time and put a nice extra coat on top to ensure even if the level of mold went down a bit, the wheel would still have adequate material.
 
@@ -360,7 +360,7 @@ With my issue fixed I proceeded to pour into the mold, with each minute the mold
 
 ## 1/20/2026
 
-I spent today removing the molded wheel from the mold itself, which was a bit of a struggle, but not terrible. Once I got the wheel out, I used a wire snip and knife to clean up the edges and the wheel turned out great. Based on the result, I decided to use this molded wheel tecnique for all 4 wheels.
+I spent today removing the molded wheel from the mold itself, which was a bit of a struggle, but not terrible. Once I got the wheel out, I used a wire snip and knife to clean up the edges and the wheel turned out great. Based on the result, I decided to use this molded wheel technique for all 4 wheels.
 
 <img src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg" width="320" height="240">
 
@@ -368,7 +368,9 @@ I spent today removing the molded wheel from the mold itself, which was a bit of
 
 <img src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg" width="320" height="240">
 
-However, before I mold the rest of my wheels, I had a few improvements I wanted to make to the molding proccess. The first modification I plan to do is hotglue along the bottom of the wheel hub to help solve the leaking issues. Second, I 3D printed a top clamp wich also has a funnel so that I have a bigger area to pour into and any extra build up is contained and funneled back into the mold once the level has decreased.
+However, before I mold the rest of my wheels, I had a few improvements I wanted to make to the molding process. The first modification I plan to do is hotglue along the bottom of the wheel hub to help solve the leaking issues. Second, I 3D printed a top clamp which also has a funnel so that I have a bigger area to pour into and any extra buildup is contained and funneled back into the mold once the level has decreased.
 
+## 1/21/2026
 
+Today, I molded my second wheel using the new top clamp, which also acts as a funnel, and oh boy, did it make a difference. With the new part, I was able to mold my wheel from mixing to drying in around 20 minutes, compared to the hour and a half I spent on the last wheel. This was largely possible due to the funnel allowing me to dump a large quantity of molding materials on each side and let gravity pull it down into the mold, whereas the old version required me to slowly pour to make sure no overflow occurred.
 
