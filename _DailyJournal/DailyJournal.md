@@ -422,13 +422,13 @@ output = (P * error) + (I * accumulatedError) + (D * errorRate)
 
 ## 🧠 How PIDF Works (Step-by-Step)
 
-1. **Calculate Error**
+ **1. Calculate Error**
 
 ```text
 error = targetPosition - currentPosition
 ```
 
-2. **Compute Terms**
+ **2. Compute Terms**
 
 ```text
 P = kP * error
@@ -436,13 +436,13 @@ I = kI * totalAccumulatedError
 D = kD * (error - lastError) / deltaTime
 ```
 
-3. **Calculate Output**
+ **3. Calculate Output**
 
 ```text
 output = P + I + D
 ```
 
-4. Apply Output
+ **4. Apply Output**
 
 ```text
 setPower(output)
@@ -451,8 +451,6 @@ setPower(output)
 ## How to Tune PID constants
 
 1. Proportional (P) — Makes the mechanism respond to error. Raise it until it moves toward the target quickly but doesn’t overshoot too much.
-
 2. Integral (I) — Use to eliminate small, constant errors that P can’t fix (e.g., due to friction). Be careful: too much I causes wind-up and instability.
-
 3. Derivative (D) — Add if the mechanism overshoots or oscillates. D slows down the motion as it approaches the target.
 
