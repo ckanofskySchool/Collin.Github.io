@@ -386,51 +386,64 @@ While this works great for an initial test and proof of concept, this approach h
 
 ## 1/28/2026
 
-Today, I came in with a plan built from my robotics experience. In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controller is to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for:
+Today, I came in with a plan built from my robotics experience. In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controller is to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for! 
 
-- P : Proportional
-- I : Integral
-- D : Derivative
+Full credit to RoboFTC for the Following PID Explanantion
 
-### Error e(t)
+# PID Controller Tutorial
 
-Before diving into the PID control, it is important to understand what the input entering a PID is. For any PID Controller, a current position which is constantly updated and a taget position that you want to reach are needed.
+A **PID controller** is one of the most common control algorithms in robotics. It helps mechanisms reach and hold positions or velocities accurately by adjusting motor power based on feedback.
 
-We then construct the following formula to constantly update and calculate the error:
+PIDF stands for:
 
+- **P** — Proportional
+- **I** — Integral
+- **D** — Derivative
+
+---
+
+## 🔧 What is PID?
+
+A PID controller constantly compares a **target value (setpoint)** to the **current value (measured)** and calculates how much power to apply.
+
+### Basic Formula:
+
+```text
+output = (P * error) + (I * accumulatedError) + (D * errorRate)
+```
+
+### ✔️ Each term has a role:
+
+- **Proportional (P)** — Corrects based on the current error. Bigger error = bigger correction.
+- **Integral (I)** — Corrects accumulated past errors to eliminate drift or steady-state error.
+- **Derivative (D)** — Predicts future error by reacting to how quickly the error is changing.
+
+---
+
+## 🧠 How PIDF Works (Step-by-Step)
+
+1. **Calculate Error**
+
+```text
 error = targetPosition - currentPosition
+```
 
-However, to make the PID system a constant loop, we have to calculate error in terms of time:
-e(t) = target(t) - current(t)
+2. **Compute Terms**
 
-Now that we understand the concept and formula for error, we can dive into using that error in a PID to arrive at the target position.
+```text
+P = kP * error
+I = kI * totalAccumulatedError
+D = kD * (error - lastError) / deltaTime
+```
 
-### Proportional
+3. **Calculate Output**
 
-The Propotional component of a PID Controller in basic terms is "a direct response to error between the desired position and the actual position". Proportional is calculated by taking the error value & multipling it by a small constant called Kp, which allows this error correction to be more or less agressive depending on the Kp value.
+```text
+output = P + I + D
+```
 
-For Example: The robot has determined that it's current position is 0, but it needs to be at position 10. It takes the error, 10(Desired) - 0(Current) = 10(error), and then multiplies this error by Kp, which we will say is .01 in this scenario. So 10(error) times .01(Kp) results in a motor power of 1. However, the key to the system is that its a continous loop! Now, the current position is 5, so 5(error is 10-5=5) times .01(Kp) results in .5 motor power slowing the robot down as it gets closer to it's desired location.
+4. Apply Output
 
-#### Proportional Formula
-
-Proportional Component = Kp*e(t)
-
-### Derivative
-
-The Derivative component of a PID Controller in basic terms "responds to the size of the P component to dampen the output". Think of derivative as a dampener on the P value to help fix overshooting. To control how much dampening occurs, a constant called Kd is multiplied into the derivative.
-
-For Example: If the robot has a small P value, but is continuing to correct causing the robot to overshoot back and forth which is seen as shaking, the D component of the PID can make the outputing result way smaller resulting in the robot becoming still at the correct position.
-
-#### Derivative Formula
-
-Derivative Component = Kd * (d*e(t))/dt
-
-### Integral 
-
-Out of the three PID components, Integral is definely the hardest one to understand. In basic terms, the integral "learns from the accumulated past error and attemps to correct residual error left over from the P component". Think of integral as an extra output added on based on the accumulated error from the past PID loop to get closer to the target position which proportional could not get to. To control how strong the attempt to correct residual error, a constant called Ki is multiplied into the Integral
-
-For Example: If the robot has run for 1 second, with a target position of 10, and after the 1 second passes, the robot has only reached a position of 1. If we add in the Integral component, then at 1 seconds, the Integral component would see the accumulated error of 1 and attempt to add motor power to account for this error over time.
-
-#### Integral Formula
-
-Integral Component = $Ki \int_0^t \e(t) dt$
+```text
+setPower(output)
+```
