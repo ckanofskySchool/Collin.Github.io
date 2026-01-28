@@ -452,3 +452,7 @@ setPower(output)
 2. Integral (I) — Use to eliminate small, constant errors that P can’t fix (e.g., due to friction). Be careful: too much I causes wind-up and instability.
 3. Derivative (D) — Add if the mechanism overshoots or oscillates. D slows down the motion as it approaches the target.
 
+
+### How I implemented PID in the Robopack
+
+For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability.
