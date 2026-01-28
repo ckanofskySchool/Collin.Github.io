@@ -370,5 +370,63 @@ I spent today removing the molded wheel from the mold itself, which was a bit of
 
 However, before I mold the rest of my wheels, I had a few improvements I wanted to make to the molding proccess. The first modification I plan to do is hotglue along the bottom of the wheel hub to help solve the leaking issues. Second, I 3D printed a top clamp wich also has a funnel so that I have a bigger area to pour into and any extra build up is contained and funneled back into the mold once the level has decreased.
 
+## 1/27/2026
 
+Today after school, I was able to get the Robopack to follow me!!! I used a rough algorithem on the seeedRP2040 which takes in the output from the vision system on the Raspberry Pi, the output being "A T## D##". The A stands for automatic, T for translational meaning the angle from center, and D for distance though it is actual area, not distance being outputed(ik I need to fix this later). The seeedRP2040 takes in this data and does a simple deadzone response, where if the values are outside of a chosen range of Distance & Angle, then the robot responds by setting the motor powers to a single response value until the values are back within the deadzone range. For example: If the human is detected to be to the left of the deadzone, the robot will set motor powers to -10% left motor and +10% right motor until the human is in the center again.
 
+<video width="320" height="240" controls>
+  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
+</video>
+
+While this works great for an initial test and proof of concept, this approach has a few critical flaws. For example: If the human gets further away from the robot, the robot will never speed up beyond its static algorithem which simply says "if human far, go to 10% speed forward" and the same thing happens with turning as well. If you try to mitigate this issue by increasing the max speed, the robot then overshoots its target and shakes back and forth.
+
+## 1/28/2026
+
+Today, I came in with a plan built from my robotics experience. In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controller is to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for:
+
+- P : Proportional
+- I : Integral
+- D : Derivative
+
+### Error e(t)
+
+Before diving into the PID control, it is important to understand what the input entering a PID is. For any PID Controller, a current position which is constantly updated and a taget position that you want to reach are needed.
+
+We then construct the following formula to constantly update and calculate the error:
+
+error = targetPosition - currentPosition
+
+However, to make the PID system a constant loop, we have to calculate error in terms of time:
+e(t) = target(t) - current(t)
+
+Now that we understand the concept and formula for error, we can dive into using that error in a PID to arrive at the target position.
+
+### Proportional
+
+The Propotional component of a PID Controller in basic terms is "a direct response to error between the desired position and the actual position". Proportional is calculated by taking the error value & multipling it by a small constant called Kp, which allows this error correction to be more or less agressive depending on the Kp value.
+
+For Example: The robot has determined that it's current position is 0, but it needs to be at position 10. It takes the error, 10(Desired) - 0(Current) = 10(error), and then multiplies this error by Kp, which we will say is .01 in this scenario. So 10(error) times .01(Kp) results in a motor power of 1. However, the key to the system is that its a continous loop! Now, the current position is 5, so 5(error is 10-5=5) times .01(Kp) results in .5 motor power slowing the robot down as it gets closer to it's desired location.
+
+#### Proportional Formula
+
+Proportional Component = Kp*e(t)
+
+### Derivative
+
+The Derivative component of a PID Controller in basic terms "responds to the size of the P component to dampen the output". Think of derivative as a dampener on the P value to help fix overshooting. To control how much dampening occurs, a constant called Kd is multiplied into the derivative.
+
+For Example: If the robot has a small P value, but is continuing to correct causing the robot to overshoot back and forth which is seen as shaking, the D component of the PID can make the outputing result way smaller resulting in the robot becoming still at the correct position.
+
+#### Derivative Formula
+
+Derivative Component = Kd * (d*e(t))/dt
+
+### Integral 
+
+Out of the three PID components, Integral is definely the hardest one to understand. In basic terms, the integral "learns from the accumulated past error and attemps to correct residual error left over from the P component". Think of integral as an extra output added on based on the accumulated error from the past PID loop to get closer to the target position which proportional could not get to. To control how strong the attempt to correct residual error, a constant called Ki is multiplied into the Integral
+
+For Example: If the robot has run for 1 second, with a target position of 10, and after the 1 second passes, the robot has only reached a position of 1. If we add in the Integral component, then at 1 seconds, the Integral component would see the accumulated error of 1 and attempt to add motor power to account for this error over time.
+
+#### Integral Formula
+
+Integral Component = Ki \int_0^t \e(t) dt$
