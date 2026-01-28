@@ -447,3 +447,12 @@ output = P + I + D
 ```text
 setPower(output)
 ```
+
+## How to Tune PID constants
+
+1. Proportional (P) — Makes the mechanism respond to error. Raise it until it moves toward the target quickly but doesn’t overshoot too much.
+
+2. Integral (I) — Use to eliminate small, constant errors that P can’t fix (e.g., due to friction). Be careful: too much I causes wind-up and instability.
+
+3. Derivative (D) — Add if the mechanism overshoots or oscillates. D slows down the motion as it approaches the target.
+
