@@ -433,4 +433,4 @@ For Example: If the robot has run for 1 second, with a target position of 10, an
 
 #### Integral Formula
 
-Integral Component = Ki \int_0^t \e(t) dt$
+$Integral Component = Ki \int_0^t \e(t) dt$
