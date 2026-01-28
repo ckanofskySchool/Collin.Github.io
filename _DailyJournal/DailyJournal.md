@@ -388,9 +388,7 @@ While this works great for an initial test and proof of concept, this approach h
 
 Today, I came in with a plan built from my robotics experience. In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controller is to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for! 
 
-Full credit to RoboFTC for the Following PID Explanantion
-
-# PID Controller Tutorial
+Full credit to RoboFTC for the Following PID Explanantion:
 
 A **PID controller** is one of the most common control algorithms in robotics. It helps mechanisms reach and hold positions or velocities accurately by adjusting motor power based on feedback.
 
@@ -402,17 +400,17 @@ PIDF stands for:
 
 ---
 
-## 🔧 What is PID?
+### 🔧 What is PID?
 
 A PID controller constantly compares a **target value (setpoint)** to the **current value (measured)** and calculates how much power to apply.
 
-### Basic Formula:
+#### Basic Formula:
 
 ```text
 output = (P * error) + (I * accumulatedError) + (D * errorRate)
 ```
 
-### ✔️ Each term has a role:
+#### ✔️ Each term has a role:
 
 - **Proportional (P)** — Corrects based on the current error. Bigger error = bigger correction.
 - **Integral (I)** — Corrects accumulated past errors to eliminate drift or steady-state error.
@@ -420,7 +418,7 @@ output = (P * error) + (I * accumulatedError) + (D * errorRate)
 
 ---
 
-## 🧠 How PIDF Works (Step-by-Step)
+### 🧠 How PIDF Works (Step-by-Step)
 
  **1. Calculate Error**
 
@@ -448,7 +446,7 @@ output = P + I + D
 setPower(output)
 ```
 
-## How to Tune PID constants
+### How to Tune PID constants
 
 1. Proportional (P) — Makes the mechanism respond to error. Raise it until it moves toward the target quickly but doesn’t overshoot too much.
 2. Integral (I) — Use to eliminate small, constant errors that P can’t fix (e.g., due to friction). Be careful: too much I causes wind-up and instability.
