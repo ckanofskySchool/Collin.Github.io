@@ -370,6 +370,10 @@ I spent today removing the molded wheel from the mold itself, which was a bit of
 
 However, before I mold the rest of my wheels, I had a few improvements I wanted to make to the molding process. The first modification I plan to do is hotglue along the bottom of the wheel hub to help solve the leaking issues. Second, I 3D printed a top clamp which also has a funnel so that I have a bigger area to pour into and any extra buildup is contained and funneled back into the mold once the level has decreased.
 
+## 1/21/2026
+
+Today, I molded my second wheel using the new top clamp, which also acts as a funnel, and oh boy, did it make a difference. With the new part, I was able to mold my wheel from mixing to drying in around 20 minutes, compared to the hour and a half I spent on the last wheel. This was largely possible due to the funnel allowing me to dump a large quantity of molding materials on each side and let gravity pull it down into the mold, whereas the old version required me to slowly pour to make sure no overflow occurred.
+
 ## 1/27/2026
 
 Today after school, I was able to get the Robopack to follow me!!! I used a rough algorithem on the seeedRP2040 which takes in the output from the vision system on the Raspberry Pi, the output being "A T## D##". The A stands for automatic, T for translational meaning the angle from center, and D for distance though it is actual area, not distance being outputed(ik I need to fix this later). The seeedRP2040 takes in this data and does a simple deadzone response, where if the values are outside of a chosen range of Distance & Angle, then the robot responds by setting the motor powers to a single response value until the values are back within the deadzone range. For example: If the human is detected to be to the left of the deadzone, the robot will set motor powers to -10% left motor and +10% right motor until the human is in the center again.
@@ -430,7 +434,3 @@ For Example: If the robot has run for 1 second, with a target position of 10, an
 #### Integral Formula
 
 Integral Component = Ki \int_0^t \e(t) dt$
-## 1/21/2026
-
-Today, I molded my second wheel using the new top clamp, which also acts as a funnel, and oh boy, did it make a difference. With the new part, I was able to mold my wheel from mixing to drying in around 20 minutes, compared to the hour and a half I spent on the last wheel. This was largely possible due to the funnel allowing me to dump a large quantity of molding materials on each side and let gravity pull it down into the mold, whereas the old version required me to slowly pour to make sure no overflow occurred.
-
