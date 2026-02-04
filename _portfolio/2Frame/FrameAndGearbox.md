@@ -1,13 +1,13 @@
 ---
 title: Frame & Gearbox
 subtitle: CAD & Construction of Chassis
-image: assets/img/portfolio/01-full.jpg
+image: assets/img/portfolio/Mechanical/8020FrameStart.png
 alt: Shirts on a hanger
 
 caption:
   title: Frame & Gearbox
   subtitle: CAD & Construction of Chassis
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  thumbnail: assets/img/portfolio/Mechanical/8020FrameStart.png
 ---
 
 ## Mechanical Planning
@@ -67,4 +67,23 @@ Github
 
 ## Current Build State
 ![Current Build State](assets/img/portfolio/Mechanical/8020FrameStart.png)
+
+## Frame Build Notes (From Daily Journal)
+
+- 11/10/2025: Cut 80/20 to length (2x 27" and 2x 17") using aluminum chop saw, then deburred.
+- 11/15/2025: 80/20 hardware arrived and the main frame was assembled.
+- Next mechanical step: cut vertical supports and finalize gearbox mounting hardware.
+
+<!-- TODO: add photo of 80/20 being cut on the chop saw -->
+![80/20 cutting placeholder](https://placehold.co/1200x675/png?text=80%2F20+Cutting+Photo)
+
+<!-- TODO: add photo of assembled bare 80/20 frame -->
+![Frame assembly placeholder](https://placehold.co/1200x675/png?text=Assembled+80%2F20+Frame)
+
+## Gearbox Iterations
+
+The first gearbox test worked but was extremely loud. I tried lubrication, then adjusted the motor-to-gear spacing. That helped a lot. The final fix was increasing the spacing correctly in CAD (I initially measured diameter instead of radius), which required a couple reprints but brought noise down to an acceptable level.
+
+<!-- TODO: add photo of gearbox side plates and gear train -->
+![Gearbox placeholder](https://placehold.co/1200x675/png?text=Gearbox+Assembly)
 

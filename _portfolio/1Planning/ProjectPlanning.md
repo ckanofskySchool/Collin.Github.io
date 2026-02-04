@@ -12,7 +12,7 @@ caption:
 
 ## Goals
 
-I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success. This project takes inspiration from the recent (Starship)[https://www.starship.xyz/] robots which deliver food around college campuses. The main difference between the two projects though is that the robopack with carry backpacks instead and have a very different control and system layout.
+I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success. This project takes inspiration from the recent [Starship](https://www.starship.xyz/) robots which deliver food around college campuses. The main difference between the two projects though is that the robopack with carry backpacks instead and have a very different control and system layout.
 
 ### Basic Build Goals
 
@@ -37,6 +37,30 @@ I have been working on the brainstorming and planning for this project for over 
 - Selected location can be chosen through voice commands
 - Robot can detect obstacles and chose to avoid or simply stop and wait.
 - Robot can connect to a server where robot data on location, travel, speed, battery, etc. can be accesed and this could potentially lead to mutliple RoboPack units collaborating.
+
+## Project Summary
+
+Robopack is a backpack-carrying robot built for my senior engineering capstone. The first milestone is a reliable follower robot that can track a person, carry a load, and move safely on campus-style paths. The long-term goal is to grow from simple tracking to autonomy and smarter navigation.
+
+Key requirements:
+- Carry a backpack safely and securely
+- Follow a user at walking pace without oscillation
+- Be modular so components can be swapped or upgraded
+- Be safe around people and durable outdoors
+
+## Progress Update (From Daily Journal)
+
+- 10/8/2025: Raspberry Pi AI Camera object detection running and outputting tracking data.
+- 10/9/2025: CIM motor test successful using RC controller and motor controller PWM.
+- 11/10/2025: 80/20 frame material cut and hardware ordered.
+- 11/15/2025: 80/20 main frame assembled.
+- 11/25-12/9/2025: Gearbox iteration cycle to reduce noise and improve gear spacing.
+- 1/6/2026: Frame assembled (no gearboxes yet), motors tested with manual control.
+- 1/27/2026: Robopack followed a user using a deadzone-based algorithm.
+- 1/30/2026: Upgraded to a full PID loop for smoother tracking, safety concerns identified.
+
+<!-- TODO: add photo of early planning sketches or gantt chart -->
+![Planning placeholder](https://placehold.co/1200x675/png?text=Planning+Sketches+%2F+Gantt+Chart)
 
 ## Constantly Updated Bill Of Materials:
 [RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
