@@ -10,120 +10,158 @@ caption:
   thumbnail: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
 ---
 
-# Using MakeraCAM for PCB Milling
+## Goals
 
-## MakeraCAM thoughts
+I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success. This project takes inspiration from the recent (Starship)[https://www.starship.xyz/] robots which deliver food around college campuses. The main difference between the two projects though is that the robopack with carry backpacks instead and have a very different control and system layout.
 
-For my project, I used a pocket cut between the traces and the edge, and while that makes the end result very clean and have nothing but traces left, it is very time consuming to cut every single part except traces out. 
+### Basic Build Goals
 
-When I thought some more about this situation, I wondered if I could use a contour instead to mill just the area around the traces, and take way less time. However, this concept had an isssues, the 2D Contour Toolpath only creates one path around the traces which might not be enough and additionaly, only one mill bit could be selected, unlike the pocket where a larger and detail bit could both be selected.
+- Build a Modular Mounting Frame that will allow customizability and adaptabiltity
+- Build a gearbox that can be mounted on frame to drive wheels
+- Be able to hold a backpack
+- Be able to drive around
+- Not too pricey
+- Robust and Durable even in bad weather conditions
+- Look Amazing!
 
-One interesting solution to this I thought up was to have 2 contours, the first being a .8mm Corn bit contour which had a .1mm offset, meaning another countour cut with the .2mm detail bit ould take off just the edges achieving good space around each path while also having the nice detailed cut. I have yet to test this theory, but hope to do so.
+### Basic Programming/Hardware Goals
 
-## MakeraCAM Workflow - Collin and Aaron Creation
+- Modular Programming setup as well for future project use and easy transport of code testing materials
+- Track and follow a human in front of the robot
+- Assign powers to the wheels according to the tracking data and make the robot follow the user
+- Clean and Organized Code!
 
-Before starting the CAM, make sure you have the MakeraCAM application installed, the .grb files for your custom PCB board(should have at least an F-Cu and EdgeCut file).
+### Advanced Goals
 
-### CAM
-MakeraCAM is the software we use to take a PCB design file and make toolpaths that the machine can follow to create the PCB.
+- Instead of following a user, the robot understands it's surroundings and can navigate itself to a selected location
+- Selected location can be chosen through voice commands
+- Robot can detect obstacles and chose to avoid or simply stop and wait.
+- Robot can connect to a server where robot data on location, travel, speed, battery, etc. can be accesed and this could potentially lead to mutliple RoboPack units collaborating.
 
+## Constantly Updated Bill Of Materials:
+[RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
 
+## Project File Repo to store everything
+[Updated Robopack Github Files (links to GITHUB repo)](https://github.com/Ckanofsky/Robopack)
+[Current Robopack Files (.zip)](assets/Files/Robopack-main.zip)
 
-1. Open up Makera CAM and start a new 3-axis project.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step1.png" width="960" height="540">
+## Tools I Wish To Use in this Project
 
-2. Then we need to import the PCB files. These files are the .grb & .drl files.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step2.png" width="960" height="540">
+- 3D Printing
+- Laser Cutting
+- CNC Machining
+- Metal Fabrication(Circular Saw, Grinder, Bandsaw, Drill press, Tap)
+- Metal CNC Machining
+- PCB Machining
 
-3. Files will then appear under WCS1
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step3.png" width="960" height="540">
+- Rachets
+- Wrenches
+- Impact Driver
 
-4. Once all our files are in the software, they will likely not be in the correct position, so we need to move them to have the bottom left of the files 6mm offset in both the x and y axes. 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step4.png" width="960" height="540">
+## Design Specification Considerations
 
-5. Click and drag over the entire file, which should turn into dotted lines when selected. Then go to the transform tool, or use the keybind “m” to open the move menu. Finally, make sure the bottom left dot in the menu is selected and set both the x and y to 6mm.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step5.png" width="960" height="540">
+1. What do you want your project to do?
 
-6. Now that the files are in place, it’s time to start telling the CNC machine how to cut each part, starting with the traces. The key to making toolpaths in MakeraCAM is to effectively manage which layers are hidden to click and drag over only what needs to be selected. For the traces, we want to hide all layers except the following: FileName-F_Cu.grb & FileName-Edge_Cuts.grb . You might notice that there are .grb_pad files, but we will never use these, so keep them hidden so as not to accidentally select them.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step6.png" width="960" height="540">
+    a backpack carrying robot I have named the "Robopack". This robot will carry around your backpack for you and will give me a starting point for future more intricate and advanced projects.
 
-7. When only the 2 main files, F_Cu and Edge_Cuts, are visible, click and drag over the entire area to select everything. Then, zoom in on one of the edges of the Edge_Cut file and deselect the outermost layer of the edge cut. Note that while it looks like a single line zoomed out, it actually is two offset lines.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step7.png" width="960" height="540">
+2. Is the project for you or someone else?
 
-8. Once the selection is all correct, go up to the top menu and select the 2D paths icon, which looks like an arc with a horizontal tangent line. 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step8.png" width="960" height="540">
+    For me initially, but potentially adverstisable to the school as autonomous helper units.
 
-9. When clicked, a dropdown should appear with a choice for 2D Pocket; select that option. Note that the selection from the previous step should still be active and selected. For the settings, set the End Depth to 0.05mm, Retract to 5mm(for faster cutting).
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step9.png" width="960" height="540">
+3. If someone else, have you talked to them about design specs?
 
-10. Click on the button “Add Tool” and select the .8mm Corn, click select on the bottom right of that menu.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step10.png" width="960" height="540">
+    I have talked a bit to an electrician I know about the electronics of the project
 
-11. Do the same for adding the .2mm 30* Engraving Bit(make sure PCB is selected below the Bit Selection menu.).
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step11.png" width="960" height="540">
+4. Are you considering a group project? What is your part
 
-12. Finally, click calculate at the bottom, and the toolpath should generate. If you would like to hide it until la11ter, it can be hidden using the left menu under the layers area.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step12.png" width="960" height="540">
+    Not really, but if someone wanted to join me and add on to the project, I would be open to collaborators.
 
-13. Once the PCB traces are cut, we need to add the holes if your design has any. If your file has no .drl files, then skip this step. If it does have .drl files, then we need to go into the 2D path icon dropdown and select 2D drilling.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step13.png" width="960" height="540">
+5. Will your project be inside or outside?
 
-14. In the 2D drilling menu, click on the Choose Tool button and select the .8mm Corn mill bit, the same bit we used to cut the traces. Ensure that PCB is still highlighted in the bottom menu of the selection box when the .8mm corn is selected. 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step14.png" width="960" height="540">
+    Mostly outside but a bit of both.
 
-15. Once the tool is selected, set the depth of the drilling to 1.7mm, which is the depth of the PCB board. Then scroll to the bottom of the menu and click calculate. 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step15.png" width="960" height="540">
+6. Will your project be portable?
 
-16. Once the PCB holes are cut, we can then cut the board out of the big copper sheet by cutting along the Edge cut line. However, unlike with traces where we used a 2D pocket, we will instead use a 2D contour cut to only cut along the edge line of our file. Similarly to the traces, select the inside line of the Edge Cut file.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step16.png" width="960" height="540">
+    Yes, the robot needs to be somewhat portable
 
-17. Once selected, go to the 2D paths icon used before and select 2D Contour.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step17.png" width="960" height="540">
+7. Will your project connect to the Internet?
 
-18. Once selected, select the .8mm corn mill bit as the tool, and ensure PCB is still highlighted in the bottom menu of the selection box when the .8mm corn is selected. 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step18.png" width="960" height="540">
+    Yes, it will interact with image vision proccesing and speak to a main base computer
 
-19. Once the tool and vectors(edge cut lines) are selected, choose outside as the path of travel to account for the width of the .8mm bit.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step19.png" width="960" height="540">
+8. Will your project use Bluetooth?
 
-20. Finally, before we calculate this cut file, we need to make sure that the board won’t come loose mid-cut and potentially fly into the bit. We can do this by using Tabs, essentially small areas of the cut area, which we will skip over to keep the milled PCB board attached to the big copper plate. To add these tabs, scroll to the bottom of the 2D Contour menu and select the circle labeled custom under the Tabs header. Then, click on the button labeled “Add” and select where you want to add Tabs. Typically, you want at least 3 tabs distributed equally on the cut, but this can vary depending on the size and shape of the board.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step20.png" width="960" height="540">
+    Probably not but it could if I connect phone integration.
 
-21. Once the tabs have been added, which is shown by a square with an X in it, you can finally click calculate, and the cut file is complete
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step21.png" width="960" height="540">
+9. Does your project use a vinyl cutter?
 
-22. Yay, the board is complete! Now all that is left is to preview and export the toolpaths so that the CNC machine can cut them. To preview the toolpath before cutting, select the preview toolpath icon in the upper menu, which looks like a sheet of paper with a magnifier glass on it. 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step22.png" width="960" height="540">
+    Yes, for branding and warning stickers.
 
-23. Select this icon and check the boxes for all the toolpaths shown.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step23.png" width="960" height="540">
+10. Does your project use a laser cutter?
 
-24. Click the play icon at the bottom to watch the cut preview. The speed of the preview can be adjusted using the slider under the play button, and the upper-right menu box labeled Preview Toolpaths changes what is seen in the preview.
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step24.png" width="960" height="540">
+    Yes, for initial gearbox prototypes
 
-25. Click exit preview
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step25.png" width="960" height="540">
+11. Does your project use a 3D printer?
 
-26. Export the file 
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step26.png" width="960" height="540">
+    Yes, for the wheels and additional complex 3Dparts
 
-27. Select all toolpaths
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step27.png" width="960" height="540">
+12. Does your project use a large CNC machine (Shopbot)?
 
-28. Name file ![LastnameResistorgcode] and save file as a g-code
-<img src="assets/img/portfolio/MakeraCAMworkflow/Step28.png" width="960" height="540">
+    Yes for the expensive wood cutting, but also the small for cutting aluminium for the final gearbox plates
 
-### My Files for the Custom PCB Board
+13. Does your project have intelligence (Arduino, Raspberry Pi,
+computer)?
 
-[PCB Board Design Files](assets/Files/Electrical/SeeedControlBoard.zip)
-[PCB Board CAM files](assets/Files/Electrical/SeeedControlBoard-F_Cu.zip)
+    Yes, a raspberry pi for computing the vision proccesing and communicating back to a home base computer
 
-### Milled and Soldered Board
+14. What are your project inputs?
 
-![Seeed with Headers Placed](assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg)
+    Camera, Microphone, Switches like breakers and safeties.
 
-![Seeed top headers soldered](assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg)
+15. What are your project outputs?
 
-![Seeed Top Final Soldering](assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg)
+    Motors, Speaker
 
-![Seeed Bottom Final Soldering](assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg)
+16. How does your project differ from the project that inspired you?
+
+    The project that inspired me was the [starships](https://www.starship.xyz/) but my project will hold backpacks instead of food and provide a base for many more applications in the future rather than limiting the functionality to one aspect.
+
+17. When was the inspirational project built?
+
+    July 3rd, 2014 was when [starships](https://www.starship.xyz/) took off.
+
+18. Do you have a tutorial or instructions for your project?
+
+    No, I will be taking on the challenge from scratch.
+
+19. How current is the tutorial?
+
+    Does not exist currently.
+
+20. What is the maximum that you want to spend? No more than
+$75.00
+
+    $450, but I will be paying out of pocket as this is a passion project for me.
+
+21. What are the dimensions of your project?
+
+    24"x20"x15" Frame and then some bottom ~6" for the motor + wheels
+
+22. What materials will you use?
+
+    80/20 Framing, CIM Motors, Raspberry Pi, and more that are undetermined as of now.
+
+23. Have you completed the spreadsheet?
+
+    No? I have a rough BOM spreadsheet currently.
+
+24. Are the parts for your project still available?
+
+    Yes, I have a lot of them accesable to me for free or already have them
+
+25. Are the tools you need for the project found in the FabLab?
+
+    Some yes, and some are found in my robotics location.
+
+26. How will you conceal the electronics?
+
+    Using a removable pannel on the bottom of the robot.

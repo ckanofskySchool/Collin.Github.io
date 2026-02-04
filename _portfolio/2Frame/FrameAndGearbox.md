@@ -9,158 +9,62 @@ caption:
   subtitle: CAD & Construction of Chassis
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-## Goals
 
-I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success. This project takes inspiration from the recent (Starship)[https://www.starship.xyz/] robots which deliver food around college campuses. The main difference between the two projects though is that the robopack with carry backpacks instead and have a very different control and system layout.
+## Mechanical Planning
 
-### Basic Build Goals
+### Frame Planning
+I started off my mechanical planning for the RoboPack by thinking about the frame of the robot. From my previous robotics experience, I have learned that modularity and the ability to re-use and adjust is essential. To ensure optimal flexability, I chose to use 80/20 tubing, specifically the 1530 & 1515 series tubing shown below for robust structure, flexible attachment points, and premade strong brackets that can be re-used and moved.
 
-- Build a Modular Mounting Frame that will allow customizability and adaptabiltity
-- Build a gearbox that can be mounted on frame to drive wheels
-- Be able to hold a backpack
-- Be able to drive around
-- Not too pricey
-- Robust and Durable even in bad weather conditions
-- Look Amazing!
+1530 Tubing                                                       15 Series Bracket                      
 
-### Basic Programming/Hardware Goals
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg" width="320" height="240"> 
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png" width="320" height="240"> 
 
-- Modular Programming setup as well for future project use and easy transport of code testing materials
-- Track and follow a human in front of the robot
-- Assign powers to the wheels according to the tracking data and make the robot follow the user
-- Clean and Organized Code!
+### Style Planning
+After getting all the functionality down, I plan to use a nice wood to give a natural style to the robot. Another idea I have is to get plastic parts that can cover the machine as well, but that might be more complicated and expensive.
 
-### Advanced Goals
+## The Build Journey
 
-- Instead of following a user, the robot understands it's surroundings and can navigate itself to a selected location
-- Selected location can be chosen through voice commands
-- Robot can detect obstacles and chose to avoid or simply stop and wait.
-- Robot can connect to a server where robot data on location, travel, speed, battery, etc. can be accesed and this could potentially lead to mutliple RoboPack units collaborating.
+This is a journey through the build proccess describing how the Robopack's mechanical aspects came to be and the steps taken to get there, Enjoy!
 
-## Constantly Updated Bill Of Materials:
-[RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
+### Setting Off - Brainstorming and Drawing
 
-## Project File Repo to store everything
-[Updated Robopack Github Files (links to GITHUB repo)](https://github.com/Ckanofsky/Robopack)
-[Current Robopack Files (.zip)](assets/Files/Robopack-main.zip)
+When I first set out to create the Robopack as a junior, I started by sketching out the ideal Robopack which I envisioned. With a stylist, my ipad, and noteability, I set out to draw how the robopack would look, roughly diagram out how the electronics would work, and get a general idea of the features I wanted.
 
-## Tools I Wish To Use in this Project
+#### Robopack Design Stage
 
-- 3D Printing
-- Laser Cutting
-- CNC Machining
-- Metal Fabrication(Circular Saw, Grinder, Bandsaw, Drill press, Tap)
-- Metal CNC Machining
-- PCB Machining
+Do Note that this was my first brainstormings and not everything was realistic/stayed the same.
 
-- Rachets
-- Wrenches
-- Impact Driver
+<img src="assets/img/portfolio/Mechanical/FullConceptSketch.jpg" width="320" height="240"> 
 
-## Design Specification Considerations
+Note that while the fram was originally going to be made out of 2x4s for cost efficiency, I later chose to use 8020 due to higher rigidity and versatility for future projects.
+<img src="assets/img/portfolio/Mechanical/Frame_BucketSketch.jpg" width="320" height="240"> 
 
-1. What do you want your project to do?
+<img src="assets/img/portfolio/Mechanical/WheelDesignSketch.jpg" width="320" height="240"> 
 
-    a backpack carrying robot I have named the "Robopack". This robot will carry around your backpack for you and will give me a starting point for future more intricate and advanced projects.
+### Starting up the computer - CADing the Robopack
 
-2. Is the project for you or someone else?
+I used the CAD software Solidworks to design and model the Robopack. The reason I chose Solidworks over softwares like fusion360 or onshape is due to the organization of Solidworks having a seperate assembly vs part studio, being pretty profficient in the software as I do have a proffesion certification in Solidworks(CSWP), and because of the powerfull features solidworks provides such as rendering and more.
 
-    For me initially, but potentially adverstisable to the school as autonomous helper units.
+Before diving into the CAD, Solidworks is very picky about how and where files are saved and stored, so I started by creating a file system on a github repo to store all my files neatly and easily. The layout is shown below
 
-3. If someone else, have you talked to them about design specs?
+Github
+└── Robopack/
+    ├── DocumentationPhotos
+    ├── Electrical/
+    │   └── Seeed Control Board Files
+    ├── Mechanical/
+    │   ├── Asthetic Panels
+    │   ├── Drive Gearbox
+    │   ├── Frame
+    │   ├── FrontWheelBoxes
+    │   └── Main Assembly.sldasm
+    └── Programming/
+        └── V1RobopackCode/
+            ├── RaspberryPi Code
+            └── Seeed Code
 
-    I have talked a bit to an electrician I know about the electronics of the project
 
-4. Are you considering a group project? What is your part
+## Current Build State
+![Current Build State](assets/img/portfolio/Mechanical/8020FrameStart.png)
 
-    Not really, but if someone wanted to join me and add on to the project, I would be open to collaborators.
-
-5. Will your project be inside or outside?
-
-    Mostly outside but a bit of both.
-
-6. Will your project be portable?
-
-    Yes, the robot needs to be somewhat portable
-
-7. Will your project connect to the Internet?
-
-    Yes, it will interact with image vision proccesing and speak to a main base computer
-
-8. Will your project use Bluetooth?
-
-    Probably not but it could if I connect phone integration.
-
-9. Does your project use a vinyl cutter?
-
-    Yes, for branding and warning stickers.
-
-10. Does your project use a laser cutter?
-
-    Yes, for initial gearbox prototypes
-
-11. Does your project use a 3D printer?
-
-    Yes, for the wheels and additional complex 3Dparts
-
-12. Does your project use a large CNC machine (Shopbot)?
-
-    Yes for the expensive wood cutting, but also the small for cutting aluminium for the final gearbox plates
-
-13. Does your project have intelligence (Arduino, Raspberry Pi,
-computer)?
-
-    Yes, a raspberry pi for computing the vision proccesing and communicating back to a home base computer
-
-14. What are your project inputs?
-
-    Camera, Microphone, Switches like breakers and safeties.
-
-15. What are your project outputs?
-
-    Motors, Speaker
-
-16. How does your project differ from the project that inspired you?
-
-    The project that inspired me was the [starships](https://www.starship.xyz/) but my project will hold backpacks instead of food and provide a base for many more applications in the future rather than limiting the functionality to one aspect.
-
-17. When was the inspirational project built?
-
-    July 3rd, 2014 was when [starships](https://www.starship.xyz/) took off.
-
-18. Do you have a tutorial or instructions for your project?
-
-    No, I will be taking on the challenge from scratch.
-
-19. How current is the tutorial?
-
-    Does not exist currently.
-
-20. What is the maximum that you want to spend? No more than
-$75.00
-
-    $450, but I will be paying out of pocket as this is a passion project for me.
-
-21. What are the dimensions of your project?
-
-    24"x20"x15" Frame and then some bottom ~6" for the motor + wheels
-
-22. What materials will you use?
-
-    80/20 Framing, CIM Motors, Raspberry Pi, and more that are undetermined as of now.
-
-23. Have you completed the spreadsheet?
-
-    No? I have a rough BOM spreadsheet currently.
-
-24. Are the parts for your project still available?
-
-    Yes, I have a lot of them accesable to me for free or already have them
-
-25. Are the tools you need for the project found in the FabLab?
-
-    Some yes, and some are found in my robotics location.
-
-26. How will you conceal the electronics?
-
-    Using a removable pannel on the bottom of the robot.

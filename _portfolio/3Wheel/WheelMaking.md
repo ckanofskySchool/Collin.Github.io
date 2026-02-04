@@ -9,27 +9,9 @@ caption:
   subtitle: Making the drive wheels
   thumbnail: assets/img/portfolio/DailyJournal/ObjectDetectCover.png
 ---
-# Raspberry Pi Coding
 
-<video width="320" height="240" controls>
-  <source src="assets/img/portfolio/DailyJournal/ObjectDetectVideo.mp4" type="video/mp4">
-</video>
+## Wheel Design
 
-<video width="320" height="240" controls>
-  <source src="assets/img/portfolio/DailyJournal/Motor moving.mp4" type="video/mp4">
-</video>
+[How to make and mold 3D printed wheels](https://hackaday.com/2019/01/30/3d-printed-wheels-get-some-much-needed-grip/)
 
-![full setup](assets/img/portfolio/Electrical/dualMotorFullSetup.jpg)
-
-<video width="320" height="240" controls>
-  <source src="assets/img/portfolio/Electrical/AllMotorSubsytemWorking.mp4" type="video/mp4">
-</video>
-
-## NOTES
-
-10,000 Changes in area mean significant change
-0-600 T value(angle)
-
-Target Values for Mid:
-T380
-D90,000
+[Molding with ReoFlex 30A for wheels](https://www.youtube.com/watch?v=A5z4tklTvMQ)
