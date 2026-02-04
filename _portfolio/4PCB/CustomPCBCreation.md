@@ -26,15 +26,15 @@ I designed and milled a double-sided PCB to mount the Seeed RP2040 and handle mo
 - 11/8/2025: Remilled and used pin headers through holes, then soldered and trimmed. This worked cleanly.
 
 <!-- TODO: add photo of the PCB mounted in the Makera or on the milling bed -->
-<img src="https://placehold.co/1200x675/png?text=PCB+Milling+Setup" width="854" height="480">
+<img src="https://placehold.co/1200x675/png?text=PCB+Milling+Setup" width="1080" height="720" style="display:block; margin:0 auto;">
 
-<img src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg" width="854" height="480">
-
-<img src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg" width="854" height="480">
-
-<img src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg" width="854" height="480">
-
-<img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="854" height="480">
-
+<img src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
 <!-- TODO: add photo of the finished PCB installed on the robot or test bench -->
-<img src="https://placehold.co/1200x675/png?text=Installed+PCB" width="854" height="480">
+<img src="https://placehold.co/1200x675/png?text=Installed+PCB" width="1080" height="720" style="display:block; margin:0 auto;">
+
+
+
+

@@ -30,18 +30,21 @@ This early test setup helped me validate the motor controller and wiring before 
 I used Wago lever connectors so I could swap components without re-soldering. For the battery connections, I soldered EC5 connectors onto 12 AWG wire. Later, I ordered Anderson connectors, extra 12 AWG wire, and a power distribution bus for cleaner, safer routing.
 
 <!-- TODO: add photo of wiring layout on the bench -->
-<img src="https://placehold.co/1200x675/png?text=Bench+Wiring+Layout" width="854" height="480">
-
+<img src="https://placehold.co/1200x675/png?text=Bench+Wiring+Layout" width="1080" height="720" style="display:block; margin:0 auto;">
 ## Electronics Panel (1/7/2026 - 1/12/2026)
 
 I laser cut an acrylic electronics panel and added velcro strips for mounting components. I also designed a 90-degree 3D printed mount for the breaker so it could stand upright. Most components are now mounted, with the Seeed RP2040 kept off to the side for easy programming.
 
 <!-- TODO: add photo of the laser-cut electronics panel with components attached -->
-<img src="https://placehold.co/1200x675/png?text=Electronics+Panel" width="854" height="480">
-
+<img src="https://placehold.co/1200x675/png?text=Electronics+Panel" width="1080" height="720" style="display:block; margin:0 auto;">
 ## Integration Status
 
 - Motor power test successful using RC control
 - Wiring is modular and serviceable
 - Electronics panel assembled and ready for final mounting
+
+
+
+
+
 
