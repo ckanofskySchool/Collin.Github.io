@@ -475,3 +475,6 @@ After I fixed this, I also did a revamp of the RP2040 Code by turning the code i
 As I was testing, I ran into a new issue when my teacher Mr. Budzichowski walked in front of the robot and the robot decided that it didn't like him, so it charged full speed at him...
 
 Ya, bit of a safety issue... luckly he was fast on his feet and was able to skilfully dodge the robot, but I do need a solution for this. A few solutions come to mind. The first is a soft bumper on the outside so that instead of a semi-sharp alluminium frame hitting something or someone, a softer pool noodle impacts instead. Secondly, I want to implement a safety mechanism which shuts off the motor power if a super sudden change in desired power is called for. Lastly, maybe a limit switch on the front of the robot so if an object is hit, then it instantly stops no matter what.
+
+Also I ordered my front wheels but they got delayed to next sunday due to weather...
+
