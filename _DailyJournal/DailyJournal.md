@@ -478,3 +478,6 @@ Ya, bit of a safety issue... luckly he was fast on his feet and was able to skil
 
 Also I ordered my front wheels but they got delayed to next sunday due to weather...
 
+# 2/4/2026
+
+We have been snowed in for the past 2 days of school, so I have been focused on cleaning up documentation and getting my documentation fully updated. I started by re-organizing the portfolio page to 
