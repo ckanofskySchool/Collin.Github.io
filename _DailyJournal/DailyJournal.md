@@ -482,6 +482,17 @@ Also I ordered my front wheels but they got delayed to next sunday due to weathe
 
 We have been snowed in for the past 2 days of school, so I have been focused on cleaning up documentation and getting my documentation fully updated. I started by re-organizing the portfolio pages to highlight key parts of the Robopack's journey, then I used ChatGPT in VSCode for the first time, which allowed the AI to see and change all files in my repo, which was super usefull. I used this tool to change the size of all my images to 1080 width with auto chosen height, which really cleaned up my website. I also had the AI grab documentation from my daily journal and sort the info into each portfolio page which will make my documenting easier because everything I want to referance is consolodated for me.
 
+I also implemented a safety stop into my RP2040 Seeed code where if the change in any one motor is more than a certain threshold, which I set to 30, then the motors are set instantly to stop until the values are within a safe range again. The code is shown below:
 
+```cpp
+if (abs(LP - lastLP) > maxAllowedPowerChange) {
+    RP = 90;
+    LP = 90;
+}
+if (abs(RP - lastRP) > maxAllowedPowerChange) {
+    RP = 90;
+    LP = 90;
+}
+```
 
 
