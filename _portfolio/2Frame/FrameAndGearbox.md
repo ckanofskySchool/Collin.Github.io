@@ -16,8 +16,8 @@ caption:
 I started off my mechanical planning for the RoboPack by thinking about the frame of the robot. From my previous robotics experience, I have learned that modularity and the ability to re-use and adjust is essential. To ensure optimal flexability, I chose to use 80/20 tubing, specifically the 1530 & 1515 series tubing shown below for robust structure, flexible attachment points, and premade strong brackets that can be re-used and moved.
 
 1530 Tubing                                                       15 Series Bracket                      
-<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
-<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg" width="1080" style="display:block; margin:0 auto; height:auto;">
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png" width="1080" style="display:block; margin:0 auto; height:auto;">
 
 ### Style Planning
 After getting all the functionality down, I plan to use a nice wood to give a natural style to the robot. Another idea I have is to get plastic parts that can cover the machine as well, but that might be more complicated and expensive.
@@ -33,10 +33,10 @@ When I first set out to create the Robopack as a junior, I started by sketching 
 #### Robopack Design Stage
 
 Do Note that this was my first brainstormings and not everything was realistic/stayed the same.
-<img src="assets/img/portfolio/Mechanical/FullConceptSketch.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/Mechanical/FullConceptSketch.jpg" width="1080" style="display:block; margin:0 auto; height:auto;">
 Note that while the fram was originally going to be made out of 2x4s for cost efficiency, I later chose to use 8020 due to higher rigidity and versatility for future projects.
-<img src="assets/img/portfolio/Mechanical/Frame_BucketSketch.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
-<img src="assets/img/portfolio/Mechanical/WheelDesignSketch.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/Mechanical/Frame_BucketSketch.jpg" width="1080" style="display:block; margin:0 auto; height:auto;">
+<img src="assets/img/portfolio/Mechanical/WheelDesignSketch.jpg" width="1080" style="display:block; margin:0 auto; height:auto;">
 
 ### Starting up the computer - CADing the Robopack
 
@@ -62,7 +62,7 @@ Github
 
 
 ## Current Build State
-<img src="assets/img/portfolio/Mechanical/8020FrameStart.png" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/Mechanical/8020FrameStart.png" width="1080" style="display:block; margin:0 auto; height:auto;">
 ## Frame Build Notes (From Daily Journal)
 
 - 11/10/2025: Cut 80/20 to length (2x 27" and 2x 17") using aluminum chop saw, then deburred.
@@ -70,15 +70,16 @@ Github
 - Next mechanical step: cut vertical supports and finalize gearbox mounting hardware.
 
 <!-- TODO: add photo of 80/20 being cut on the chop saw -->
-<img src="https://placehold.co/1200x675/png?text=80%2F20+Cutting+Photo" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="https://placehold.co/1200x675/png?text=80%2F20+Cutting+Photo" width="1080" style="display:block; margin:0 auto; height:auto;">
 <!-- TODO: add photo of assembled bare 80/20 frame -->
-<img src="https://placehold.co/1200x675/png?text=Assembled+80%2F20+Frame" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="https://placehold.co/1200x675/png?text=Assembled+80%2F20+Frame" width="1080" style="display:block; margin:0 auto; height:auto;">
 ## Gearbox Iterations
 
 The first gearbox test worked but was extremely loud. I tried lubrication, then adjusted the motor-to-gear spacing. That helped a lot. The final fix was increasing the spacing correctly in CAD (I initially measured diameter instead of radius), which required a couple reprints but brought noise down to an acceptable level.
 
 <!-- TODO: add photo of gearbox side plates and gear train -->
-<img src="https://placehold.co/1200x675/png?text=Gearbox+Assembly" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="https://placehold.co/1200x675/png?text=Gearbox+Assembly" width="1080" style="display:block; margin:0 auto; height:auto;">
+
 
 
 

@@ -16,7 +16,7 @@ caption:
 
 I started with the official `rpicam-hello` object detection demo and modified it to output bounding box center and size over serial. I added a stabilization filter so small jitter in the bounding box doesn't cause constant micro-adjustments.
 
-<video style="display:block; margin:0 auto;" width="1080" height="720" controls>
+<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
   <source src="assets/img/portfolio/DailyJournal/ObjectDetectVideo.mp4" type="video/mp4">
 </video>
 
@@ -24,7 +24,7 @@ I started with the official `rpicam-hello` object detection demo and modified it
 
 For early hardware tests, I drove the CIM motor using a RC plane receiver sending PWM to the motor controller. This validated motor wiring and safety setup before the full control stack was ready.
 
-<video style="display:block; margin:0 auto;" width="1080" height="720" controls>
+<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
   <source src="assets/img/portfolio/DailyJournal/Motor moving.mp4" type="video/mp4">
 </video>
 
@@ -32,9 +32,9 @@ For early hardware tests, I drove the CIM motor using a RC plane receiver sendin
 
 I connected the Pi's tracking output to the Seeed RP2040 so the microcontroller could translate tracking data into motor commands. This gave me the first usable end-to-end pipeline.
 
-<img src="assets/img/portfolio/Electrical/dualMotorFullSetup.jpg" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="assets/img/portfolio/Electrical/dualMotorFullSetup.jpg" width="1080" style="display:block; margin:0 auto; height:auto;">
 
-<video style="display:block; margin:0 auto;" width="1080" height="720" controls>
+<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
   <source src="assets/img/portfolio/Electrical/AllMotorSubsytemWorking.mp4" type="video/mp4">
 </video>
 
@@ -45,14 +45,14 @@ I connected the Pi's tracking output to the Seeed RP2040 so the microcontroller 
 The first follow test used a deadzone method: if the target was outside a position/size range, the robot would set fixed motor powers until the target returned to center. This proved the full system worked, but speed and turning were static.
 
 <!-- TODO: add video of first follow test -->
-<img src="https://placehold.co/1200x675/png?text=First+Follow+Test+Video" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="https://placehold.co/1200x675/png?text=First+Follow+Test+Video" width="1080" style="display:block; margin:0 auto; height:auto;">
 
 ### PID Control (1/28/2026 - 1/30/2026)
 
 I moved to a PID control loop for smoother tracking and more proportional motor response. After fixing a sign error in the angle output, I upgraded from P-only to full PID and verified motor directions.
 
 <!-- TODO: add video of PID tuning test -->
-<img src="https://placehold.co/1200x675/png?text=PID+Tuning+Video" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="https://placehold.co/1200x675/png?text=PID+Tuning+Video" width="1080" style="display:block; margin:0 auto; height:auto;">
 
 ## Safety Considerations
 
@@ -69,3 +69,4 @@ During testing, the robot briefly accelerated toward a person due to a large err
 Target Values for Mid:
 T380
 D90,000
+

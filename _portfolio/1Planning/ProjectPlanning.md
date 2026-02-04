@@ -60,7 +60,7 @@ Key requirements:
 - 1/30/2026: Upgraded to a full PID loop for smoother tracking, safety concerns identified.
 
 <!-- TODO: add photo of early planning sketches or gantt chart -->
-<img src="https://placehold.co/1200x675/png?text=Planning+Sketches+%2F+Gantt+Chart" width="1080" height="720" style="display:block; margin:0 auto;">
+<img src="https://placehold.co/1200x675/png?text=Planning+Sketches+%2F+Gantt+Chart" width="1080" style="display:block; margin:0 auto; height:auto;">
 ## Constantly Updated Bill Of Materials:
 [RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
 
@@ -188,6 +188,7 @@ $75.00
 26. How will you conceal the electronics?
 
     Using a removable pannel on the bottom of the robot.
+
 
 
 
