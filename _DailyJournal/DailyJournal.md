@@ -72,7 +72,7 @@ This code worked amazing and had very simular functions to the example, but a fe
 
 ### Video of the Code Functioning
 
-<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
+<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
   <source src="assets/img/portfolio/DailyJournal/ObjectDetectVideo.mp4" type="video/mp4">
 </video>
 
@@ -82,7 +82,7 @@ Today, I continued working on the electrical testing setup I started on 10/7/202
 
 ### Video of motor moving
 
-<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
+<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
   <source src="assets/img/portfolio/DailyJournal/Motor moving.mp4" type="video/mp4">
 </video>
 
@@ -244,13 +244,13 @@ Uh oh... so I might have tried to attach the 2 sides of the board with solder al
 I once again set out to remill my board, and this time, the holes lined up even closer than before. After milling, I used pin headers through the holes, which were a perfect friction fit to keep the pins held in place without holding them, and soldered on the open side where the pin and pad were available. Once soldered, I flipped the borad over and cut off the plastic and extra end parts of the pin header, then soldered those ends onto the board completing the connection. Whle this method had a slight flaw that the circular pads around the hold which weren't alligned with the holes would have the risk of tearing the hole, I got lucky and while some tracers almost disconnected, all of them remained relatively intact. Below is the board and the step I went through to make the soldering work:
 
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg">
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg">
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg">
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg">
 
 ## 11/13/2025
 
@@ -290,7 +290,7 @@ I have also been working on the electical crimping on the side when I have nothi
 
 Today, we had a very sad loss...
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/DailyJournal/MechanicalPhotos/Order.png" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/DailyJournal/MechanicalPhotos/Order.png">
 
 The reason for which I have dropped 200$ on the harware for my project is because yesterday at robotics, I cut the 80-20 Material for the base of the Robopack, which was the 2 27" pieces and 2 17" pieces. I cut these using a Aluminium Chop Saw, and then used a grinder, debur tool, file, and some helpfull teamates to clean up the edges and make them smooth. Shout out to my robotics mentor Ray Kimble for overseeing the machining proccess and making sure I was cutting safely and correctly!
 
@@ -304,7 +304,7 @@ Due to waiting on the 8020 order & the crimping materials to come in, I will be 
 
 Quick update from yesterday, I finally cut out my topography file as shown below, I was a bit concerned about the CNC breaking due to the depth of which my file went and the vacuum shoe being in the way, but Dr. Taylor helped me lock the vacuum shoe higher up which made the cut a success. 
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/DailyJournal/2x4topo.png" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/DailyJournal/2x4topo.png">
 
 
 Today, as I wait for my crimps and the 80-20 materials to come in, I decided to fix the slight issue in the gearbox CAD which made only one of the 4 holes on the motor align, and then started printing a gearbox for both the left and right side so I am ready to attach when the 80-20 hardware arrives. My hope is that when the 80-20 stuff arrives, I can quickly build the main aspects of the robot and have the spacing and layouts to do my electrical wiring. Things are looking good so far!
@@ -353,20 +353,20 @@ As I was pouring in the material, a critical issue appeared. The material was le
 
 With my issue fixed I proceeded to pour into the mold, with each minute the mold material got less fluid and harder to move, but I was able to fill the mold just in time and put a nice extra coat on top to ensure even if the level of mold went down a bit, the wheel would still have adequate material.
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/MoldingSetup.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/MoldingSetup.jpg">
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/AfterPourChaos.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/AfterPourChaos.jpg">
 
 
 ## 1/20/2026
 
 I spent today removing the molded wheel from the mold itself, which was a bit of a struggle, but not terrible. Once I got the wheel out, I used a wire snip and knife to clean up the edges and the wheel turned out great. Based on the result, I decided to use this molded wheel technique for all 4 wheels.
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg">
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/25Wheel.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/25Wheel.jpg">
 
-<img style="display:block; margin:0 auto; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg" width="1080">
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg">
 
 However, before I mold the rest of my wheels, I had a few improvements I wanted to make to the molding process. The first modification I plan to do is hotglue along the bottom of the wheel hub to help solve the leaking issues. Second, I 3D printed a top clamp which also has a funnel so that I have a bigger area to pour into and any extra buildup is contained and funneled back into the mold once the level has decreased.
 
@@ -378,7 +378,7 @@ Today, I molded my second wheel using the new top clamp, which also acts as a fu
 
 Today after school, I was able to get the Robopack to follow me!!! I used a rough algorithem on the seeedRP2040 which takes in the output from the vision system on the Raspberry Pi, the output being "A T## D##". The A stands for automatic, T for translational meaning the angle from center, and D for distance though it is actual area, not distance being outputed(ik I need to fix this later). The seeedRP2040 takes in this data and does a simple deadzone response, where if the values are outside of a chosen range of Distance & Angle, then the robot responds by setting the motor powers to a single response value until the values are back within the deadzone range. For example: If the human is detected to be to the left of the deadzone, the robot will set motor powers to -10% left motor and +10% right motor until the human is in the center again.
 
-<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
+<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
   <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
 </video>
 
@@ -457,7 +457,7 @@ setPower(output)
 
 For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability. Below is a video of my tuned P-Controller on the robot.
 
-<video style="display:block; margin:0 auto; height:auto;" width="1080" controls>
+<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
   <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
 </video>
 
@@ -481,4 +481,5 @@ Also I ordered my front wheels but they got delayed to next sunday due to weathe
 # 2/4/2026
 
 We have been snowed in for the past 2 days of school, so I have been focused on cleaning up documentation and getting my documentation fully updated. I started by re-organizing the portfolio page to 
+
 
