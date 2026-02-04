@@ -49,7 +49,83 @@ The first follow test used a deadzone method: if the target was outside a positi
 
 ### PID Control (1/28/2026 - 1/30/2026)
 
-I moved to a PID control loop for smoother tracking and more proportional motor response. After fixing a sign error in the angle output, I upgraded from P-only to full PID and verified motor directions.
+ In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controlleris to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for!
+
+Full credit to RoboFTC for the Following PID Explanantion:
+ 
+A **PID controller** is one of the most common control algorithms in robotics. It helps mechanisms reach and hold positions or velocities accurately by adjusting motor power based on feedback.
+
+PIDF stands for:
+
+- **P** — Proportional
+- **I** — Integral
+- **D** — Derivative
+
+---
+
+### 🔧 What is PID?
+
+A PID controller constantly compares a **target value (setpoint)** to the **current value (measured)** and calculates how much power to apply.
+
+#### Basic Formula:
+
+```text
+output = (P * error) + (I * accumulatedError) + (D * errorRate)
+```
+
+#### ✔️ Each term has a role:
+
+- **Proportional (P)** — Corrects based on the current error. Bigger error = bigger correction.
+- **Integral (I)** — Corrects accumulated past errors to eliminate drift or steady-state error.
+- **Derivative (D)** — Predicts future error by reacting to how quickly the error is changing.
+
+---
+
+### 🧠 How PIDF Works (Step-by-Step)
+
+ **1. Calculate Error**
+
+```text
+error = targetPosition - currentPosition
+```
+
+ **2. Compute Terms**
+
+```text
+P = kP * error
+I = kI * totalAccumulatedError
+D = kD * (error - lastError) / deltaTime
+```
+
+ **3. Calculate Output**
+
+```text
+output = P + I + D
+```
+
+ **4. Apply Output**
+
+```text
+setPower(output)
+```
+
+### How to Tune PID constants
+
+1. Proportional (P) — Makes the mechanism respond to error. Raise it until it moves toward the target quickly but doesn’t overshoot too much.
+2. Integral (I) — Use to eliminate small, constant errors that P can’t fix (e.g., due to friction). Be careful: too much I causes wind-up and instability.
+3. Derivative (D) — Add if the mechanism overshoots or oscillates. D slows down the motion as it approaches the target.
+
+
+### How I implemented PID in the Robopack
+
+For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability. Below is a video of my tuned P-Controller on the robot.
+
+<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
+  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
+</video>
+
+
+I later moved to a PID control loop for smoother tracking and more proportional motor response. After fixing a sign error in the angle output, I upgraded from P-only to full PID and verified motor directions.
 
 <!-- TODO: add video of PID tuning test -->
 <img src="https://placehold.co/1200x675/png?text=PID+Tuning+Video" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
