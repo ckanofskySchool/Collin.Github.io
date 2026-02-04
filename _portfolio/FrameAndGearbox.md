@@ -1,12 +1,12 @@
 ---
-title: Planning
-subtitle: General Project Planning
+title: Frame & Gearbox
+subtitle: CAD & Construction of Chassis
 image: assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: Planning
-  subtitle: General Project Planning
+  title: Frame & Gearbox
+  subtitle: CAD & Construction of Chassis
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
 ## Goals

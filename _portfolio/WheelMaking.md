@@ -1,12 +1,12 @@
 ---
-title: Software
-subtitle: The code for the porject
+title: Wheel Making
+subtitle: Making the drive wheels
 image: assets/img/portfolio/DailyJournal/ObjectDetectCover.png
 alt: 
 
 caption:
-  title: Software
-  subtitle: The code for the porject
+  title: Wheel Making
+  subtitle: Making the drive wheels
   thumbnail: assets/img/portfolio/DailyJournal/ObjectDetectCover.png
 ---
 # Raspberry Pi Coding

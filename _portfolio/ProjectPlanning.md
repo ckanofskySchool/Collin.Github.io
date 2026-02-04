@@ -1,12 +1,12 @@
 ---
-title: Carvera PCB Projects
-subtitle: Using MakeraCAM and the Carvera CNC machine
+title: Project Planning
+subtitle: Planning & Gantt charts
 image: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
 alt: 
 
 caption:
-  title: Carvera PCB Projects
-  subtitle: Using MakeraCAM and the Carvera CNC machine
+  title: Project Planning
+  subtitle: Planning & Gantt charts
   thumbnail: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
 ---
 

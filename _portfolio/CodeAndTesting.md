@@ -1,12 +1,12 @@
 ---
-title: Topographical Map Project
-subtitle: CNC Topo Map Project
+title: Code & Testing
+subtitle: Coding & Testing codes for the Robopack
 image: assets/img/portfolio/TopoMap/CutTopo.jpg
 alt: 
 
 caption:
-  title: Topographical Map Project
-  subtitle: CNC Topo Map Project
+  title: Code & Testing
+  subtitle: Coding & Testing codes for the Robopack
   thumbnail: assets/img/portfolio/TopoMap/TopoMap.png
 ---
 

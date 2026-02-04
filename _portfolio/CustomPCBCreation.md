@@ -1,12 +1,12 @@
 ---
-title: Mechanical
-subtitle: Building the robots Frame and Parts
+title: Custom PCB Creation
+subtitle: Creating a double sided PCB board for motor control
 image: assets/img/portfolio/Mechanical/8020FrameStart.png
 alt: 
 
 caption:
-  title: Mechanical
-  subtitle: Building the robots Frame and Parts
+  title: Custom PCB Creation
+  subtitle: Creating a double sided PCB board for motor control
   thumbnail: assets/img/portfolio/Mechanical/8020FrameStart.png
 ---
 

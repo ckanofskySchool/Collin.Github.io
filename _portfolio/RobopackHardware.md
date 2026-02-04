@@ -1,11 +1,11 @@
 ---
-title: Hardware
+title: Robopack Hardware
 subtitle: Electronics for the Robopack
 image: assets/img/portfolio/DailyJournal/ElectronicsSetup.jpg
 alt: 
 
 caption:
-  title: Hardware
+  title: Robopack Hardware
   subtitle: Electronics for the Robopack
   thumbnail: assets/img/portfolio/DailyJournal/ElectronicsSetup.jpg
 ---
