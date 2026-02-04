@@ -24,16 +24,16 @@ I designed a 4-part 3D printed mold with a hex hub insert so the wheel can mount
 
 The first pour had a leak between the hub and the bottom plate. I improvised a weighted press using a toolbox to seal it and finished the pour just in time as the rubber thickened.
 
-<img src="assets/img/portfolio/Mechanical/WheelMolding/MoldingSetup.jpg" width="320" height="240">
-<img src="assets/img/portfolio/Mechanical/WheelMolding/AfterPourChaos.jpg" width="320" height="240">
+<img src="assets/img/portfolio/Mechanical/WheelMolding/MoldingSetup.jpg" width="854" height="480">
+<img src="assets/img/portfolio/Mechanical/WheelMolding/AfterPourChaos.jpg" width="854" height="480">
 
 ### Demolding and Cleanup (1/20/2026)
 
 Demolding took some effort, but the wheel came out clean after trimming the flashing.
 
-<img src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg" width="320" height="240">
-<img src="assets/img/portfolio/Mechanical/WheelMolding/25Wheel.jpg" width="320" height="240">
-<img src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg" width="320" height="240">
+<img src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg" width="854" height="480">
+<img src="assets/img/portfolio/Mechanical/WheelMolding/25Wheel.jpg" width="854" height="480">
+<img src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg" width="854" height="480">
 
 ### Process Improvements (1/21/2026)
 
@@ -46,4 +46,4 @@ I printed a top clamp with a funnel so I could pour faster without overflow. Thi
 - Mount wheels on the robot and tune acceleration
 
 <!-- TODO: add photo of all 4 wheels mounted on the robot -->
-![Wheel mounted placeholder](https://placehold.co/1200x675/png?text=All+Wheels+Mounted+On+Robot)
+<img src="https://placehold.co/1200x675/png?text=All+Wheels+Mounted+On+Robot" width="854" height="480">

@@ -17,8 +17,8 @@ I started off my mechanical planning for the RoboPack by thinking about the fram
 
 1530 Tubing                                                       15 Series Bracket                      
 
-<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg" width="320" height="240"> 
-<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png" width="320" height="240"> 
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/8020_1530.jpg" width="854" height="480"> 
+<img src="assets/img/portfolio/DailyJournal/MechanicalPhotos/4350_90Bracket.png" width="854" height="480"> 
 
 ### Style Planning
 After getting all the functionality down, I plan to use a nice wood to give a natural style to the robot. Another idea I have is to get plastic parts that can cover the machine as well, but that might be more complicated and expensive.
@@ -35,12 +35,12 @@ When I first set out to create the Robopack as a junior, I started by sketching 
 
 Do Note that this was my first brainstormings and not everything was realistic/stayed the same.
 
-<img src="assets/img/portfolio/Mechanical/FullConceptSketch.jpg" width="320" height="240"> 
+<img src="assets/img/portfolio/Mechanical/FullConceptSketch.jpg" width="854" height="480"> 
 
 Note that while the fram was originally going to be made out of 2x4s for cost efficiency, I later chose to use 8020 due to higher rigidity and versatility for future projects.
-<img src="assets/img/portfolio/Mechanical/Frame_BucketSketch.jpg" width="320" height="240"> 
+<img src="assets/img/portfolio/Mechanical/Frame_BucketSketch.jpg" width="854" height="480"> 
 
-<img src="assets/img/portfolio/Mechanical/WheelDesignSketch.jpg" width="320" height="240"> 
+<img src="assets/img/portfolio/Mechanical/WheelDesignSketch.jpg" width="854" height="480"> 
 
 ### Starting up the computer - CADing the Robopack
 
@@ -66,7 +66,7 @@ Github
 
 
 ## Current Build State
-![Current Build State](assets/img/portfolio/Mechanical/8020FrameStart.png)
+<img src="assets/img/portfolio/Mechanical/8020FrameStart.png" width="854" height="480">
 
 ## Frame Build Notes (From Daily Journal)
 
@@ -75,15 +75,15 @@ Github
 - Next mechanical step: cut vertical supports and finalize gearbox mounting hardware.
 
 <!-- TODO: add photo of 80/20 being cut on the chop saw -->
-![80/20 cutting placeholder](https://placehold.co/1200x675/png?text=80%2F20+Cutting+Photo)
+<img src="https://placehold.co/1200x675/png?text=80%2F20+Cutting+Photo" width="854" height="480">
 
 <!-- TODO: add photo of assembled bare 80/20 frame -->
-![Frame assembly placeholder](https://placehold.co/1200x675/png?text=Assembled+80%2F20+Frame)
+<img src="https://placehold.co/1200x675/png?text=Assembled+80%2F20+Frame" width="854" height="480">
 
 ## Gearbox Iterations
 
 The first gearbox test worked but was extremely loud. I tried lubrication, then adjusted the motor-to-gear spacing. That helped a lot. The final fix was increasing the spacing correctly in CAD (I initially measured diameter instead of radius), which required a couple reprints but brought noise down to an acceptable level.
 
 <!-- TODO: add photo of gearbox side plates and gear train -->
-![Gearbox placeholder](https://placehold.co/1200x675/png?text=Gearbox+Assembly)
+<img src="https://placehold.co/1200x675/png?text=Gearbox+Assembly" width="854" height="480">
 

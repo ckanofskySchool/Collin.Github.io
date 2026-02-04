@@ -60,7 +60,7 @@ Key requirements:
 - 1/30/2026: Upgraded to a full PID loop for smoother tracking, safety concerns identified.
 
 <!-- TODO: add photo of early planning sketches or gantt chart -->
-![Planning placeholder](https://placehold.co/1200x675/png?text=Planning+Sketches+%2F+Gantt+Chart)
+<img src="https://placehold.co/1200x675/png?text=Planning+Sketches+%2F+Gantt+Chart" width="854" height="480">
 
 ## Constantly Updated Bill Of Materials:
 [RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
