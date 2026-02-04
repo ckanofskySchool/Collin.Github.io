@@ -7,10 +7,12 @@
 .Goals-video {
   position: relative;
   width: 100%;
+  max-width: 1080px;
   padding-bottom: 56.25%;
   background: #000;
   overflow: hidden;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 .Goals-video iframe,
