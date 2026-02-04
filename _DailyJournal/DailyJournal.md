@@ -455,4 +455,23 @@ setPower(output)
 
 ### How I implemented PID in the Robopack
 
-For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability.
+For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability. Below is a video of my tuned P-Controller on the robot.
+
+<video width="320" height="240" controls>
+  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
+</video>
+
+
+## 1/29/2026
+
+Yesterday I spent around 4 hours on a new human tracker that could track one person and ensure that even if a bigger(larger area) target or a different target went in front of the desired target, the program will still track the original person. While I was able to get the raspberry Pi tracking code to work, I was unable to get the Seeed RP2040 code to make the robot follow me. I was super flustered bc I had spent so much time and nothing was working, so I set it to the side and would pick back up tommorow.
+
+## 1/30/2026
+
+Welp, I found the issue today. The Raspberry Pi Tracking code had an absolute value symbol on the heading angle so there were never negative angles outputed, resulting in the robot infinitly spinning. 
+
+After I fixed this, I also did a revamp of the RP2040 Code by turning the code into a full PID loop rather than just a P loop, and I also went through and made sure all motor movements and directions were as intended. This took a bit but was definatly worth it in the end.
+
+As I was testing, I ran into a new issue when my teacher Mr. Budzichowski walked in front of the robot and the robot decided that it didn't like him, so it charged full speed at him...
+
+Ya, bit of a safety issue... luckly he was fast on his feet and was able to skilfully dodge the robot, but I do need a solution for this. A few solutions come to mind. The first is a soft bumper on the outside so that instead of a semi-sharp alluminium frame hitting something or someone, a softer pool noodle impacts instead. Secondly, I want to implement a safety mechanism which shuts off the motor power if a super sudden change in desired power is called for. Lastly, maybe a limit switch on the front of the robot so if an object is hit, then it instantly stops no matter what.
