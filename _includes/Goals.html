@@ -12,18 +12,40 @@
         </div>
       </div>
 	  
+      {% assign goals = site.data.sitetext[site.locale].Goals %}
+      {% if goals.video_embed %}
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="Goals-video">
+            {{ goals.video_embed }}
+          </div>
+        </div>
+      </div>
+      {% elsif goals.video_url %}
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="Goals-video">
+            <video controls poster="{{ goals.video_poster | default: '' }}">
+              <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      {% else %}
       <div class="row text-center">
-	  {% for service in site.data.sitetext[site.locale].Goals.list %}
+      {% for service in goals.list %}
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ Goals.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="Goals-heading">{{ Goals.title | markdownify }}</h4>
+          <h4 class="Goals-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
-	  {% endfor %}
+      {% endfor %}
       </div>
+      {% endif %}
 	  
     </div>
   </section>
@@ -40,18 +62,40 @@
       </div>
     </div>
   
+    {% assign goals = site.data.sitetext.Goals %}
+    {% if goals.video_embed %}
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="Goals-video">
+          {{ goals.video_embed }}
+        </div>
+      </div>
+    </div>
+    {% elsif goals.video_url %}
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="Goals-video">
+          <video controls poster="{{ goals.video_poster | default: '' }}">
+            <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    {% else %}
     <div class="row text-center">
-  {% for service in site.data.sitetext.Goals.list %}
+    {% for service in goals.list %}
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="{{ Goals.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+          <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="Goals-heading">{{ Goals.title | markdownify }}</h4>
-        {% if Goals.desc %}<div class="text-muted">{{ Goals.desc | markdownify }}</div>{% endif %}
+        <h4 class="Goals-heading">{{ service.title | markdownify }}</h4>
+        {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
       </div>
-  {% endfor %}
+    {% endfor %}
     </div>
+    {% endif %}
   
   </div>
 </section>
