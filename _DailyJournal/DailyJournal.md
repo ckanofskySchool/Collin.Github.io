@@ -478,7 +478,7 @@ Ya, bit of a safety issue... luckly he was fast on his feet and was able to skil
 
 Also I ordered my front wheels but they got delayed to next sunday due to weather...
 
-# 2/4/2026
+## 2/4/2026
 
 We have been snowed in for the past 2 days of school, so I have been focused on cleaning up documentation and getting my documentation fully updated. I started by re-organizing the portfolio pages to highlight key parts of the Robopack's journey, then I used ChatGPT in VSCode for the first time, which allowed the AI to see and change all files in my repo, which was super usefull. I used this tool to change the size of all my images to 1080 width with auto chosen height, which really cleaned up my website. I also had the AI grab documentation from my daily journal and sort the info into each portfolio page which will make my documenting easier because everything I want to referance is consolodated for me.
 
@@ -494,5 +494,25 @@ if (abs(RP - lastRP) > maxAllowedPowerChange) {
     LP = 90;
 }
 ```
+## 2/6/2026
 
+Today, I focused on getting all the programming testing updated and documented. I had a bunch of videos on my phone from testing and I used today to transfer them to my repo, and shrink the file sizes to be more manageable. As a quick update on progress, I have been told by Mr. Dubick that we have 12 days of class left till the projects are due, but I'm feeling pretty good because all I have left currently is to attach the front castor wheels which come this weekend, test some safety features, make the rasoberry Pi auto boot to my program, buy cut finish and attach the fancy outer wood(poplar wood) to the robopack. Lastly, I want to make a nice reveal video for the Robopack and finish up the portfolio nicely.
 
+For what I got done today, like I said prior I did some documenting, but I also focused on the Raspberry Pi program running on startup, which would allow the robot to run and follow a person simply by turning on the power. 
+
+In order to do this, I tried two methods from this [tutorial](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/) that I found.
+
+The first methods I tried was to run the program using .bashrc. This seemed like a good option due to it
+
+## 2/10/2026
+Today I woke up early to go to lowes, bought the nice fancy outer wood, and cut it to the sizes I need. I chose to make a blunt joint at the corner of the wood so that meant for my 24x20 robopack frame, I cut 2x 24" pannels, and two 21.5" pannels which account for the extra wood width on the corners. I plan to use a router to make a .75" bevel on the ends giving a smoother asthetic to the robot. I also cut 4 extra small scrap pieces so that I can experiment with different types of finishes and choose my favorite. I plan to do that tommorow along with drilling the mounting holes into the wood, which I designed a 3D printed template in CAD to help me accuratly drill.
+
+## 2/11/2026
+Today I went and cut out indents in my wood to allow the wood to go around the 80-20 brackets. I used the bandsaw and a square to get my cuts accurate. 
+
+I also got my front wheels today and attached them to the robopack. I got lucky with the hole placement and was able to simply print some washers and attach 3 of the four holes into the bottom of the robopack securing the wheels. 
+
+Lastly, I went and bought some wood stains yesterday to try them out and see if they would make the wood look nicer. I decided to try 3 different stains on my tester pieces and choose my favorite. To explain how staining works, you first have to sand with 220 grit sandpaper, then you apply a coat of pre-stain, and after waiting 15-20 mins, you can paint on a stain into the wood. After staining, you should put on an polyuerthane or polyacrylic finish to protect the wood. 
+
+## 2/12/2026
+Today, I didn't have engineering class but during the second half of my free period, I went over and sanded down the cutouts on my wood frame to ensure everything fit where it was supposed to. Next I plan to drill some mounting holes using my 3D printed templates, as well as some wiring holes so that I can eventually move all my electronics to underneath the robopack wood 
