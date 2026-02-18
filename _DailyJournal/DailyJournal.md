@@ -515,4 +515,55 @@ I also got my front wheels today and attached them to the robopack. I got lucky 
 Lastly, I went and bought some wood stains yesterday to try them out and see if they would make the wood look nicer. I decided to try 3 different stains on my tester pieces and choose my favorite. To explain how staining works, you first have to sand with 220 grit sandpaper, then you apply a coat of pre-stain, and after waiting 15-20 mins, you can paint on a stain into the wood. After staining, you should put on an polyuerthane or polyacrylic finish to protect the wood. 
 
 ## 2/12/2026
-Today, I didn't have engineering class but during the second half of my free period, I went over and sanded down the cutouts on my wood frame to ensure everything fit where it was supposed to. Next I plan to drill some mounting holes using my 3D printed templates, as well as some wiring holes so that I can eventually move all my electronics to underneath the robopack wood 
+Today, I didn't have engineering class but during the second half of my free period, I went over and sanded down the cutouts on my wood frame to ensure everything fit where it was supposed to. Next I plan to drill some mounting holes using my 3D printed templates, as well as some wiring holes so that I can eventually move all my electronics to underneath the robopack wood
+
+## 2/17/2026
+Today, school was off but the lab was open so I came in to work on the most time consuming part of my project, staining the wood. Here are the steps and workflow on how I bought, cut, preppared, stained, and finished my wood:
+
+### Determining the wood I wanted:
+
+When I was searching for a nice outer shell wood for my robopack, I had to main factors in mind. I wanted a wood that would look nice and presentable, but I also didn't want to spend an insane amount of money on the wood. After looking through some different woods on Lowes website and talking with Dr. Taylor, one of the engineering teachers who is well versed in woodworking, I decided upon using Poplar Wood. Poplar wood is a lighter hardwood which is easy to work with and has a nice grain pattern. The one downside was that it has a greenish tint but the stain should get rid of that green completely.
+
+At Lowes, I bought 5 boards of 12"x24" .75" thick Poplar and 1 board of 8"x24" .75" thick Poplar. This worked out nicely because my robopacks dimensions are 20"x24"x12"(w,l,h) so I would have less cutting to do. The total price of the wood order was ~$130.
+
+I also proceeded to buy some stains in order to make the wood look darker and nicer. I bought Minwax Pre-Stain and 3 different Minwax stains to try some different colors and choose my favorite. I bought the smallest volumes they had but in the end it turned out to be the perfect amount.
+
+### Cutting the Poplar Wood to size & adding gaps
+
+Once I had bought all the wood, I planned out where each piece would go and the size of which I would need to cut it too. Before buying I had done some planning to ensure I bought enough wood, but I double checked and layed out the wood before I started cutting it all. Heres the plan:
+
+Left & Right Sides: 24"x12" (3"x3" gap in bottom corners for the 8020 mounting plate) 
+Front & Back Sides: 21.5"x12" ( 1/4" bevel on one side only on 12" edge to give less boxy asthetic)
+Bottom Sides: 24"x12" + 24"x8" to fill the 20" space (3"x1.5" gap in outer side corners for 8020 tubing)
+
+I also had to cut an 1/8 off several of the so called 24" pieces because they were actually 24.125"
+
+To make all the general shape cuts such as cutting the 24"x12" to 21.5" for the front and back, or correcting the 24.125" to be 24", I used the table saw as seen below in the short video:
+
+<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
+  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
+</video>
+
+To cut the gaps in the wood, I chose to use the bandsaw instead because the table saw would leave a circular grove in the wood, whereas the bandsaw cuts veritically so I can cut perpindicular angles. The downside was that the clamp on the bandsaw wasn't super straight, but I tried my best and got the cuts relatively straight. Below is all the wood after cutting:
+
+### Prepping the wood - Sanding
+
+Once all the boards were cut and I ensured that they would fit their intended area, I began my long and difficult sanding journey to get the boards ready for staining. According to the instructions on the Minwax stain, I used  220 grit sandpaper on a orbital sander on every face of each piece, yes, even the edge faces and gap faces. It took like 2 hours in total I think. 
+
+After using the orbital sander, I started sanding the edges & corners of each piece by hand, ensuring everything was nice and smooth, also a massive pain. I think I spent an hour or so and my hand was hurting a bit by the end, but I'm probably fine.
+
+Finally, I used the router table and a 1/4" Bevel bit to make the roundings on the front and back panels. While they turned out a little bit rough, I used the orbital sander with the 220 grit sandpaper and cleaned up the round making it look nice.
+
+### Prepping the wood - Pre-Stain
+
+Once all my pieces were sanded, I brought them outside to do the final steps before staining the wood. I started by using a brush to get any big chunks of dust or woodchips off the boards. Then, I used a damp paper towel and wiped down each board to try and get all the sawdust off the boards leaving the board ready for the Pre-Stain coat.
+
+Once the wood had dried from the damp towel, I applied the Minwax Pre-Stain I bought on the wood using a foam brush, and set a 10 minute timer. Once the timer finishes, it will be time to stain.
+
+### Staining the wood
+
+After the Pre-Stain coat dried for 10 minutes, I applied my Minwax 232 Red Chestnut Stain which I had chosen as the color to stain my wood. I once again used a foam brush(different one than the pre-stain!) to apply a coat of stain on the wood. I tried to not make it too thick but I'm not sure if I did it that well, but I tried lol. After staining, I let the piece dry for a day.
+
+### Finishing the wood
+
+Undone yet :0
