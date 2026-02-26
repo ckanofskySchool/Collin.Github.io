@@ -528,7 +528,7 @@ At Lowes, I bought 5 boards of 12"x24" .75" thick Poplar and 1 board of 8"x24" .
 
 I also proceeded to buy some stains in order to make the wood look darker and nicer. I bought Minwax Pre-Stain and 3 different Minwax stains to try some different colors and choose my favorite. I bought the smallest volumes they had but in the end it turned out to be the perfect amount.
 
-### Cutting the Poplar Wood to size & adding gaps
+### Cutting the Poplar Wood to size, drilling holes, & adding gaps
 
 Once I had bought all the wood, I planned out where each piece would go and the size of which I would need to cut it too. Before buying I had done some planning to ensure I bought enough wood, but I double checked and layed out the wood before I started cutting it all. Heres the plan:
 
@@ -545,6 +545,8 @@ To make all the general shape cuts such as cutting the 24"x12" to 21.5" for the 
 </video>
 
 To cut the gaps in the wood, I chose to use the bandsaw instead because the table saw would leave a circular grove in the wood, whereas the bandsaw cuts veritically so I can cut perpindicular angles. The downside was that the clamp on the bandsaw wasn't super straight, but I tried my best and got the cuts relatively straight. Below is all the wood after cutting:
+
+Then, I used some 3D printed drilling templates I made previously to help me drill consistent holes for mounting the boards. I didn't have a metal busing in the templates so I had to be carefull to drill through the template, not drill the template itself.
 
 ### Prepping the wood - Sanding
 
@@ -564,6 +566,63 @@ Once the wood had dried from the damp towel, I applied the Minwax Pre-Stain I bo
 
 After the Pre-Stain coat dried for 10 minutes, I applied my Minwax 232 Red Chestnut Stain which I had chosen as the color to stain my wood. I once again used a foam brush(different one than the pre-stain!) to apply a coat of stain on the wood. I tried to not make it too thick but I'm not sure if I did it that well, but I tried lol. After staining, I let the piece dry for a day.
 
+I then came back the next day and stained the back of the board. However I was unable to do a second coat because I ran out of stain and was just barely able to finish my first coat at the expense of getting stained a bit myself.
+
 ### Finishing the wood
 
-Undone yet :0
+Due to time constraints, I did not apply a finish to the wood.
+
+### Final Results
+
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+
+## 2/18-26/2026 
+
+### Attaching the wood frame
+
+Once the frame was all done, I went to attach my wood boards to the frame, but I ran into a bit of an issue. My bolts were too short to reach through the wood and into the nut below. To fix this issue, I had to buy a 25 pack of 1.125" bolts from McMasterCar because apparently local hardware stores don't sell this size(I tried...).
+
+Once the screws arrived, I attached the boards to the metal chassis, aligned the top of the boards on the side, and below is how it turned out.
+
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+
+### Re-Attaching Wiring to wooden frame
+
+I decided to swap my wiring from the acrylic piece I cut that was a bit too small to fit everything onto the wood. To do so, I used a lot of velcro so everything could be adjustable and nothing truly permanent or needing holes in the wood. I attached most of the electronics on the underside of the robot, but I placed the main breaker and battery on the top so they would be easy to access to turn off the robot and to swap battery's. I also ended up putting my raspberry pi and camera at the top becasue they are packaged together and by attaching with velcro on the inner front wall, the camera has a good view of the user. Below is my final wiring:
+
+#### Bottom Wiring:
+
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+
+#### Front Side Wiring:
+
+<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+
+
+
+### Tuning the motion of the robopack
+
+Once the robopack had all the proper electronics attached and the final frame on, I went back into my code to refine the tuning. Originally I tried to tune multiple variables at once, such as tuning Kp and Kd at the same time but I was not getting great results from this and decided to take a step back to think about my approach.
+
+After taking some time to think, I decided to start simple and only use the P of the PID controller to have just direct error based correction. I started with a distance Kp of 0.04 which I had used in previous PID testing trials and a angular Kp of 0.75 which I also once used in previous tests. The first test run was immensely better than any of the other trials I had run before and I knew I was on the right track.
+
+#### Trial #1 - Distance(Kp=0.04, Ki=0.00, Kd=0.00) & Angular Kp(Kp=0.75, Ki=0.00, Kd=0.00)
+Distance Results: 
+- Smooth forward motion and reactions, bit jerky when it comes to stopping but pretty good
+
+Angle Results: 
+- Decent turning but overshooting and not correcting small/mid error, not as reactive to big turns
+
+#### Trial #2 - Distance(Kp=0.04, Ki=0.00, Kd=0.00) & Angular Kp(Kp=1, Ki=0.00, Kd=0.00)
+Distance Results: 
+- No changes applied from trial #1
+
+Angle Results: 
+- Now corrects small/mid errors, but is overshooting back and forth.
+
+#### Trial #3 - Distance(Kp=0.06, Ki=0.00, Kd=0.02) & Angular Kp(Kp=1, Ki=0.00, Kd=0.1)
+Distance Results: 
+- NEED TESTING
+
+Angle Results: 
+- Looking amazing, accurate yet smooth with the Kd dampening helping when on target to not oscilate.
