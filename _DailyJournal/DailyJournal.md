@@ -620,9 +620,37 @@ Distance Results:
 Angle Results: 
 - Now corrects small/mid errors, but is overshooting back and forth.
 
-#### Trial #3 - Distance(Kp=0.06, Ki=0.00, Kd=0.02) & Angular Kp(Kp=1, Ki=0.00, Kd=0.1)
+#### Trial #3 - Distance(Kp=0.06, Ki=0.00, Kd=0.02) & Angular Kp(Kp=1, Ki=0.00, Kd=0.1) 
 Distance Results: 
-- NEED TESTING
+- Much worse so I put it back to normal
 
 Angle Results: 
 - Looking amazing, accurate yet smooth with the Kd dampening helping when on target to not oscilate.
+
+#### Trial #4 - Distance(Kp=0.04, Ki=0.00, Kd=0.00) & Angular Kp(Kp=1, Ki=0.00, Kd=0.1) 
+Distance Results: 
+- Back to being good, but I noticed that it has trouble holding a consistent following speed when I am walking. I am going to try a PIDF to account for friction so that the movement is smoother
+
+Angle Results: 
+- No changes applied from trial #3
+
+### Implementing a PIDF controller for Distance
+
+To try and hold a more constant following speed, I tried implementing a PIDF controller(tecnically a PDF controller bc I don't use Integral). The F coefficient called Feedforward is used to apply a constant force to the controllers output, helping the mechanism overcome friction and have more stable movements.
+
+Originally I made the F coefficient myself by simply applying an extra forwards power when the ouput was forwards, and vise versa for backwards. This works really good when it came to the distance and keeping a consistent speed, but when standstill, the power would still apply causing the turning to get messed up and be overly reactive. To fix this, I turned to my best of friends, ChatGPT and asked it about some different solutions I could use. I chose to implement a more complex system which only boosts the power on small inputs for the drive, but any large movements do not have the boost applied. I also tried implementing this on the turning PID but it made it a lot worse, so I only implemented F on the drive portion. Below is the F code concept ChatGPT gave me:
+
+```cpp
+float minMovePower = 7;
+
+if (abs(speedCorrection) > 0) {
+  speedCorrection = 
+    constrain(speedCorrection,
+              -speedLim,
+              speedLim);
+
+  if (abs(speedCorrection) < minMovePower) {
+    speedCorrection = minMovePower * (speedCorrection > 0 ? 1 : -1);
+  }
+}
+```
