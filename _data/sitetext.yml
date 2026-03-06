@@ -20,6 +20,8 @@ en: &DEFAULT_EN
     title: "Introducing: The Robopack"
     text: "A robot that carry's your backpack, so you don't have to!"
     section: Goals
+    image_above_video: "assets/img/portfolio/RoboPackSlide-CollinK.png"
+    image_above_video_alt: "RoboPack overview image"
     video_embed: |
       <div style="max-width:1080px;margin:0 auto;">
         <video controls poster="https://placehold.co/1280x720/png?text=Robopack+Video+Placeholder" style="display:block;width:100%;height:auto;">

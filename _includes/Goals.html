@@ -13,6 +13,13 @@
       </div>
 	  
       {% assign goals = site.data.sitetext[site.locale].Goals %}
+      {% if goals.image_above_video %}
+      <div class="row">
+        <div class="col-lg-10 mx-auto mb-4">
+          <img class="img-fluid rounded" src="{{ goals.image_above_video }}" alt="{{ goals.image_above_video_alt | default: 'RoboPack image' }}">
+        </div>
+      </div>
+      {% endif %}
       {% if goals.video_embed %}
       <div class="row">
         <div class="col-lg-10 mx-auto">
@@ -63,6 +70,13 @@
     </div>
   
     {% assign goals = site.data.sitetext.Goals %}
+    {% if goals.image_above_video %}
+    <div class="row">
+      <div class="col-lg-10 mx-auto mb-4">
+        <img class="img-fluid rounded" src="{{ goals.image_above_video }}" alt="{{ goals.image_above_video_alt | default: 'RoboPack image' }}">
+      </div>
+    </div>
+    {% endif %}
     {% if goals.video_embed %}
     <div class="row">
       <div class="col-lg-10 mx-auto">
