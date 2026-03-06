@@ -654,3 +654,23 @@ if (abs(speedCorrection) > 0) {
   }
 }
 ```
+
+## 2/27/2026
+
+The Robopack is working!!! After implementing the PIDF controller for distance, I was happy with the control my robot had and declared the V1 Robopack project a success! I also learned that the Robopack is strong enough to carry me inside it so I had some fun with friends where my Robopack chased them while I sat inside for the ride. Charlotte Latin Fab Lab instagram account posted a video of me in the Robopack and it got 1.4k views or something, which is cool and fun to have my project public.
+
+## 2/28/2026 - 3/3/2026
+
+I have been working on a 1 slide presentation of the RoboPack, I have been using solidworks visualizer to make renderings of differing parts of the project and Canva for the slide itself and the outline.
+
+## 3/4/2026
+
+Today, I worked some more on my 1 slide presentation, I was able to make the solidworks rendering have no background and then orriented the slides background as the rendering, which allowed the shadows and lighting to blend naturally into the slide, instead of having a slight box around the image do to slight change in color bc of the inconsistent color caused by lighting.
+
+## 3/5/2026
+
+The RoboPack slideshow was submited today, and the V1 of the project is officially turned in. During class, a random person was drawn to present their slide and project to the class. Also my Andymark wheels to replace my molded wheels that keep slipping came in today, so I started assembling them, and got the tires and tube on the inner rim. I still need to install the side hub caps and inflate the tube.
+
+## 3/6/2026
+
+Today, we continued watching presentations and I got to present today, which went well. I had the RoboPack folow me on stage, and then presented my slideshow and awnsered questions from Mr. Dubick and my classmates.
