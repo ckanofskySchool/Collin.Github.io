@@ -673,4 +673,4 @@ The RoboPack slideshow was submited today, and the V1 of the project is official
 
 ## 3/6/2026
 
-Today, we continued watching presentations and I got to present today, which went well. I had the RoboPack folow me on stage, and then presented my slideshow and awnsered questions from Mr. Dubick and my classmates.
+Today, we continued watching presentations and I got to present today, which went well. I had the RoboPack folow me on stage, and then presented my slideshow and awnsered questions from Mr. Dubick and my classmates. I also used my free period today to install the side hub caps, and got the tires ready to be inflated.
