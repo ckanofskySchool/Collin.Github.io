@@ -1,7 +1,7 @@
 ---
 title: Daily Journal
 subtitle: Everyday documentation of robot creation
-image: assets/img/portfolio/04-full.jpg
+image: assets/img/portfolio/Mechanical/8020FrameStart.png
 alt: 
 ---
 
