@@ -1,13 +1,13 @@
 ---
 title: Project Planning
 subtitle: Planning & Gantt charts
-image: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
+image: assets/img/portfolio/Planning/RobotConceptDrawing.png
 alt: 
 
 caption:
   title: Project Planning
   subtitle: Planning & Gantt charts
-  thumbnail: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
+  thumbnail: assets/img/portfolio/Planning/RobotConceptDrawing.png
 ---
 
 ## Goals
