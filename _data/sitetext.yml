@@ -95,11 +95,6 @@ en: &DEFAULT_EN
     body: "My name is Collin Kanofsky and I am a senior engineering student at Charlotte Latin School. Throughout my life, I have always loved robots and ended up leading two robotics competition teams where I learned tons of CAD, Leadership, Software, and so many more amazing skills that continute to help me to this day. With this project, the Robopack, I wanted to continue my love for robotics through an impactful and practical means. While I will admit my passion for innovation is what pushes me the most, the possibilities for this project to help others is another big motivator of this project. I hope you enjoy watching my journey and fun as I build this robot!"
     section: about
 
-    title: "Project Learnings"
-    text: "What I have learned throughout this project"
-    body: ""
-    section: about
-
   logo:
     section: logo
     max-height: 100px
@@ -126,19 +121,15 @@ en: &DEFAULT_EN
     
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    title: "Final Reflection"
+    text: "Use this section for your 3-5 paragraph reflection on the project."
+    section: reflection
+    paragraphs:
+      - "Paragraph 1: Summarize the project goals and what you set out to build."
+      - "Paragraph 2: Reflect on the biggest challenge you faced and how you solved it."
+      - "Paragraph 3: Explain the most important technical skills or concepts you learned."
+      - "Paragraph 4: Describe what you would improve or change if you had more time."
+      - "Paragraph 5: Conclude with what this project means to you and your next steps."
 
   footer:
     legal: "Privacy Policy"

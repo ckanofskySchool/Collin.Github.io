@@ -21,8 +21,8 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Daily Journal"
       section: DailyJournal
-    - title: "Contact"
-      section: contact
+    - title: "Final Reflection"
+      section: reflection
 en-US:
   <<: *DEFAULT_EN
 en-CA:
