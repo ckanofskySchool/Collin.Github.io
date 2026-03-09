@@ -122,7 +122,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Final Reflection"
-    text: "Use this section for your 3-5 paragraph reflection on the project."
+    text: "Reflecting on what I have learned throughout my journey."
     section: reflection
     paragraphs:
       - "Paragraph 1: Summarize the project goals and what you set out to build."
