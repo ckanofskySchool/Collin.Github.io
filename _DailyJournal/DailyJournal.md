@@ -674,3 +674,7 @@ The RoboPack slideshow was submited today, and the V1 of the project is official
 ## 3/6/2026
 
 Today, we continued watching presentations and I got to present today, which went well. I had the RoboPack folow me on stage, and then presented my slideshow and awnsered questions from Mr. Dubick and my classmates. I also used my free period today to install the side hub caps, and got the tires ready to be inflated.
+
+## 3/23/2026
+
+We back from spring break yall!! It was super fun but do you know what is even more fun! Tuning the Robopack PID's for an hour!!! Today, I observed the robopacks motion and attempted to make the movements more fluid and accurate. The main change I made today was I implemented a high speed Angular PID to make the robopacks turning less sensitive at higher speeds, and then I had gemini help me with integrating this PID gradually and scale it smoothly as the robopacks speed increased. This worked very well, but it also opened my eyes to the fact that my normal Angular PID might have too high of a D value or the deadzone might be too big causing it to stall before correcting large errors.
