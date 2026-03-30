@@ -678,3 +678,7 @@ Today, we continued watching presentations and I got to present today, which wen
 ## 3/23/2026
 
 We back from spring break yall!! It was super fun but do you know what is even more fun! Tuning the Robopack PID's for an hour!!! Today, I observed the robopacks motion and attempted to make the movements more fluid and accurate. The main change I made today was I implemented a high speed Angular PID to make the robopacks turning less sensitive at higher speeds, and then I had gemini help me with integrating this PID gradually and scale it smoothly as the robopacks speed increased. This worked very well, but it also opened my eyes to the fact that my normal Angular PID might have too high of a D value or the deadzone might be too big causing it to stall before correcting large errors.
+
+## 3/24-30/2026
+
+I have been optimizing my PID's during this time and have focused on adding a safety feature to the code. Now, when the camera looses it's target for more than .2 seconds, the Robopack full stops and waits for the target to be regained until it can move again. While I got the safety feature working fairly easily, It took a long time and many modifications to the code to make sure the safety didn't negatively effect the previous tracking and kept the following smooth, but I was able to do so by adjusting the incoming data rate and 
