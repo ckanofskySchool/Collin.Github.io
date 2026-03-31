@@ -29,7 +29,7 @@ en: &DEFAULT_EN
           Your browser does not support the video tag.
         </video>
       </div>
-    video_url: "assets\img\RoboPackDemoVid.mp4"
+    video_url: "assets/img/RoboPackDemoVid.mp4"
     video_type: "video/mp4"
     video_poster: "https://placehold.co/1280x720/png?text=Robopack+Video+Placeholder"
 
