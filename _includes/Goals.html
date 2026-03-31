@@ -20,22 +20,22 @@
         </div>
       </div>
       {% endif %}
-      {% if goals.video_embed %}
+      {% if goals.video_url %}
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="Goals-video">
+            <video controls preload="metadata" playsinline poster="{{ goals.video_poster | default: goals.image_above_video | default: '' }}">
+              <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+      {% elsif goals.video_embed %}
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class="Goals-video">
             {{ goals.video_embed }}
-          </div>
-        </div>
-      </div>
-      {% elsif goals.video_url %}
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="Goals-video">
-            <video controls poster="{{ goals.video_poster | default: '' }}">
-              <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
-              Your browser does not support the video tag.
-            </video>
           </div>
         </div>
       </div>
@@ -77,22 +77,22 @@
       </div>
     </div>
     {% endif %}
-    {% if goals.video_embed %}
+    {% if goals.video_url %}
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="Goals-video">
+          <video controls preload="metadata" playsinline poster="{{ goals.video_poster | default: goals.image_above_video | default: '' }}">
+            <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    {% elsif goals.video_embed %}
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="Goals-video">
           {{ goals.video_embed }}
-        </div>
-      </div>
-    </div>
-    {% elsif goals.video_url %}
-    <div class="row">
-      <div class="col-lg-10 mx-auto">
-        <div class="Goals-video">
-          <video controls poster="{{ goals.video_poster | default: '' }}">
-            <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
-            Your browser does not support the video tag.
-          </video>
         </div>
       </div>
     </div>

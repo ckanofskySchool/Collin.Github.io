@@ -22,16 +22,9 @@ en: &DEFAULT_EN
     section: Goals
     image_above_video: "assets/img/portfolio/RoboPackSlide-CollinK.png"
     image_above_video_alt: "RoboPack overview image"
-    video_embed: |
-      <div style="max-width:1080px;margin:0 auto;">
-        <video controls poster="assets\img\RoboPackDemoVid.mp4" style="display:block;width:100%;height:auto;">
-          <source src="assets\img\RoboPackDemoVid.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
     video_url: "assets/img/RoboPackDemoVid.mp4"
     video_type: "video/mp4"
-    video_poster: "https://placehold.co/1280x720/png?text=Robopack+Video+Placeholder"
+    video_poster: "assets/img/portfolio/RoboPackSlide-CollinK.png"
 
   portfolio:
     title: "Portfolio"
