@@ -5,14 +5,23 @@
 }
 
 .Goals-video {
+  --goals-video-width: 16;
+  --goals-video-height: 9;
   position: relative;
   width: 100%;
   max-width: 1080px;
-  padding-bottom: 56.25%;
+  aspect-ratio: var(--goals-video-width) / var(--goals-video-height);
   background: #000;
   overflow: hidden;
   border-radius: 8px;
   margin: 0 auto;
+}
+
+@supports not (aspect-ratio: 1 / 1) {
+  .Goals-video {
+    height: 0;
+    padding-bottom: calc(var(--goals-video-height) / var(--goals-video-width) * 100%);
+  }
 }
 
 .Goals-video iframe,

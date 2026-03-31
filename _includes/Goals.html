@@ -13,18 +13,11 @@
       </div>
 	  
       {% assign goals = site.data.sitetext[site.locale].Goals %}
-      {% if goals.image_above_video %}
-      <div class="row">
-        <div class="col-lg-10 mx-auto mb-4">
-          <img class="img-fluid rounded" src="{{ goals.image_above_video }}" alt="{{ goals.image_above_video_alt | default: 'RoboPack image' }}">
-        </div>
-      </div>
-      {% endif %}
       {% if goals.video_url %}
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <div class="Goals-video">
-            <video controls preload="metadata" playsinline poster="{{ goals.video_poster | default: goals.image_above_video | default: '' }}">
+          <div class="Goals-video" style="--goals-video-width: {{ goals.video_width | default: 16 }}; --goals-video-height: {{ goals.video_height | default: 9 }};">
+            <video controls preload="metadata" playsinline{% if goals.video_poster %} poster="{{ goals.video_poster }}"{% endif %}>
               <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
               Your browser does not support the video tag.
             </video>
@@ -70,18 +63,11 @@
     </div>
   
     {% assign goals = site.data.sitetext.Goals %}
-    {% if goals.image_above_video %}
-    <div class="row">
-      <div class="col-lg-10 mx-auto mb-4">
-        <img class="img-fluid rounded" src="{{ goals.image_above_video }}" alt="{{ goals.image_above_video_alt | default: 'RoboPack image' }}">
-      </div>
-    </div>
-    {% endif %}
     {% if goals.video_url %}
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <div class="Goals-video">
-          <video controls preload="metadata" playsinline poster="{{ goals.video_poster | default: goals.image_above_video | default: '' }}">
+        <div class="Goals-video" style="--goals-video-width: {{ goals.video_width | default: 16 }}; --goals-video-height: {{ goals.video_height | default: 9 }};">
+          <video controls preload="metadata" playsinline{% if goals.video_poster %} poster="{{ goals.video_poster }}"{% endif %}>
             <source src="{{ goals.video_url }}" type="{{ goals.video_type | default: 'video/mp4' }}">
             Your browser does not support the video tag.
           </video>
