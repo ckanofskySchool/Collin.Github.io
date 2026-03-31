@@ -20,6 +20,8 @@ en: &DEFAULT_EN
     title: "Introducing: The Robopack"
     text: "A robot that carry's your backpack, so you don't have to!"
     section: Goals
+    image_above_video: "assets/img/portfolio/RoboPackSlide-CollinK.png"
+    image_above_video_alt: "RoboPack overview image"
     video_url: "assets/img/RoboPackDemoVid.mp4"
     video_type: "video/mp4"
     video_width: 854
