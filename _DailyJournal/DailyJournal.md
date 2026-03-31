@@ -682,3 +682,7 @@ We back from spring break yall!! It was super fun but do you know what is even m
 ## 3/24-30/2026
 
 I have been optimizing my PID's during this time and have focused on adding a safety feature to the code. Now, when the camera looses it's target for more than .2 seconds, the Robopack full stops and waits for the target to be regained until it can move again. While I got the safety feature working fairly easily, It took a long time and many modifications to the code to make sure the safety didn't negatively effect the previous tracking and kept the following smooth, but I was able to do so by adjusting the incoming data rate and 
+
+## 3/31/2026
+
+Today, I continued trying PID tuning and learned about a PID Controller style called a Gain-Scheduled PID, which is simular to what I did with my low speed and high speed PID with interpolation inbetween to smoothly scale the controller between two PID setpoints. I had AI modify the code just a bit to make the Gain-Scheduled PID more defined and easier to read and interperet.
