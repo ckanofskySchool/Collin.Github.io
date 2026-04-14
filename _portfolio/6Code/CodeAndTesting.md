@@ -38,18 +38,15 @@ I connected the Pi's tracking output to the Seeed RP2040 so the microcontroller 
   <source src="assets/img/portfolio/Electrical/AllMotorSubsytemWorking.mp4" type="video/mp4">
 </video>
 
-## Control Algorithms
+# Seeed Xiao RP2040 Code - Control Algorithm
 
 ### Deadzone Control (1/27/2026)
 
-The first follow test used a deadzone method: if the target was outside a position/size range, the robot would set fixed motor powers until the target returned to center. This proved the full system worked, but speed and turning were static.
-
-<!-- TODO: add video of first follow test -->
-<img src="https://placehold.co/1200x675/png?text=First+Follow+Test+Video" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
+The first follow test used a deadzone method: if the target was outside a position/size range, the robot would set fixed motor powers until the target returned to center. This proved the full system worked, but speed and turning were static and the movements were not fluid at all.
 
 ### PID Control (1/28/2026 - 1/30/2026)
 
- In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controlleris to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for!
+In robotics, we use a method of controlling mechanisms called a PID Controller. The purpose of a PID Controlleris to compare where something is, to where it should be, and correct an appropriate amount to reach the desired destination. This proccess is continuously looped until the the desired destination is reached. Lets break down how the PID works and what PID stands for!
 
 Full credit to RoboFTC for the Following PID Explanantion:
  
@@ -118,32 +115,12 @@ setPower(output)
 
 ### How I implemented PID in the Robopack
 
-For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability. Below is a video of my tuned P-Controller on the robot.
-
-<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
-  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
-</video>
-
-
-I later moved to a PID control loop for smoother tracking and more proportional motor response. After fixing a sign error in the angle output, I upgraded from P-only to full PID and verified motor directions.
-
-<!-- TODO: add video of PID tuning test -->
-<img src="https://placehold.co/1200x675/png?text=PID+Tuning+Video" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
+For the robopack program I tested today, I chose to only implement a PD-Controller. The reason for this is due to the scenario my robot is in where there is no continously occuring error for the I term to correct and the simplicity of a PD-Controller.
 
 ## Safety Considerations
 
-During testing, the robot briefly accelerated toward a person due to a large error spike. Planned safety improvements:
-- Soft bumper to protect people and the frame
-- Motor power rate limits to prevent sudden spikes
-- Front limit switch to cut power on impact
+During testing, the robot briefly accelerated toward a person due to a large error spike. To solve the safety issue, I re-worked the code to do a complete stop when camera feed is blocked or target is lost. However, this brought a whole host of problems with the robot spontaniously stopping mid movements, so I had to up the sensitivity of the change in target size and position and this fixed the issue by send more data points meaning the safety wasn't triggered until it was actually needed.
 
-## NOTES
-
-10,000 Changes in area mean significant change
-0-600 T value(angle)
-
-Target Values for Mid:
-T380
-D90,000
+# Final Code:
 
 
