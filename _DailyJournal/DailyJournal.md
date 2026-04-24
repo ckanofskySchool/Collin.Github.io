@@ -378,9 +378,7 @@ Today, I molded my second wheel using the new top clamp, which also acts as a fu
 
 Today after school, I was able to get the Robopack to follow me!!! I used a rough algorithem on the seeedRP2040 which takes in the output from the vision system on the Raspberry Pi, the output being "A T## D##". The A stands for automatic, T for translational meaning the angle from center, and D for distance though it is actual area, not distance being outputed(ik I need to fix this later). The seeedRP2040 takes in this data and does a simple deadzone response, where if the values are outside of a chosen range of Distance & Angle, then the robot responds by setting the motor powers to a single response value until the values are back within the deadzone range. For example: If the human is detected to be to the left of the deadzone, the robot will set motor powers to -10% left motor and +10% right motor until the human is in the center again.
 
-<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
-  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
-</video>
+<!-- VIDEO NEEDED: Deadzone follow test (1/27/2026) -->
 
 While this works great for an initial test and proof of concept, this approach has a few critical flaws. For example: If the human gets further away from the robot, the robot will never speed up beyond its static algorithem which simply says "if human far, go to 10% speed forward" and the same thing happens with turning as well. If you try to mitigate this issue by increasing the max speed, the robot then overshoots its target and shakes back and forth.
 
@@ -457,9 +455,7 @@ setPower(output)
 
 For the robopack program I tested today, I chose to only implement a P-Controller to start. The reason for this is due to the margin of error I am allowing which is a lot and the simplicity of a P-Controller. In the future I plan to implement I and D to get more precise motions but currenty am very content with the Robopack following ability. Below is a video of my tuned P-Controller on the robot.
 
-<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
-  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
-</video>
+<!-- VIDEO NEEDED: P-Controller tuning test (1/28/2026) -->
 
 
 ## 1/29/2026
@@ -540,9 +536,7 @@ I also had to cut an 1/8 off several of the so called 24" pieces because they we
 
 To make all the general shape cuts such as cutting the 24"x12" to 21.5" for the front and back, or correcting the 24.125" to be 24", I used the table saw as seen below in the short video:
 
-<video style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" controls>
-  <source src="assets/img/portfolio/DailyJournal/" type="video/mp4">
-</video>
+<!-- VIDEO NEEDED: Table saw cutting wood (2/17/2026) -->
 
 To cut the gaps in the wood, I chose to use the bandsaw instead because the table saw would leave a circular grove in the wood, whereas the bandsaw cuts veritically so I can cut perpindicular angles. The downside was that the clamp on the bandsaw wasn't super straight, but I tried my best and got the cuts relatively straight. Below is all the wood after cutting:
 
@@ -574,7 +568,7 @@ Due to time constraints, I did not apply a finish to the wood.
 
 ### Final Results
 
-<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+<!-- PHOTO NEEDED: Stained wood final results (2/17/2026) -->
 
 ## 2/18-26/2026 
 
@@ -584,7 +578,7 @@ Once the frame was all done, I went to attach my wood boards to the frame, but I
 
 Once the screws arrived, I attached the boards to the metal chassis, aligned the top of the boards on the side, and below is how it turned out.
 
-<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+<!-- PHOTO NEEDED: Wood panels attached to frame (2/18-26/2026) -->
 
 ### Re-Attaching Wiring to wooden frame
 
@@ -592,11 +586,11 @@ I decided to swap my wiring from the acrylic piece I cut that was a bit too smal
 
 #### Bottom Wiring:
 
-<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+<!-- PHOTO NEEDED: Bottom wiring layout -->
 
 #### Front Side Wiring:
 
-<img style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;" src="assets/img/portfolio/Mechanical/">
+<!-- PHOTO NEEDED: Front side wiring layout -->
 
 
 

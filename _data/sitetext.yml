@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   Goals:
     title: "Introducing: The Robopack"
-    text: "A robot that carry's your backpack, so you don't have to!"
+    text: "A robot that carries your backpack, so you don't have to!"
     section: Goals
     image_above_video: "assets/img/portfolio/RoboPackSlide-CollinK.png"
     image_above_video_alt: "RoboPack overview image"
@@ -40,72 +40,54 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "How it started"
-        year: "2024 - Junior Year"
-        desc: "Super exited about my upcoming senior project, I decided to plan and design the project ahead of time, giving myself a massive head start for the following year."
+      - title: "How It Started"
+        year: "2024 — Junior Year"
+        desc: "Excited about my upcoming senior project, I decided to plan and design the project ahead of time, giving myself a massive head start for the following year."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "Raspberry Pi Electronics Test Succsesful"
+      - title: "Raspberry Pi Electronics Test Successful"
         year: "10/8/2025"
-        desc: "Raspberry Pi was Succsesful used to track a person and output their position relative to the center of the screen in the usb serial port."
+        desc: "Raspberry Pi was successfully used to track a person and output their position relative to the center of the screen over the USB serial port."
         image: assets/img/timeline/4.jpg
         alt:
         #align: right
-      - title: "Motor Electronics Test Succsesful"
+      - title: "Motor Electronics Test Successful"
         year: "10/9/2025"
-        desc: "After buying the base electronics for moving a CIM motor, the first Succsesful test of controlling the motor happened using a RC controller to ouput the PWM signal, standing in for the future RP2040 Seeed control board."
+        desc: "After buying the base electronics for moving a CIM motor, the first successful test of controlling the motor happened using an RC controller to output the PWM signal, standing in for the future RP2040 Seeed control board."
         image: assets/img/timeline/2.jpg
         alt:
       - title: "The Dawn of Documentation"
         year: "10/14/2025"
-        desc: "This website first pushed through github pages, while there was a preceding older documentation website, the new website exibts a more stylish presentation of my work."
+        desc: "This website was first pushed through GitHub Pages. While there was a preceding older documentation website, the new site exhibits a more stylish presentation of my work."
         image: assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Motor Gearbox Finished"
         year: "12/9/2025"
-        desc: " After constantly itterating the gearbox from not working, to working but way too loud, to quitely working. The gearbox was finaly finished and ready for attachment."
+        desc: "After constantly iterating the gearbox — from not working, to working but way too loud, to quietly working — the gearbox was finally finished and ready for attachment."
         image: assets/img/timeline/4.jpg
         alt:
       - title: "Mechanical Frame Fully Assembled"
-        year: ""
-        desc: " "
+        year: "1/6/2026"
+        desc: "The 80/20 aluminum frame was fully assembled with brackets and hardware. The base structure was now ready for gearbox and electronics mounting."
         image: assets/img/timeline/4.jpg
         alt:
       - title: "Electronics and Gearboxes Attached"
-        year: ""
-        desc: " "
+        year: "1/12/2026"
+        desc: "All electronics were mounted on a laser-cut acrylic panel with velcro strips, and the drive gearboxes were installed onto the frame. The Robopack was mechanically complete."
         image: assets/img/timeline/4.jpg
         alt:
       - title: "First Working Test!"
-        year: ""
-        desc: " "
+        year: "1/27/2026"
+        desc: "The Robopack successfully followed a person for the first time using a deadzone-based control algorithm. This proved the full vision-to-motor pipeline was working end-to-end."
         image: assets/img/timeline/4.jpg
         alt:
-    end: "And thats how the RoboPack came to life!"
+    end: "And that's how the Robopack came to life!"
 
   about:
     title: "About Me"
     text: "My Story"
-    body: "My name is Collin Kanofsky and I am a senior engineering student at Charlotte Latin School. Throughout my life, I have always loved robots and ended up leading two robotics competition teams where I learned tons of CAD, Leadership, Software, and so many more amazing skills that continute to help me to this day. With this project, the Robopack, I wanted to continue my love for robotics through an impactful and practical means. While I will admit my passion for innovation is what pushes me the most, the possibilities for this project to help others is another big motivator of this project. I hope you enjoy watching my journey and fun as I build this robot!"
+    body: "My name is Collin Kanofsky and I am a senior engineering student at Charlotte Latin School. Throughout my life, I have always loved robots and ended up leading two robotics competition teams where I learned tons of CAD, leadership, software, and so many more amazing skills that continue to help me to this day. With this project, the Robopack, I wanted to continue my love for robotics through an impactful and practical means. While I will admit my passion for innovation is what pushes me the most, the possibilities for this project to help others is another big motivator. I hope you enjoy watching my journey and fun as I build this robot!"
     section: about
-
-  logo:
-    section: logo
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
 
   DailyJournal:
     title: "Daily Journal"
@@ -119,25 +101,15 @@ en: &DEFAULT_EN
     text: "Reflecting on what I have learned throughout my journey."
     section: reflection
     paragraphs:
-      - "The Robopack project has been quite the journey, with its ups and downs, challenges and solutions, and ultimately the birth of a working backpack carrying robot. I will admit I had a bit of a head start on this type of project as I have been doing big robotics projects with my robotics teams for 7 years now, but this was still super fun and reminded me of the necessities in order to ensure a large project gets completed."
-      - "To begin diving into the process of completing a large project, I had to make sure I had a solid and attainable goal and plan. This meant organizing my list of goals into necessities, attainable, and reach sections to ensure that even if I don't reach goals due to constraints, I still have a successful project that can be presented and perform as intended. Additionally, to ensure the smooth progression of the project, I created Gantt charts and split large tasks into smaller more manageable tasks that could be achieved in a week rather than a month. This allowed me to feel accomplished at each milestone and lessened the burden of a whole project into small feats. Lastly, one of the key aspects that allowed me to finish my project before the deadline was to not fixate on a finish date, but instead fixate on getting results as soon as possible, and then iterating and improving until time runs out. This mindset allowed me to finish the project early, and spend a lot of time on programming and tuning the movements of the robopack to be smoother, hold constant speeds, and account for friction at low speeds."
-      - "While I am super happy with the results of the RoboPack, I have no plans to stop here. To understand what I want to change, we need to understand the current inefficiencies with the RoboPack. The most pressing inefficiency is the turning of the RoboPack is too aggressive when at low speeds, but not aggressive enough at higher speeds, or larger turns. Another inefficiency lies in the lack of safety detection, due to the robots’ only sensor being the AI camera. While there are multiple code level safety’s embedded into the movement code, there are still risks of an object suddenly blocking the frame leading to unpredictable actions. Lastly, the wheels on the RoboPack get dirty easily and don’t have enough friction for the actions the code desires. This is seen through wheel skids when doing large turns or rapid acceleration."
-      - "Now that I have identified the inefficiencies within the current system, I can now explain how I plan to mitigate these inefficiencies in the future. For starters, I want to dive more into the PID code of the RoboPack to solve the turning and slip issues. While I do use a PIDF for drive control which accounts for some friction in the wheels, I would like to find a way to have all friction in the robot control accounted for so that both the driving PIDF and the turning PID can be more controlled and accurate. Additionally, I plan to switch from rear wheel drive to front wheel drive, granting better control over turning. When it comes to the lack of safety features, I hope to implement a 360 degree Lidar sensor to get a 2D scan around the robot, and accurately detect any obstacles or dangers while moving. I also see potential for camera and Lidar collaboration for more accurate “distance to human” values. Lastly, I have already begun implementing my solution to my molded wheels skidding and losing traction. I have decided to take a simpler approach to my issue and buy pneumatic wheels which will provide better traction and all-terrain performance, at the cost of a higher price for the wheels."
-      - "Overall, even with the inefficiencies of the RoboPack, I am extremely content with the result of the  RoboPack project. I can’t wait to continue iterating, improving, and innovating through this project to make the RoboPack so much more. I would also like to give a huge thank you to all the Charlotte Latin Fab Lab teachers and staff, as well as my family and friends who have supported me along the way to make this project a reality. I now feel ready to head off to college confidently, RoboPack in tow."
+      - "The Robopack project has been quite the journey, with its ups and downs, challenges and solutions, and ultimately the birth of a working backpack-carrying robot. I will admit I had a bit of a head start on this type of project as I have been doing big robotics projects with my robotics teams for 7 years now, but this was still super fun and reminded me of the necessities in order to ensure a large project gets completed."
+      - "To begin diving into the process of completing a large project, I had to make sure I had a solid and attainable goal and plan. This meant organizing my list of goals into necessities, attainable, and reach sections to ensure that even if I don't reach goals due to constraints, I still have a successful project that can be presented and perform as intended. Additionally, to ensure the smooth progression of the project, I created Gantt charts and split large tasks into smaller more manageable tasks that could be achieved in a week rather than a month. This allowed me to feel accomplished at each milestone and lessened the burden of a whole project into small feats. Lastly, one of the key aspects that allowed me to finish my project before the deadline was to not fixate on a finish date, but instead fixate on getting results as soon as possible, and then iterating and improving until time runs out. This mindset allowed me to finish the project early, and spend a lot of time on programming and tuning the movements of the Robopack to be smoother, hold constant speeds, and account for friction at low speeds."
+      - "While I am super happy with the results of the Robopack, I have no plans to stop here. To understand what I want to change, we need to understand the current inefficiencies with the Robopack. The most pressing inefficiency is the turning of the Robopack is too aggressive when at low speeds, but not aggressive enough at higher speeds, or larger turns. Another inefficiency lies in the lack of safety detection, due to the robot's only sensor being the AI camera. While there are multiple code-level safeties embedded into the movement code, there are still risks of an object suddenly blocking the frame leading to unpredictable actions. Lastly, the wheels on the Robopack get dirty easily and don't have enough friction for the actions the code desires. This is seen through wheel skids when doing large turns or rapid acceleration."
+      - "Now that I have identified the inefficiencies within the current system, I can now explain how I plan to mitigate these inefficiencies in the future. For starters, I want to dive more into the PID code of the Robopack to solve the turning and slip issues. While I do use a PIDF for drive control which accounts for some friction in the wheels, I would like to find a way to have all friction in the robot control accounted for so that both the driving PIDF and the turning PID can be more controlled and accurate. Additionally, I plan to switch from rear wheel drive to front wheel drive, granting better control over turning. When it comes to the lack of safety features, I hope to implement a 360-degree Lidar sensor to get a 2D scan around the robot, and accurately detect any obstacles or dangers while moving. I also see potential for camera and Lidar collaboration for more accurate 'distance to human' values. Lastly, I have already begun implementing my solution to my molded wheels skidding and losing traction. I have decided to take a simpler approach to my issue and buy pneumatic wheels which will provide better traction and all-terrain performance, at the cost of a higher price for the wheels."
+      - "Overall, even with the inefficiencies of the Robopack, I am extremely content with the result of the Robopack project. I can't wait to continue iterating, improving, and innovating through this project to make the Robopack so much more. I would also like to give a huge thank you to all the Charlotte Latin Fab Lab teachers and staff, as well as my family and friends who have supported me along the way to make this project a reality. I now feel ready to head off to college confidently, Robopack in tow."
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:

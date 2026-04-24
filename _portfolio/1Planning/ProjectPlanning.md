@@ -1,42 +1,42 @@
 ---
 title: Project Planning
-subtitle: Planning & Gantt charts
+subtitle: Planning & Gantt Charts
 image: assets/img/portfolio/Planning/RobotConceptDrawing.png
-alt: 
+alt: RoboPack concept drawing
 
 caption:
   title: Project Planning
-  subtitle: Planning & Gantt charts
+  subtitle: Planning & Gantt Charts
   thumbnail: assets/img/portfolio/Planning/RobotConceptDrawing.png
 ---
 
 ## Goals
 
-I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this porject a success. This project takes inspiration from the recent [Starship](https://www.starship.xyz/) robots which deliver food around college campuses. The main difference between the two projects though is that the robopack with carry backpacks instead and have a very different control and system layout.
+I have been working on the brainstorming and planning for this project for over half a year, and these are the realistic goals I have set for myself in order to consider this project a success. This project takes inspiration from the recent [Starship](https://www.starship.xyz/) robots which deliver food around college campuses. The main difference between the two projects is that the Robopack carries backpacks instead and has a very different control and system layout.
 
 ### Basic Build Goals
 
-- Build a Modular Mounting Frame that will allow customizability and adaptabiltity
-- Build a gearbox that can be mounted on frame to drive wheels
+- Build a modular mounting frame that will allow customizability and adaptability
+- Build a gearbox that can be mounted on the frame to drive wheels
 - Be able to hold a backpack
 - Be able to drive around
 - Not too pricey
-- Robust and Durable even in bad weather conditions
-- Look Amazing!
+- Robust and durable even in bad weather conditions
+- Look amazing!
 
 ### Basic Programming/Hardware Goals
 
-- Modular Programming setup as well for future project use and easy transport of code testing materials
+- Modular programming setup as well for future project use and easy transport of code testing materials
 - Track and follow a human in front of the robot
 - Assign powers to the wheels according to the tracking data and make the robot follow the user
-- Clean and Organized Code!
+- Clean and organized code!
 
 ### Advanced Goals
 
-- Instead of following a user, the robot understands it's surroundings and can navigate itself to a selected location
+- Instead of following a user, the robot understands its surroundings and can navigate itself to a selected location
 - Selected location can be chosen through voice commands
-- Robot can detect obstacles and chose to avoid or simply stop and wait.
-- Robot can connect to a server where robot data on location, travel, speed, battery, etc. can be accesed and this could potentially lead to mutliple RoboPack units collaborating.
+- Robot can detect obstacles and choose to avoid or simply stop and wait
+- Robot can connect to a server where robot data on location, travel, speed, battery, etc. can be accessed and this could potentially lead to multiple Robopack units collaborating
 
 ## Project Summary
 
@@ -54,30 +54,28 @@ Key requirements:
 - 10/9/2025: CIM motor test successful using RC controller and motor controller PWM.
 - 11/10/2025: 80/20 frame material cut and hardware ordered.
 - 11/15/2025: 80/20 main frame assembled.
-- 11/25-12/9/2025: Gearbox iteration cycle to reduce noise and improve gear spacing.
+- 11/25–12/9/2025: Gearbox iteration cycle to reduce noise and improve gear spacing.
 - 1/6/2026: Frame assembled (no gearboxes yet), motors tested with manual control.
 - 1/27/2026: Robopack followed a user using a deadzone-based algorithm.
 - 1/30/2026: Upgraded to a full PID loop for smoother tracking, safety concerns identified.
 
-<!-- TODO: add photo of early planning sketches or gantt chart -->
-<img src="https://placehold.co/1200x675/png?text=Planning+Sketches+%2F+Gantt+Chart" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
-## Constantly Updated Bill Of Materials:
-[RoboPack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
+## Constantly Updated Bill of Materials
+[Robopack BOM](https://docs.google.com/spreadsheets/d/1EWKokJnzTeXgTjgDledijQcxFoJdZBpm-dHzcyDZXFQ/edit?usp=sharing)
 
-## Project File Repo to store everything
-[Updated Robopack Github Files (links to GITHUB repo)](https://github.com/Ckanofsky/Robopack)
+## Project File Repo
+[Updated Robopack GitHub Files (links to GitHub repo)](https://github.com/Ckanofsky/Robopack)
 [Current Robopack Files (.zip)](assets/Files/Robopack-main.zip)
 
-## Tools I Wish To Use in this Project
+## Tools Used in This Project
 
 - 3D Printing
 - Laser Cutting
 - CNC Machining
-- Metal Fabrication(Circular Saw, Grinder, Bandsaw, Drill press, Tap)
+- Metal Fabrication (Circular Saw, Grinder, Bandsaw, Drill Press, Tap)
 - Metal CNC Machining
-- PCB Machining
+- PCB Milling
 
-- Rachets
+- Ratchets
 - Wrenches
 - Impact Driver
 
@@ -85,17 +83,17 @@ Key requirements:
 
 1. What do you want your project to do?
 
-    a backpack carrying robot I have named the "Robopack". This robot will carry around your backpack for you and will give me a starting point for future more intricate and advanced projects.
+    A backpack-carrying robot I have named the "Robopack." This robot will carry around your backpack for you and will give me a starting point for future more intricate and advanced projects.
 
 2. Is the project for you or someone else?
 
-    For me initially, but potentially adverstisable to the school as autonomous helper units.
+    For me initially, but potentially advertisable to the school as autonomous helper units.
 
 3. If someone else, have you talked to them about design specs?
 
-    I have talked a bit to an electrician I know about the electronics of the project
+    I have talked a bit to an electrician I know about the electronics of the project.
 
-4. Are you considering a group project? What is your part
+4. Are you considering a group project? What is your part?
 
     Not really, but if someone wanted to join me and add on to the project, I would be open to collaborators.
 
@@ -105,11 +103,11 @@ Key requirements:
 
 6. Will your project be portable?
 
-    Yes, the robot needs to be somewhat portable
+    Yes, the robot needs to be somewhat portable.
 
 7. Will your project connect to the Internet?
 
-    Yes, it will interact with image vision proccesing and speak to a main base computer
+    Yes, it will interact with image vision processing and speak to a main base computer.
 
 8. Will your project use Bluetooth?
 
@@ -121,20 +119,19 @@ Key requirements:
 
 10. Does your project use a laser cutter?
 
-    Yes, for initial gearbox prototypes
+    Yes, for initial gearbox prototypes.
 
 11. Does your project use a 3D printer?
 
-    Yes, for the wheels and additional complex 3Dparts
+    Yes, for the wheels and additional complex 3D parts.
 
 12. Does your project use a large CNC machine (Shopbot)?
 
-    Yes for the expensive wood cutting, but also the small for cutting aluminium for the final gearbox plates
+    Yes for the wood cutting, and also the small CNC for cutting aluminum for the final gearbox plates.
 
-13. Does your project have intelligence (Arduino, Raspberry Pi,
-computer)?
+13. Does your project have intelligence (Arduino, Raspberry Pi, computer)?
 
-    Yes, a raspberry pi for computing the vision proccesing and communicating back to a home base computer
+    Yes, a Raspberry Pi for computing the vision processing and a Seeed RP2040 Xiao for motor control.
 
 14. What are your project inputs?
 
@@ -142,15 +139,15 @@ computer)?
 
 15. What are your project outputs?
 
-    Motors, Speaker
+    Motors, Speaker.
 
 16. How does your project differ from the project that inspired you?
 
-    The project that inspired me was the [starships](https://www.starship.xyz/) but my project will hold backpacks instead of food and provide a base for many more applications in the future rather than limiting the functionality to one aspect.
+    The project that inspired me was the [Starship robots](https://www.starship.xyz/) but my project will hold backpacks instead of food and provide a base for many more applications in the future rather than limiting the functionality to one aspect.
 
 17. When was the inspirational project built?
 
-    July 3rd, 2014 was when [starships](https://www.starship.xyz/) took off.
+    July 3rd, 2014 was when [Starship](https://www.starship.xyz/) took off.
 
 18. Do you have a tutorial or instructions for your project?
 
@@ -160,18 +157,17 @@ computer)?
 
     Does not exist currently.
 
-20. What is the maximum that you want to spend? No more than
-$75.00
+20. What is the maximum that you want to spend? No more than $75.00
 
     $450, but I will be paying out of pocket as this is a passion project for me.
 
 21. What are the dimensions of your project?
 
-    24"x20"x15" Frame and then some bottom ~6" for the motor + wheels
+    24"x20"x15" frame and then some bottom ~6" for the motor + wheels.
 
 22. What materials will you use?
 
-    80/20 Framing, CIM Motors, Raspberry Pi, and more that are undetermined as of now.
+    80/20 framing, CIM Motors, Raspberry Pi, and more that are undetermined as of now.
 
 23. Have you completed the spreadsheet?
 
@@ -179,7 +175,7 @@ $75.00
 
 24. Are the parts for your project still available?
 
-    Yes, I have a lot of them accesable to me for free or already have them
+    Yes, I have a lot of them accessible to me for free or already have them.
 
 25. Are the tools you need for the project found in the FabLab?
 
@@ -187,8 +183,4 @@ $75.00
 
 26. How will you conceal the electronics?
 
-    Using a removable pannel on the bottom of the robot.
-
-
-
-
+    Using a removable panel on the bottom of the robot.

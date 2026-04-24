@@ -1,12 +1,12 @@
 ---
-title: Custom PCB Creation
-subtitle: Creating a double sided PCB board for motor control
+title: Custom PCB
+subtitle: Creating a Double-Sided PCB for Motor Control
 image: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
-alt: 
+alt: Custom milled PCB with Seeed RP2040
 
 caption:
-  title: Custom PCB Creation
-  subtitle: Creating a double sided PCB board for motor control
+  title: Custom PCB
+  subtitle: Double-Sided PCB for Motor Control
   thumbnail: assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg
 ---
 
@@ -25,18 +25,11 @@ I designed and milled a double-sided PCB to mount the Seeed RP2040 and handle mo
 - 11/7/2025: Tried to connect both sides with solder only and damaged traces.
 - 11/8/2025: Remilled and used pin headers through holes, then soldered and trimmed. This worked cleanly.
 
-<!-- TODO: add photo of the PCB mounted in the Makera or on the milling bed -->
-<img src="https://placehold.co/1200x675/png?text=PCB+Milling+Setup" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
+<!-- Photo needed: PCB on the Makera milling bed -->
 
 <img src="assets/img/portfolio/DailyJournal/SeeedBackPinsPlaced.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
 <img src="assets/img/portfolio/DailyJournal/SeeedFrontPinsSoldered.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
 <img src="assets/img/portfolio/DailyJournal/SeeedFrontSoldered.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
 <img src="assets/img/portfolio/DailyJournal/SeeedBackSoldered.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
-<!-- TODO: add photo of the finished PCB installed on the robot or test bench -->
-<img src="https://placehold.co/1200x675/png?text=Installed+PCB" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
 
-
-
-
-
-
+<!-- Photo needed: finished PCB installed on the robot -->

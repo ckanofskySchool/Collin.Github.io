@@ -1,12 +1,12 @@
 ---
 title: Wheel Making
-subtitle: Making the drive wheels
+subtitle: Making the Drive Wheels
 image: assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg
-alt: 
+alt: Finished molded drive wheel
 
 caption:
   title: Wheel Making
-  subtitle: Making the drive wheels
+  subtitle: Making the Drive Wheels
   thumbnail: assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg
 ---
 
@@ -32,6 +32,7 @@ Demolding took some effort, but the wheel came out clean after trimming the flas
 <img src="assets/img/portfolio/Mechanical/WheelMolding/MoldCured.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
 <img src="assets/img/portfolio/Mechanical/WheelMolding/25Wheel.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
 <img src="assets/img/portfolio/Mechanical/WheelMolding/FinishedWheel.jpg" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
+
 ### Process Improvements (1/21/2026)
 
 I printed a top clamp with a funnel so I could pour faster without overflow. This cut the mold time from ~90 minutes to ~20 minutes.
@@ -42,11 +43,4 @@ I printed a top clamp with a funnel so I could pour faster without overflow. Thi
 - Test traction and wear on concrete
 - Mount wheels on the robot and tune acceleration
 
-<!-- TODO: add photo of all 4 wheels mounted on the robot -->
-<img src="https://placehold.co/1200x675/png?text=All+Wheels+Mounted+On+Robot" style="display:block; margin:0 auto; width:100%; max-width:1080px; height:auto;">
-
-
-
-
-
-
+<!-- Photo needed: all 4 wheels mounted on the robot -->

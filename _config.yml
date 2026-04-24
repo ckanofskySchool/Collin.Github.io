@@ -14,19 +14,16 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+url    : "https://ckanofskyschool.github.io" # the base hostname & protocol for your site
+baseurl: "/Collin.Github.io" # the subpath of your site
 
 title      : Collin Kanofsky Senior Engineering
 email      : Collin.kanofsky@gmail.com #this is also the email contact forms will go to
-description: "This is my senior engineering capstone portfolio showcasing my growth as an engineer through the class!"
+description: "Senior engineering capstone portfolio showcasing the Robopack — an autonomous backpack-carrying robot built with a Raspberry Pi, AI camera, and custom PID control."
 author     : Collin Kanofsky
 logo       : 
-    path   : assets\img\logo\CK-Gear-Logo_APPROVED-125x125.png
+    path   : assets/img/logo/CK-Gear-Logo_APPROVED-125x125.png
     height : 60
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
